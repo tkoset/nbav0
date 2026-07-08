@@ -1,0 +1,15 @@
+{
+  "name": "NBA Çıkartma Albümü",
+  "short_name": "NBA Albüm",
+  "description": "Günlük NBA oyuncu tahmin oyunu ve dijital çıkartma albümü",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#12141c",
+  "theme_color": "#12141c",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
