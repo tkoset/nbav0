@@ -53,7 +53,7 @@ bir app gibi ikonla açılır (PWA — `manifest.json` ve `sw.js` bunun için va
 ### Save'ler nerede duruyor?
 
 Oyun artık gerçek tarayıcı `localStorage`'ını kullanıyor (Claude'un kendi
-artifact ortamına özel `window.storage` değil). Bunun anlamı:
+artifact ortamına özel `window.storage` değil). Varsayılan olarak:
 
 - Sticker koleksiyonun, o an oyunu oynadığın **tarayıcı + cihaza bağlı**
   olarak saklanır.
@@ -61,32 +61,77 @@ artifact ortamına özel `window.storage` değil). Bunun anlamı:
   yok).
 - Tarayıcı verilerini temizlersen koleksiyon da silinir.
 
-İleride cihazlar arası senkron istersen, ücretsiz bir bulut veritabanı
-(örn. Firebase Firestore free tier) eklenebilir — şimdilik bu kapsam dışı.
+### Cihazlar arası save senkronu (GitHub üzerinden)
 
+Oyuna 3 buton eklendi:
 
+- **Save'i indir** / **Dosyadan yükle**: koleksiyonunu bir `.json` dosyası
+  olarak indirip başka bir cihazda geri yükleyebilirsin. Token gerektirmez,
+  en güvenli yöntem.
+- **GitHub'a yükle** / **GitHub'dan çek**: koleksiyonunu doğrudan reponda
+  `save.json` olarak saklar, böylece hangi cihazdan girersen gir aynı
+  koleksiyonu görebilirsin.
 
+GitHub senkronu için bir **fine-grained personal access token** gerekiyor
+(oyunun "Token ayarla" butonuyla gireceksin):
+
+1. https://github.com/settings/tokens → **Fine-grained tokens** → **Generate new token**
+2. **Repository access** → sadece bu repoyu seç (tüm hesaba erişim verme)
+3. **Permissions → Contents → Read and write** seç, diğer izinleri kapalı bırak
+4. Token'ı oluştur, oyunda "Token ayarla" butonuna yapıştır
+
+**Önemli güvenlik notu:** Bu token yalnızca kendi tarayıcının
+`localStorage`'ında saklanır, koda/repoya asla yazılmaz. Yine de:
+- Sadece bu repoya ve sadece "içerik yazma" iznine sahip olacak şekilde
+  oluştur (yukarıdaki adımlar bunu sağlıyor).
+- Token'ı **paylaşılan/ortak bir bilgisayara** girme.
+- `CONFIG.GITHUB_OWNER` / `GITHUB_REPO` alanlarını kendi kullanıcı adın ve
+  repo adınla güncellemeyi unutma.
+
+## Konuşulan / karar verilen tasarım noktaları
+
+- **Takım logoları**: standart, ücretsiz bir kaynaktan indirilecek (henüz
+  yapılmadı). Adaylar: NBA'in kendi CDN'i (`cdn.nba.com/logos/nba/{team_id}/...`
+  benzeri bir örüntü, henüz doğrulanmadı) ya da açık kaynak
+  `sportslogos.net` / GitHub üzerindeki ücretsiz SVG logo setleri. Bir
+  dahakine bunu netleştirip `players.json`'a `team_logo_url` gibi bir alan
+  eklenecek.
 - **Sticker kartı**: doğum tarihi yerine **yaş**, boy **cm** olarak, ülke
   bayrağı yerine **3 harfli ülke kodu (örn. TUR)**, arkada takım logosu +
   NBA logosu **filigran** olarak. Kullanıcı kendi örnek tasarımını
   paylaşınca buna göre yeniden yapılacak.
-- **Günlük sticker üretimi**: her gün sadece **3 oyuncu** için (wordle
-  cevabı + 2 bonus) kart üretilecek, tüm oyuncular için toplu/batch işlem
-  yapılmayacak. Arka plan silme (rembg) muhtemelen bir kereye mahsus tüm
-  oyuncular için ön hazırlık olarak yapılacak; kart tasarımı (çerçeve/
-  isim/numara/filigran) ise günlük sadece o 3 oyuncu için oluşturulacak.
-- **Wordle seçim mantığı**: aday havuzu = owned (sahip olunan) oyuncular
-  HARİÇ tüm oyuncular. Bilinmeyen/bilemediğin oyuncu tekrar çıkabilir,
-  bildiğin (owned) oyuncu bir daha çıkmaz.
-- **Günlük limit**: TR saatiyle (Europe/Istanbul, UTC+3) günde bir kez
-  oynanabilir; oynadıktan sonra o günkü oyun alanı gri/greyed-out görünür.
-- **Blogger'da barındırma**: HTML/JS gadget ile embed edilebilir. Persistan
-  veri için `window.storage` (Claude artifact'e özel) yerine gerçek
-  tarayıcı `localStorage`'a geçilecek.
+- **Günlük sticker üretimi**: her gün sadece **3-5 oyuncu** için (wordle
+  cevabı + ödül sayısı kadar bonus) kart üretilecek, tüm oyuncular için
+  toplu/batch işlem yapılmayacak.
+- **Wordle kuralları (UYGULANDI)**:
+  - 5 tahmin hakkı. Fotoğraf blur'u her yanlışta 3px azalır: 18→15→12→9→6px
+    (son hak dahil hiçbir zaman tam netleşmez, cevap açıklanana kadar).
+  - İpucu sırası (kullanıcının kendi bilgi seviyesine göre kişiselleştirildi):
+    **Pozisyon → Yaş → Boy → Uyruk → Takım + Forma No (birlikte, son hakta)**.
+    Forma No TEK BAŞINA hiç kullanılmıyor (kullanıcı sadece 1-2 takımın
+    numaralarını biliyor, tek başına anlamsız); ama son hakta Takım ile
+    birlikte verilince "en azından sticker'ı kurtar" mantığıyla güçlü bir
+    kombinasyon oluyor. Boy, pozisyonla ilişkili olduğu için bilerek ortalara
+    alındı (hemen ardına konmadı). Uyruk, ödülün 2 stickere düştüğü ana denk
+    getirildi (getiri-götürü dengesi için).
+  - Ödül: 1. tahminde doğru bilirsen **5 sticker** (kendisi + 4 bonus),
+    2.'de **4**, 3.'te **3**, 4.'te **2**, son (5.) hakta sadece **1**
+    (yalnızca sorulan oyuncu, bonus yok).
+  - Wordle seçim havuzu = owned (sahip olunan) oyuncular **hariç** tüm
+    oyuncular. Bilemediğin oyuncu tekrar çıkabilir, bildiğin (owned)
+    oyuncu bir daha çıkmaz. Bonus stickerlarda ise tekrar/duplicate normal
+    (owned olsa da çıkabilir, "zaten vardı" rozetiyle gösterilir).
+  - Günün hedef oyuncusu ilk hesaplandığında `daily:{tarih}` kaydına
+    sabitleniyor (`targetPlayerId`) — böylece gün içinde owned listesi
+    değişse bile aynı günün tekrar açılmasında hedef oyuncu kaymıyor.
+  - TR saatiyle (Europe/Istanbul) günde bir kez oynanabilir; oynadıktan
+    sonra günün kartı (`.daily-card`) griye dönüp "oynandı" görünümü alıyor.
+- **Albüm sidebar (UYGULANDI)**: takım isimleri solda dikey bir sidebar'da,
+  her biri eski adres defterlerindeki A-Z sekmeleri gibi kademeli
+  (staggered) görünüyor; tıklanan takım aktif/seçili stile geçiyor.
+- **Blogger'da barındırma**: gerekmiyor, GitHub Pages yeterli (yukarıda
+  anlatıldı).
 - **Android**: responsive + PWA (manifest.json) ile "ana ekrana ekle"
-  üzerinden app gibi kullanılabilir; istenirse Trusted Web Activity /
-  Bubblewrap ile Play Store'a da taşınabilir.
+  üzerinden app gibi kullanılabilir.
 - **Transaction senkronu**: oyuncu takas olduğunda `team_abbr` güncellenip
-  albümde otomatik doğru takım sayfasında (owned olarak) görünür, eski
-  takım sayfasından kalkar. Haber panelinde owned oyuncular için zaten
-  vurgulu "STICKER TAŞINDI" bildirimi var.
+  albümde otomatik doğru takım sayfasında (owned olarak) görünür.
