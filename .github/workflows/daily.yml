@@ -4,7 +4,7 @@ on:
   schedule:
     # Her gün 10:00 UTC (TR saatiyle yaz saatinde 13:00) çalışır.
     # NBA transferleri genelde ABD gecesi/gündüzü olur, istersen saati değiştirebilirsin.
-    - cron: "8 7 * * *"
+    - cron: "0 10 * * *"
   workflow_dispatch: {}  # GitHub arayüzünden "Run workflow" ile manuel de tetiklenebilir
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
           python-version: "3.11"
 
       - name: Bağımlılıkları yükle
-        run: pip install nba_api
+        run: pip install requests
 
       - name: Transaction kontrolünü çalıştır
         run: python check_transactions.py
