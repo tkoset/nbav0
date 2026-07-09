@@ -4,7 +4,7 @@ on:
   schedule:
     # Her gün 10:00 UTC (TR saatiyle yaz saatinde 13:00) çalışır.
     # NBA transferleri genelde ABD gecesi/gündüzü olur, istersen saati değiştirebilirsin.
-    - cron: "0 10 * * *"
+    - cron: "8 7 * * *"
   workflow_dispatch: {}  # GitHub arayüzünden "Run workflow" ile manuel de tetiklenebilir
 
 permissions:
