@@ -1,5 +1,16 @@
 # NBA Sticker Album — Veri Hattı
 
+## Veri kaynakları (önemli, güncel durum)
+
+- **`fetch_all_players.py`** (bir kere, senin bilgisayarından): stats.nba.com
+  kullanıyor. Bu, senin kendi (residential) IP'nden çalıştığı için sorunsuz.
+- **`check_transactions.py`** (günlük, GitHub Actions üzerinde): **ESPN'in
+  genel site API'sini** kullanıyor (`site.api.espn.com`), stats.nba.com değil.
+  Neden: NBA, `stats.nba.com`'u bulut/datacenter IP'lerine (GitHub Actions
+  dahil) Akamai bot korumasıyla kalıcı olarak kapatmış durumda — bu iyi
+  belgelenmiş, çözümü olmayan bir kısıt. ESPN'in API'si bu kısıtlamaya tabi
+  değil ve **key/signup gerektirmiyor**.
+
 ## Kurulum (bir kere yapılır)
 
 1. Bu klasördeki dosyaları kendi GitHub reponuza yükleyin (public repo — Actions ücretsiz kotası ve raw dosya erişimi için).
@@ -12,7 +23,7 @@
 3. `players.json`'ı da repoya commit'leyip push edin.
 4. GitHub reponuzda **Settings → Actions → General → Workflow permissions** kısmından
    "Read and write permissions" seçeneğini açın (yoksa Action commit atamaz).
-5. Bundan sonra `.github/workflows/daily.yml` her gün otomatik olarak:
+5. Bundan sonra `.github/workflows/daily.yml` her gün otomatik olarak (artık ESPN üzerinden, key gerekmeden):
    - Güncel kadroları çeker
    - `players.json` ile karşılaştırır (trade, yeni oyuncu, forma değişikliği, ayrılma)
    - Farkları `transactions.json` içine o güne ait yeni bir kayıt olarak ekler
@@ -89,6 +100,17 @@ GitHub senkronu için bir **fine-grained personal access token** gerekiyor
   repo adınla güncellemeyi unutma.
 
 ## Konuşulan / karar verilen tasarım noktaları
+
+- **Veri kaynağı geçmişi**: v1 stats.nba.com (GitHub Actions'ta kalıcı
+  bloklandı) → v2 planı BALLDONTLIE idi (key + rate limit gerektiriyordu) →
+  **v3 (güncel): ESPN'in genel site API'si, key gerekmiyor.**
+- **Yeni oyuncu doğrulama**: Günlük iş, ESPN'den gelen isimleri players.json'daki
+  NBA person_id kayıtlarıyla İSİM üzerinden eşleştirir. Eşleşmeyen (gerçekten
+  yeni) oyuncular `_unverified: true` ve geçici bir `espn:...` ID'siyle
+  eklenir, fotoğrafları silüet kalır. Bu oyuncular bir sonraki
+  `fetch_all_players.py` çalıştırmanda gerçek NBA person_id + fotoğrafla
+  düzelir. Terminal çıktısında "isim eşleşmesiyle 'yeni' sayıldı" notunu
+  görürsen, ara sıra `fetch_all_players.py`'ı tazelemek iyi olur.
 
 - **Takım logoları**: standart, ücretsiz bir kaynaktan indirilecek (henüz
   yapılmadı). Adaylar: NBA'in kendi CDN'i (`cdn.nba.com/logos/nba/{team_id}/...`

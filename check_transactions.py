@@ -1,122 +1,118 @@
 """
-check_transactions.py
+check_transactions.py  (v3 -- ESPN public site API tabanli)
 ----------------------------------
-GÜNLÜK çalışır (GitHub Actions cron ile tetiklenir). Güncel kadroları tekrar
-çeker, elimizdeki players.json ile karşılaştırır (diff), farkları
-transactions.json'a yeni bir "gün" kaydı olarak ekler ve players.json'ı
-günceller.
+GUNLUK calisir (GitHub Actions cron ile tetiklenir).
 
-Tespit ettiği olaylar:
-  - "team_change": Oyuncu farklı bir takıma geçmiş (trade / signing)
-  - "new_player": players.json'da hiç olmayan yeni bir oyuncu_id (rookie,
-    yeni imza, vs.)
-  - "jersey_change": Aynı takımda forma numarası değişmiş
+NEDEN DEGISTI (2 kez):
+  v1 -> v2: stats.nba.com (nba_api), bulut/datacenter IP'lerini (GitHub
+    Actions dahil) Akamai bot korumasiyla KALICI olarak engelliyor. Iyi
+    belgelenmis, cozumsuz bir sorun (bkz. github.com/swar/nba_api/issues/155,
+    176, 320, 498). GitHub Actions loglarinda TUM 30 takim "Read timed out"
+    hatasi vermisti -- retry/header degisikligi ise yaramiyor.
+  v2 -> v3: BALLDONTLIE planlanmisti (ucretsiz ama API key + 5 istek/dk
+    limiti gerektiriyordu). Onun yerine ESPN'in kendi genel (resmi olmayan
+    ama herkese acik, key gerektirmeyen) site API'si kullaniliyor --
+    site.api.espn.com, GitHub Actions dahil her ortamdan calisiyor ve NBA'in
+    stats.nba.com'undaki gibi bir bulut-IP engeli yok.
 
-Not: Bu, NBA'in "transactions" HTML sayfasını scrape etmek yerine roster
-snapshot'larını KIYASLAYARAK (diffing) çalışır. Bu yöntem, sayfa yapısı
-değişse bile kırılmaz ve stats.nba.com'un resmi JSON endpoint'lerine dayanır.
+ONEMLI MIMARI NOKTASI: players.json'daki oyuncu ID'leri hala NBA'in kendi
+"person_id"si (fetch_all_players.py ile SENIN bilgisayarindan bir kere
+cekiliyor). Fotograflar bu ID'ye bagli oldugu icin korunuyor. ESPN'in kendi
+oyuncu ID'si farkli oldugundan, gunluk is oyunculari ISIM ile eslestirip
+mevcut NBA person_id kaydini gunceller. Isimle eslesmeyen (gercekten yeni)
+oyuncular icin gecici bir anahtar ve placeholder (siluet) foto kullanilir --
+bir sonraki fetch_all_players.py calistirmanda gercek foto/ID ile duzelir.
+
+NOT: Bu ESPN endpoint'i resmi/dokumante degil (bkz. yorumlar), yapisi
+onceden haber vermeden degisebilir. Bu yuzden defensive parsing (birden
+fazla olasi JSON sekli deneniyor) ve genel saglik kontrolu (supheli dusuk
+oyuncu sayisinda dosyalari GUNCELLEMEME) korunuyor.
 """
 
 import json
 import os
+import re
 import time
+import unicodedata
 from datetime import datetime, timezone
 
-from nba_api.stats.static import teams as static_teams
-from nba_api.stats.endpoints import commonteamroster, commonplayerinfo
+import requests
 
 PLAYERS_FILE = "players.json"
 TRANSACTIONS_FILE = "transactions.json"
-ROSTER_DELAY_SECONDS = 1.0
-PLAYER_INFO_DELAY_SECONDS = 0.6
+BASE_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba"
+REQUEST_DELAY_SECONDS = 1.5  # nazik davranmak icin, sert bir rate limit belgelenmedi
+
+# ESPN takim ID'si -> bizim standart NBA kisaltmamiz (players.json'da kullanilan).
+# ESPN bazi takimlarda farkli kisaltma kullaniyor (GS/GSW, NY/NYK, SA/SAS, NO/NOP)
+# bu yuzden isim/ID uzerinden elle eslestirip KENDI kisaltmamizi kullaniyoruz.
+ESPN_TEAMS = [
+    (1, "ATL", "Atlanta Hawks"), (2, "BOS", "Boston Celtics"),
+    (17, "BKN", "Brooklyn Nets"), (30, "CHA", "Charlotte Hornets"),
+    (4, "CHI", "Chicago Bulls"), (5, "CLE", "Cleveland Cavaliers"),
+    (6, "DAL", "Dallas Mavericks"), (7, "DEN", "Denver Nuggets"),
+    (8, "DET", "Detroit Pistons"), (9, "GSW", "Golden State Warriors"),
+    (10, "HOU", "Houston Rockets"), (11, "IND", "Indiana Pacers"),
+    (12, "LAC", "LA Clippers"), (13, "LAL", "Los Angeles Lakers"),
+    (29, "MEM", "Memphis Grizzlies"), (14, "MIA", "Miami Heat"),
+    (15, "MIL", "Milwaukee Bucks"), (16, "MIN", "Minnesota Timberwolves"),
+    (3, "NOP", "New Orleans Pelicans"), (18, "NYK", "New York Knicks"),
+    (25, "OKC", "Oklahoma City Thunder"), (19, "ORL", "Orlando Magic"),
+    (20, "PHI", "Philadelphia 76ers"), (21, "PHX", "Phoenix Suns"),
+    (22, "POR", "Portland Trail Blazers"), (23, "SAC", "Sacramento Kings"),
+    (24, "SAS", "San Antonio Spurs"), (28, "TOR", "Toronto Raptors"),
+    (26, "UTA", "Utah Jazz"), (27, "WAS", "Washington Wizards"),
+]
+
+SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "v"}
 
 
-def photo_url(person_id: int) -> str:
-    return f"https://cdn.nba.com/headshots/nba/latest/1040x760/{person_id}.png"
+def strip_accents(s: str) -> str:
+    return "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
 
 
-def fetch_nationality(person_id: str) -> str:
-    """Sadece daha önce hiç görülmemiş (yeni) oyuncular için çağrılır --
-    böylece günlük iş, uyruk bilgisini bilinen oyuncular için tekrar tekrar
-    çekip vakit kaybetmez."""
-    try:
-        info = commonplayerinfo.CommonPlayerInfo(player_id=person_id)
-        row = info.get_normalized_dict()["CommonPlayerInfo"][0]
-        return row.get("COUNTRY", "") or ""
-    except Exception as exc:
-        print(f"UYARI: {person_id} için uyruk bilgisi alınamadı -> {exc}")
-        return ""
+def normalize_name(name: str) -> str:
+    name = strip_accents(name).lower()
+    name = re.sub(r"[.\-']", "", name)
+    tokens = [t for t in name.split() if t not in SUFFIXES]
+    return " ".join(tokens)
 
 
-def fetch_current_rosters(old_players: dict) -> tuple[dict, list]:
-    """old_players: players.json'daki mevcut kayıt (player_id -> data).
+def get_with_retry(url, attempts=3):
+    for attempt in range(attempts):
+        try:
+            resp = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+            if resp.status_code == 429:
+                print("UYARI: rate limit (429), 10sn bekleyip tekrar deneniyor...")
+                time.sleep(10)
+                continue
+            resp.raise_for_status()
+            return resp.json()
+        except Exception as exc:
+            print(f"HATA (deneme {attempt+1}/{attempts}): {url} -> {exc}")
+            if attempt < attempts - 1:
+                time.sleep(4 * (attempt + 1))
+    return None
 
-    KRİTİK: Bir takımın roster çekimi başarısız olursa (örn. GitHub Actions
-    runner IP'si NBA tarafından geçici bloklanmışsa -- bu stats.nba.com'da
-    bilinen bir durum), o takımın oyuncularını ATLAMIYORUZ. Bunun yerine
-    o takım için ESKİ veriyi olduğu gibi koruyoruz, böylece diff bu oyuncuları
-    yanlışlıkla "rosterdan düştü" sanıp, ertesi gün de "yeni katıldı" diye
-    uydurma bir olay üretmiyor. Başarısız takımlar `failed_teams` listesinde
-    döndürülür.
-    """
-    all_teams = static_teams.get_teams()
-    players: dict[str, dict] = {}
-    known_player_ids = set(old_players.keys())
-    failed_teams = []
 
-    for team in all_teams:
-        team_id = team["id"]
-        roster_data = None
-        for attempt in range(3):
-            try:
-                roster = commonteamroster.CommonTeamRoster(team_id=team_id)
-                roster_data = roster.get_normalized_dict()["CommonTeamRoster"]
-                break
-            except Exception as exc:
-                print(f"HATA (deneme {attempt+1}/3): {team['full_name']} çekilemedi -> {exc}")
-                if attempt < 2:
-                    time.sleep(3 * (attempt + 1))  # 3sn, 6sn bekleyip tekrar dene
+def extract_athletes(roster_json):
+    """ESPN roster JSON iki farkli sekilde gelebiliyor: duz 'athletes' listesi
+    ya da pozisyona gore gruplanmis [{'items':[...]}]. Ikisini de destekle."""
+    athletes = roster_json.get("athletes", [])
+    flat = []
+    for entry in athletes:
+        if isinstance(entry, dict) and "items" in entry:
+            flat.extend(entry["items"])
+        elif isinstance(entry, dict):
+            flat.append(entry)
+    return flat
 
-        # Sağlık kontrolü: gerçek bir NBA kadrosu her zaman en az ~8-10
-        # oyuncu içerir. Boş/çok kısa dönerse de "başarısız" say (garbage veri).
-        if not roster_data or len(roster_data) < 8:
-            print(f"UYARI: {team['full_name']} için veri yok/şüpheli (len={len(roster_data) if roster_data else 0}). "
-                  f"Bu takım için ESKİ veri korunuyor, bugün diff yapılmayacak.")
-            failed_teams.append(team["abbreviation"])
-            # Eski veriyi bu takım için aynen taşı
-            for pid, old_p in old_players.items():
-                if old_p.get("team_abbr") == team["abbreviation"]:
-                    players[pid] = old_p
-            time.sleep(ROSTER_DELAY_SECONDS)
-            continue
 
-        for p in roster_data:
-            person_id = str(p["PLAYER_ID"])
-            is_new_player = person_id not in known_player_ids
-
-            players[person_id] = {
-                "player_id": person_id,
-                "full_name": p["PLAYER"],
-                "position": p.get("POSITION", ""),
-                "jersey_number": p.get("NUM", ""),
-                "height": p.get("HEIGHT", ""),
-                "weight": p.get("WEIGHT", ""),
-                "age": p.get("AGE", ""),
-                "birth_date": p.get("BIRTH_DATE", ""),
-                "nationality": "",  # birazdan doldurulacak (yeni ise) ya da main()'de eskiden kopyalanacak
-                "team_id": str(team_id),
-                "team_abbr": team["abbreviation"],
-                "team_name": team["full_name"],
-                "photo_url": photo_url(person_id),
-            }
-
-            if is_new_player:
-                players[person_id]["nationality"] = fetch_nationality(person_id)
-                time.sleep(PLAYER_INFO_DELAY_SECONDS)
-
-        time.sleep(ROSTER_DELAY_SECONDS)
-
-    return players, failed_teams
+def fetch_team_roster(espn_id):
+    data = get_with_retry(f"{BASE_URL}/teams/{espn_id}/roster")
+    if not data:
+        return []
+    return extract_athletes(data)
 
 
 def load_json(path: str, default):
@@ -126,20 +122,107 @@ def load_json(path: str, default):
     return default
 
 
+def silhouette_photo_url():
+    return ""
+
+
+def parse_height(h):
+    """ESPN bazen '6' 9\"' bazen '81' (inc) formatinda dondurebiliyor.
+    Mumkunse '6-9' (NBA formati) formatina cevirir, olmazsa oldugu gibi birakir."""
+    if not h:
+        return ""
+    h = str(h)
+    m = re.match(r"(\d+)'\s*(\d+)", h)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}"
+    return h
+
+
+def build_new_players(old_players: dict):
+    name_to_pid = {normalize_name(p["full_name"]): pid for pid, p in old_players.items()}
+
+    new_players = {}
+    unverified_new = []
+    failed_teams = []
+
+    for espn_id, team_abbr, team_name in ESPN_TEAMS:
+        athletes = fetch_team_roster(espn_id)
+        time.sleep(REQUEST_DELAY_SECONDS)
+
+        if not athletes or len(athletes) < 8:
+            print(f"UYARI: {team_name} icin veri yok/supheli (len={len(athletes)}). "
+                  f"Eski veri korunuyor, bugun diff yapilmayacak.")
+            failed_teams.append(team_abbr)
+            for pid, old_p in old_players.items():
+                if old_p.get("team_abbr") == team_abbr:
+                    new_players[pid] = old_p
+            continue
+
+        for a in athletes:
+            full_name = a.get("fullName") or a.get("displayName") or ""
+            if not full_name:
+                continue
+            norm = normalize_name(full_name)
+            pid = name_to_pid.get(norm)
+
+            position = (a.get("position") or {}).get("abbreviation", "")
+            jersey = str(a.get("jersey") or "")
+            height = parse_height(a.get("height") or a.get("displayHeight"))
+            weight = str(a.get("weight") or "")
+            birthplace = a.get("birthPlace") or {}
+            country = birthplace.get("country", "")
+
+            if pid:
+                old_p = old_players[pid]
+                new_players[pid] = {
+                    **old_p,
+                    "full_name": old_p["full_name"],
+                    "position": position or old_p.get("position", ""),
+                    "jersey_number": jersey or old_p.get("jersey_number", ""),
+                    "height": height or old_p.get("height", ""),
+                    "weight": weight or old_p.get("weight", ""),
+                    "nationality": country or old_p.get("nationality", ""),
+                    "team_id": str(espn_id),
+                    "team_abbr": team_abbr,
+                    "team_name": team_name,
+                }
+            else:
+                synthetic_id = f"espn:{a.get('id', full_name)}"
+                new_players[synthetic_id] = {
+                    "player_id": synthetic_id,
+                    "full_name": full_name,
+                    "position": position,
+                    "jersey_number": jersey,
+                    "height": height,
+                    "weight": weight,
+                    "age": "",
+                    "birth_date": "",
+                    "nationality": country,
+                    "team_id": str(espn_id),
+                    "team_abbr": team_abbr,
+                    "team_name": team_name,
+                    "photo_url": silhouette_photo_url(),
+                    "_unverified": True,
+                }
+                unverified_new.append(full_name)
+
+    return new_players, failed_teams, unverified_new
+
+
 def diff_rosters(old_players: dict, new_players: dict) -> list:
-    """old_players / new_players: {player_id: {...}} şeklinde."""
     events = []
 
     for pid, new_p in new_players.items():
         old_p = old_players.get(pid)
 
         if old_p is None:
+            note = " (ISIM ESLESMESIYLE TESPIT EDILDI, DOGRULA)" if new_p.get("_unverified") else ""
             events.append({
                 "type": "new_player",
                 "player_id": pid,
                 "full_name": new_p["full_name"],
                 "team_abbr": new_p["team_abbr"],
-                "message": f"{new_p['full_name']} NBA rosterlarına yeni katıldı ({new_p['team_abbr']})",
+                "message": f"{new_p['full_name']} NBA rosterlarina yeni katildi ({new_p['team_abbr']}){note}",
             })
             continue
 
@@ -152,7 +235,7 @@ def diff_rosters(old_players: dict, new_players: dict) -> list:
                 "to_team": new_p["team_abbr"],
                 "message": f"{new_p['full_name']}: {old_p['team_abbr']} -> {new_p['team_abbr']}",
             })
-        elif old_p.get("jersey_number") != new_p.get("jersey_number"):
+        elif str(old_p.get("jersey_number")) != str(new_p.get("jersey_number")) and new_p.get("jersey_number"):
             events.append({
                 "type": "jersey_change",
                 "player_id": pid,
@@ -160,10 +243,9 @@ def diff_rosters(old_players: dict, new_players: dict) -> list:
                 "team_abbr": new_p["team_abbr"],
                 "old_number": old_p.get("jersey_number"),
                 "new_number": new_p.get("jersey_number"),
-                "message": f"{new_p['full_name']} forma numarasını değiştirdi: #{old_p.get('jersey_number')} -> #{new_p.get('jersey_number')}",
+                "message": f"{new_p['full_name']} forma numarasini degistirdi: #{old_p.get('jersey_number')} -> #{new_p.get('jersey_number')}",
             })
 
-    # Rosterdan tamamen düşenler (waived / released / retired)
     for pid, old_p in old_players.items():
         if pid not in new_players:
             events.append({
@@ -171,7 +253,7 @@ def diff_rosters(old_players: dict, new_players: dict) -> list:
                 "player_id": pid,
                 "full_name": old_p["full_name"],
                 "team_abbr": old_p["team_abbr"],
-                "message": f"{old_p['full_name']} aktif roster'lardan düştü (waived/retired/G-League)",
+                "message": f"{old_p['full_name']} aktif roster'lardan dustu (waived/retired/G-League)",
             })
 
     return events
@@ -181,30 +263,21 @@ def main():
     stored = load_json(PLAYERS_FILE, {"players": {}})
     old_players = stored.get("players", {})
 
-    print("Güncel kadrolar çekiliyor...")
-    new_players, failed_teams = fetch_current_rosters(old_players)
+    print("Guncel kadrolar cekiliyor (ESPN site API, key gerekmiyor)...")
+    new_players, failed_teams, unverified_new = build_new_players(old_players)
 
-    # GENEL SAĞLIK KONTROLÜ: çekilen toplam oyuncu sayısı eskiye göre
-    # ciddi şekilde düşükse (örn. NBA tarafında IP toplu bloklandıysa),
-    # hiçbir dosyayı güncelleme -- yanlış veriyle players.json/transactions.json'ı
-    # bozmaktansa bu günü tamamen atlamak daha güvenli.
     if old_players and len(new_players) < 0.7 * len(old_players):
-        print(f"\nDURDURULDU: Çekilen oyuncu sayısı şüpheli derecede düşük "
+        print(f"\nDURDURULDU: Cekilen oyuncu sayisi supheli derecede dusuk "
               f"({len(new_players)} / eski {len(old_players)}). "
-              f"Muhtemelen NBA tarafı bu IP'yi geçici bloklamış. "
-              f"players.json ve transactions.json GÜNCELLENMEDİ, "
-              f"bir sonraki çalıştırmada tekrar denenecek.")
+              f"players.json ve transactions.json GUNCELLENMEDI.")
         return
 
     if failed_teams:
-        print(f"\nNot: bugün şu takımlar çekilemedi (eski veri korundu): {', '.join(failed_teams)}")
-
-    # Bilinen oyuncular için uyruk/doğum tarihi gibi nadiren değişen alanları
-    # eski kayıttan koru (gereksiz yere tekrar API çağrısı yapmamak için).
-    for pid, new_p in new_players.items():
-        old_p = old_players.get(pid)
-        if old_p and not new_p.get("nationality"):
-            new_p["nationality"] = old_p.get("nationality", "")
+        print(f"\nNot: bugun su takimlar cekilemedi (eski veri korundu): {', '.join(failed_teams)}")
+    if unverified_new:
+        print(f"\nNot: {len(unverified_new)} oyuncu isim eslesmesiyle 'yeni' sayildi, "
+              f"bir sonraki fetch_all_players.py calistirmanda dogrulanacak: "
+              f"{', '.join(unverified_new)}")
 
     events = diff_rosters(old_players, new_players)
 
@@ -227,11 +300,11 @@ def main():
         }, f, ensure_ascii=False, indent=2)
 
     if events:
-        print(f"{len(events)} değişiklik bulundu ({today}):")
+        print(f"\n{len(events)} degisiklik bulundu ({today}):")
         for e in events:
             print(f"  - {e['message']}")
     else:
-        print(f"Bugün ({today}) herhangi bir roster değişikliği bulunamadı.")
+        print(f"\nBugun ({today}) herhangi bir roster degisikligi bulunamadi.")
 
 
 if __name__ == "__main__":
