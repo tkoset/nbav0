@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#12141c">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>NBA Çıkartma Albümü</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --binder:#12141c;
+  --binder-2:#1b1e29;
+  --page:#f1e8d6;
+  --page-2:#e7dbc0;
+  --ink:#20222c;
+  --ink-soft:#5a5c68;
+  --gold:#c9a227;
+  --gold-bright:#e6c34a;
+  --red:#b3202b;
+  --green:#2e7d46;
+  --line: rgba(32,34,44,0.18);
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--binder);
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(255,255,255,0.04), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(255,255,255,0.03), transparent 40%);
+  color:var(--ink);
+  font-family:'Inter',sans-serif;
+  min-height:100vh;
+}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 18px 60px;}
+
+/* ---------- HEADER ---------- */
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;flex-wrap:wrap;gap:10px;}
+.brand{display:flex;align-items:baseline;gap:10px;}
+.brand h1{
+  font-family:'Anton',sans-serif;
+  font-weight:400;
+  font-size:34px;
+  letter-spacing:0.5px;
+  color:var(--gold-bright);
+  margin:0;
+  text-shadow:0 2px 0 rgba(0,0,0,0.4);
+}
+.brand span{color:#8d8f9c;font-size:13px;font-family:'JetBrains Mono',monospace;}
+.stats-pill{
+  display:flex;gap:14px;background:var(--binder-2);border:1px solid rgba(255,255,255,0.08);
+  border-radius:999px;padding:8px 18px;
+}
+.stats-pill div{text-align:center;}
+.stats-pill b{display:block;font-family:'JetBrains Mono',monospace;color:var(--gold-bright);font-size:16px;}
+.stats-pill small{color:#8d8f9c;font-size:10px;text-transform:uppercase;letter-spacing:0.06em;}
+
+/* ---------- DAILY CHALLENGE CARD ---------- */
+.daily-card{
+  background:linear-gradient(160deg, var(--binder-2), #14161f);
+  border:1px solid rgba(255,255,255,0.07);
+  border-radius:18px;
+  padding:22px;
+  margin-bottom:24px;
+  display:grid;
+  grid-template-columns:140px 1fr;
+  gap:22px;
+}
+@media(max-width:560px){.daily-card{grid-template-columns:1fr;}}
+.mystery-photo{
+  width:140px;height:140px;border-radius:14px;overflow:hidden;
+  background:#2a2d3a;
+  display:flex;align-items:center;justify-content:center;
+  position:relative;
+  border:2px solid rgba(255,255,255,0.08);
+}
+.mystery-photo img{width:100%;height:100%;object-fit:cover;filter:blur(18px) grayscale(0.4);transition:filter 0.4s ease;}
+.mystery-photo img.clue-2{filter:blur(10px) grayscale(0.2);}
+.mystery-photo img.clue-3{filter:blur(4px) grayscale(0);}
+.mystery-photo img.solved{filter:none;}
+.mystery-photo .qmark{position:absolute;font-family:'Anton',sans-serif;font-size:48px;color:rgba(255,255,255,0.5);}
+
+.daily-right{color:#e7e6ec;}
+.daily-right h2{font-family:'Anton',sans-serif;font-weight:400;font-size:18px;margin:0 0 10px;color:var(--gold-bright);letter-spacing:0.3px;}
+.clue-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
+.chip{
+  font-family:'JetBrains Mono',monospace;font-size:12px;background:#262938;border:1px solid rgba(255,255,255,0.1);
+  padding:5px 10px;border-radius:8px;color:#c7c8d1;
+}
+.chip.locked{opacity:0.35;}
+.guess-row{display:flex;gap:8px;margin-bottom:10px;}
+.guess-row input{
+  flex:1;background:#1c1e29;border:1px solid rgba(255,255,255,0.15);border-radius:10px;
+  padding:11px 14px;color:#fff;font-family:'Inter',sans-serif;font-size:14px;
+}
+.guess-row input:focus{outline:2px solid var(--gold);outline-offset:1px;}
+.guess-row button{
+  background:var(--gold);border:none;border-radius:10px;padding:0 18px;font-weight:700;
+  cursor:pointer;font-family:'Inter',sans-serif;color:#20222c;
+}
+.guess-row button:disabled{opacity:0.4;cursor:not-allowed;}
+.past-guesses{display:flex;flex-direction:column;gap:6px;}
+.past-guess{
+  display:flex;gap:8px;align-items:center;font-size:13px;background:#1c1e29;border-radius:8px;padding:7px 10px;
+}
+.tag{font-family:'JetBrains Mono',monospace;font-size:10px;padding:2px 6px;border-radius:5px;}
+.tag.hit{background:rgba(46,125,70,0.25);color:#7ee39c;}
+.tag.partial{background:rgba(201,162,39,0.25);color:var(--gold-bright);}
+.tag.miss{background:rgba(179,32,43,0.2);color:#f18a91;}
+.solved-banner{
+  margin-top:8px;padding:10px 14px;border-radius:10px;background:rgba(46,125,70,0.18);
+  border:1px solid rgba(46,125,70,0.4);color:#8fe8a8;font-size:13px;
+}
+.already-played{color:#8d8f9c;font-size:13px;margin-top:6px;}
+.daily-card.played{ filter:grayscale(0.6) brightness(0.82); }
+.daily-card.played .mystery-photo img{ filter:none !important; }
+
+/* ---------- REVEAL OVERLAY ---------- */
+.reveal-overlay{
+  position:fixed;inset:0;background:rgba(10,11,16,0.88);display:none;align-items:center;justify-content:center;z-index:50;padding:20px;
+}
+.reveal-overlay.show{display:flex;}
+.reveal-cards{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;max-width:700px;}
+.reveal-card{
+  width:170px;background:var(--page);border-radius:14px;padding:14px;text-align:center;
+  box-shadow:0 20px 40px rgba(0,0,0,0.5);
+  position:relative;overflow:hidden;
+  animation:popIn 0.5s ease;
+}
+@keyframes popIn{from{transform:scale(0.6) rotate(-6deg);opacity:0;}to{transform:scale(1) rotate(0);opacity:1;}}
+.reveal-card.new::after{
+  content:'';position:absolute;top:-50%;left:-150%;width:80%;height:200%;
+  background:linear-gradient(120deg, transparent, rgba(255,255,255,0.55), transparent);
+  animation:shine 1.6s ease-in-out 0.4s;
+}
+@keyframes shine{to{left:150%;}}
+.reveal-card img{width:100px;height:100px;border-radius:10px;object-fit:cover;margin-bottom:8px;background:#ccc;}
+.reveal-card .name{font-weight:800;font-size:13px;color:var(--ink);}
+.reveal-card .meta{font-size:11px;color:var(--ink-soft);font-family:'JetBrains Mono',monospace;margin-top:2px;}
+.reveal-badge{font-family:'Anton',sans-serif;font-size:12px;letter-spacing:0.5px;margin-top:8px;padding:4px 0;border-radius:6px;}
+.reveal-badge.new{background:var(--gold);color:#20222c;}
+.reveal-badge.dupe{background:#ddd2b8;color:var(--ink-soft);}
+.reveal-close{margin-top:22px;display:block;background:var(--gold);border:none;border-radius:10px;padding:10px 22px;font-weight:700;cursor:pointer;}
+
+/* ---------- TEAM SIDEBAR (contacts-defteri bookmark tarzı) ---------- */
+.album-wrap{display:flex;gap:0;align-items:flex-start;}
+.team-sidebar{
+  flex:0 0 168px;
+  background:var(--binder-2);
+  border-radius:12px 0 0 12px;
+  padding:10px 0;
+  max-height:640px;
+  overflow-y:auto;
+}
+.team-tab-item{
+  position:relative;
+  display:flex;align-items:center;gap:8px;
+  padding:9px 10px 9px 14px;
+  cursor:pointer;
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;
+  color:#aeb0ba;
+  border-left:3px solid transparent;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  margin-right:0px;
+  transition:margin-right 0.15s ease, background 0.15s ease;
+}
+/* eski adres defterlerindeki A-Z sekme kademesi hissi: her satır bir öncekinden
+   biraz daha az girintili, aktif olan tam dışarı taşar */
+.team-tab-item:nth-child(1){ margin-right:18px; }
+.team-tab-item:nth-child(2){ margin-right:15px; }
+.team-tab-item:nth-child(3){ margin-right:12px; }
+.team-tab-item:nth-child(4){ margin-right:9px; }
+.team-tab-item:nth-child(5){ margin-right:6px; }
+.team-tab-item:nth-child(6){ margin-right:3px; }
+.team-tab-item:nth-child(n+7){ margin-right:0px; }
+.team-tab-item .bookmark{
+  flex:0 0 auto;
+  width:26px;height:20px;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:3px;
+  font-size:9px;letter-spacing:0.02em;
+  color:#e7e6ec;
+}
+.team-tab-item.active{
+  background:var(--page);
+  color:var(--ink);
+  border-left-color:var(--gold-bright);
+  margin-right:-1px !important;
+}
+.team-tab-item.active .bookmark{ box-shadow:0 0 0 2px rgba(255,255,255,0.5) inset; }
+.team-tab-item:hover:not(.active){ background:#232636; }
+
+/* ---------- ALBUM PAGE ---------- */
+.album-page{
+  flex:1;
+  background:var(--page);
+  border-radius:0 12px 12px 0;
+  padding:22px;
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(32,34,44,0.05) 40px);
+}
+.album-page h3{font-family:'Anton',sans-serif;font-weight:400;margin:0 0 4px;font-size:20px;}
+.album-progress{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--ink-soft);margin-bottom:16px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(110px,1fr));gap:12px;}
+.slot{
+  border-radius:10px;padding:10px 8px;text-align:center;position:relative;min-height:150px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  border:1.5px dashed var(--line);
+}
+.slot.owned{border-style:solid;background:#fffdf7;box-shadow:0 3px 8px rgba(0,0,0,0.08);}
+.slot img{width:64px;height:64px;border-radius:8px;object-fit:cover;margin-bottom:6px;background:#ddd;}
+.slot .locked-icon{font-size:26px;color:var(--line);margin-bottom:6px;}
+.slot .n{font-weight:800;font-size:12px;}
+.slot .p{font-size:10px;color:var(--ink-soft);font-family:'JetBrains Mono',monospace;}
+.slot .num-badge{
+  position:absolute;top:6px;right:6px;font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;
+  background:var(--ink);color:#fff;border-radius:5px;padding:1px 5px;
+}
+
+/* ---------- NEWS TICKER ---------- */
+.news{
+  margin-top:26px;background:var(--binder-2);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:18px;
+}
+.news h3{font-family:'Anton',sans-serif;font-weight:400;color:var(--gold-bright);margin:0 0 12px;font-size:16px;}
+.news-item{
+  display:flex;gap:10px;align-items:flex-start;padding:9px 10px;border-radius:9px;margin-bottom:6px;font-size:13px;color:#c7c8d1;
+}
+.news-item .dot{width:6px;height:6px;border-radius:50%;background:#565968;margin-top:6px;flex:0 0 auto;}
+.news-item.highlight{background:rgba(201,162,39,0.14);border:1px solid rgba(201,162,39,0.35);}
+.news-item.highlight .dot{background:var(--gold-bright);}
+.news-item.highlight b{color:var(--gold-bright);}
+.news-date{font-family:'JetBrains Mono',monospace;font-size:11px;color:#787a86;margin:14px 0 6px;text-transform:uppercase;}
+
+.footer-actions{margin-top:20px;display:flex;gap:10px;justify-content:flex-end;}
+.footer-actions button{
+  background:transparent;border:1px solid rgba(255,255,255,0.15);color:#8d8f9c;border-radius:8px;
+  padding:7px 14px;font-size:12px;cursor:pointer;font-family:'Inter',sans-serif;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <div class="brand">
+      <h1>ÇIKARTMA ALBÜMÜ</h1>
+      <span>NBA / günlük tahmin oyunu</span>
+    </div>
+    <div class="stats-pill">
+      <div><b id="stat-owned">0</b><small>Sticker</small></div>
+      <div><b id="stat-streak">0</b><small>Seri</small></div>
+      <div><b id="stat-total">0</b><small>Toplam</small></div>
+    </div>
+  </div>
+
+  <div class="daily-card" id="daily-card">
+    <div class="mystery-photo" id="mystery-photo">
+      <span class="qmark" id="qmark">?</span>
+      <img id="daily-img" src="" style="display:none">
+    </div>
+    <div class="daily-right">
+      <h2>Bugünün Oyuncusu Kim?</h2>
+      <div class="clue-chips" id="clue-chips"></div>
+      <div id="guess-area">
+        <div class="guess-row">
+          <input id="guess-input" list="player-names" placeholder="Oyuncu adı yaz (örn. Nikola Jokic)" autocomplete="off">
+          <button id="guess-btn">Tahmin Et</button>
+        </div>
+        <datalist id="player-names"></datalist>
+        <div class="past-guesses" id="past-guesses"></div>
+      </div>
+      <div id="solved-msg"></div>
+    </div>
+  </div>
+
+  <div class="album-wrap">
+    <div class="team-sidebar" id="team-sidebar"></div>
+    <div class="album-page" id="album-page">
+      <h3 id="album-team-name">—</h3>
+      <div class="album-progress" id="album-progress"></div>
+      <div class="grid" id="album-grid"></div>
+    </div>
+  </div>
+
+  <div class="news" id="news-panel">
+    <h3>Transferler &amp; Güncellemeler</h3>
+    <div id="news-list"></div>
+  </div>
+
+  <div class="footer-actions" id="save-sync-actions">
+    <button id="export-btn">Save'i indir</button>
+    <button id="import-btn">Dosyadan yükle</button>
+    <input type="file" id="import-file" accept="application/json" style="display:none">
+    <button id="gh-push-btn">GitHub'a yükle</button>
+    <button id="gh-pull-btn">GitHub'dan çek</button>
+    <button id="gh-token-btn">Token ayarla</button>
+    <button id="reset-btn">Koleksiyonu sıfırla</button>
+  </div>
+  <div id="sync-status" style="text-align:right;font-size:11px;color:#787a86;margin-top:6px;font-family:'JetBrains Mono',monospace;"></div>
+
+</div>
+
+<div class="reveal-overlay" id="reveal-overlay">
+  <div style="text-align:center;">
+    <div class="reveal-cards" id="reveal-cards"></div>
+    <button class="reveal-close" id="reveal-close">Devam</button>
+  </div>
+</div>
+
+<script>
+/* =========================================================================
+   VERİ KAYNAĞI
+   Repo hazır olduğunda bu iki URL'yi kendi GitHub raw linklerinle değiştir:
+   ========================================================================= */
+const CONFIG = {
+  PLAYERS_URL: "https://raw.githubusercontent.com/KULLANICI_ADIN/REPO_ADIN/main/players.json",
+  TRANSACTIONS_URL: "https://raw.githubusercontent.com/KULLANICI_ADIN/REPO_ADIN/main/transactions.json",
+  // GitHub'a save senkronu için: kullanıcı adın ve repo adın (token gerekmez,
+  // sadece bunlar public bilgi, token ayrı olarak kullanıcının kendi
+  // tarayıcısında saklanır, buraya asla yazılmaz).
+  GITHUB_OWNER: "KULLANICI_ADIN",
+  GITHUB_REPO: "REPO_ADIN",
+  SAVE_PATH: "save.json",
+  USE_LIVE_DATA: false // repo kurulunca true yap
+};
+
+/* ---- DEMO VERİ SETİ (repo bağlanana kadar) ---- */
+const DEMO_TEAMS = [
+  {abbr:"LAL", name:"Los Angeles Lakers", color:"#552583"},
+  {abbr:"BOS", name:"Boston Celtics", color:"#007A33"},
+  {abbr:"DEN", name:"Denver Nuggets", color:"#0E2240"},
+  {abbr:"OKC", name:"Oklahoma City Thunder", color:"#007AC1"},
+  {abbr:"MIL", name:"Milwaukee Bucks", color:"#00471B"},
+  {abbr:"GSW", name:"Golden State Warriors", color:"#1D428A"},
+];
+
+const DEMO_PLAYERS = [
+  {player_id:"2544", full_name:"LeBron James", position:"F", jersey_number:"23", team_abbr:"LAL", height_cm:206, age:41, nationality:"USA"},
+  {player_id:"203076", full_name:"Anthony Davis", position:"F-C", jersey_number:"3", team_abbr:"LAL", height_cm:208, age:32, nationality:"USA"},
+  {player_id:"1629029", full_name:"Luka Doncic", position:"G", jersey_number:"77", team_abbr:"LAL", height_cm:201, age:27, nationality:"Slovenia"},
+  {player_id:"1628366", full_name:"Austin Reaves", position:"G", jersey_number:"5", team_abbr:"LAL", height_cm:196, age:27, nationality:"USA"},
+  {player_id:"1628369", full_name:"Jayson Tatum", position:"F", jersey_number:"0", team_abbr:"BOS", height_cm:203, age:28, nationality:"USA"},
+  {player_id:"1627759", full_name:"Jaylen Brown", position:"G-F", jersey_number:"7", team_abbr:"BOS", height_cm:198, age:29, nationality:"USA"},
+  {player_id:"1628464", full_name:"Derrick White", position:"G", jersey_number:"9", team_abbr:"BOS", height_cm:193, age:31, nationality:"USA"},
+  {player_id:"203999", full_name:"Nikola Jokic", position:"C", jersey_number:"15", team_abbr:"DEN", height_cm:211, age:31, nationality:"Serbia"},
+  {player_id:"1627750", full_name:"Jamal Murray", position:"G", jersey_number:"27", team_abbr:"DEN", height_cm:193, age:29, nationality:"Canada"},
+  {player_id:"1629008", full_name:"Michael Porter Jr.", position:"F", jersey_number:"1", team_abbr:"DEN", height_cm:208, age:28, nationality:"USA"},
+  {player_id:"1628983", full_name:"Shai Gilgeous-Alexander", position:"G", jersey_number:"2", team_abbr:"OKC", height_cm:198, age:27, nationality:"Canada"},
+  {player_id:"1630178", full_name:"Jalen Williams", position:"F", jersey_number:"8", team_abbr:"OKC", height_cm:196, age:24, nationality:"USA"},
+  {player_id:"1641705", full_name:"Chet Holmgren", position:"C", jersey_number:"7", team_abbr:"OKC", height_cm:216, age:24, nationality:"USA"},
+  {player_id:"203507", full_name:"Giannis Antetokounmpo", position:"F", jersey_number:"34", team_abbr:"MIL", height_cm:211, age:31, nationality:"Greece"},
+  {player_id:"1628978", full_name:"Damian Lillard", position:"G", jersey_number:"0", team_abbr:"MIL", height_cm:188, age:35, nationality:"USA"},
+  {player_id:"201939", full_name:"Stephen Curry", position:"G", jersey_number:"30", team_abbr:"GSW", height_cm:188, age:38, nationality:"USA"},
+  {player_id:"203110", full_name:"Draymond Green", position:"F", jersey_number:"23", team_abbr:"GSW", height_cm:198, age:35, nationality:"USA"},
+];
+
+const DEMO_TRANSACTIONS = [
+  {date:"2026-07-06", type:"team_change", full_name:"Michael Porter Jr.", from_team:"DEN", to_team:"BKN", message:"Michael Porter Jr.: DEN -> BKN takas edildi"},
+  {date:"2026-07-05", type:"new_player", full_name:"Cooper Flagg", team_abbr:"DAL", message:"Cooper Flagg NBA rosterlarına yeni katıldı (DAL)"},
+  {date:"2026-07-04", type:"jersey_change", full_name:"Austin Reaves", team_abbr:"LAL", old_number:"15", new_number:"5", message:"Austin Reaves forma numarasını değiştirdi: #15 -> #5"},
+];
+
+/* ========================================================================= */
+
+let TEAMS = DEMO_TEAMS;
+let PLAYERS = DEMO_PLAYERS;
+let TRANSACTIONS = DEMO_TRANSACTIONS;
+
+function photoUrl(id){
+  return `https://cdn.nba.com/headshots/nba/latest/1040x760/${id}.png`;
+}
+function silhouette(color){
+  return `data:image/svg+xml;utf8,` + encodeURIComponent(
+    `<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><rect width='100' height='100' fill='${color||"#333"}'/><circle cx='50' cy='38' r='18' fill='rgba(255,255,255,0.35)'/><path d='M20 90 Q50 55 80 90 Z' fill='rgba(255,255,255,0.35)'/></svg>`
+  );
+}
+
+/* ---------------- STORAGE HELPERS ----------------
+   NOT: Bu artık gerçek tarayıcı localStorage'ı kullanıyor (GitHub Pages /
+   Blogger gibi normal bir sitede çalışsın diye). Kayıtlar bu tarayıcı +
+   cihaza bağlı kalır, hesaplar arası senkron olmaz. */
+function lsGet(key){
+  try{ const v = localStorage.getItem(key); return v===null? null : v; }
+  catch(e){ return null; }
+}
+function lsSet(key, value){
+  try{ localStorage.setItem(key, value); }catch(e){ console.warn('localStorage yazılamadı', e); }
+}
+
+async function getOwned(){
+  const v = lsGet('nba-sticker:owned');
+  return v ? JSON.parse(v) : [];
+}
+async function setOwned(list){
+  lsSet('nba-sticker:owned', JSON.stringify(list));
+}
+async function getStats(){
+  const v = lsGet('nba-sticker:stats');
+  return v ? JSON.parse(v) : {streak:0,lastSolvedDate:null,totalSolved:0};
+}
+async function setStats(s){
+  lsSet('nba-sticker:stats', JSON.stringify(s));
+}
+async function getDailyProgress(dateKey){
+  const v = lsGet('nba-sticker:daily:'+dateKey);
+  return v ? JSON.parse(v) : {guesses:[],solved:false,targetPlayerId:null};
+}
+async function setDailyProgress(dateKey, data){
+  lsSet('nba-sticker:daily:'+dateKey, JSON.stringify(data));
+}
+
+/* ---------------- DATA LOAD ---------------- */
+async function loadData(){
+  if(!CONFIG.USE_LIVE_DATA) return;
+  try{
+    const [pRes, tRes] = await Promise.all([
+      fetch(CONFIG.PLAYERS_URL), fetch(CONFIG.TRANSACTIONS_URL)
+    ]);
+    const pJson = await pRes.json();
+    const tJson = await tRes.json();
+    PLAYERS = Object.values(pJson.players);
+    const abbrs = [...new Set(PLAYERS.map(p=>p.team_abbr))];
+    TEAMS = abbrs.map(a=>({abbr:a, name:(PLAYERS.find(p=>p.team_abbr===a)||{}).team_name||a, color:"#333"}));
+    const days = Object.entries(tJson.days||{}).sort((a,b)=> a[0]<b[0]?1:-1);
+    TRANSACTIONS = [];
+    days.forEach(([date, d])=>{ (d.events||[]).forEach(e=> TRANSACTIONS.push({date, ...e})); });
+  }catch(e){
+    console.warn("Canlı veri çekilemedi, demo veriyle devam ediliyor.", e);
+  }
+}
+
+/* ---------------- DAILY PLAYER (deterministic by date) ---------------- */
+/* ---------------- DAILY PLAYER (TR saatiyle, deterministik) ---------------- */
+function dateKey(){
+  // Europe/Istanbul saatine göre "bugün" -- TR yıl boyu sabit UTC+3 kullanıyor.
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Istanbul', year:'numeric', month:'2-digit', day:'2-digit'
+  }).formatToParts(new Date());
+  const get = (t) => parts.find(p=>p.type===t).value;
+  return `${get('year')}-${get('month')}-${get('day')}`;
+}
+function hashStr(s){ let h=0; for(let i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i))>>>0; } return h; }
+function getDailyPlayer(){
+  // Havuz: owned (sahip olunan) oyuncular HARİÇ tüm oyuncular. Bilemediğin/
+  // bilinmeyen oyuncu tekrar aday olabilir, bildiğin oyuncu bir daha çıkmaz.
+  let pool = PLAYERS.filter(p => !owned.includes(p.player_id));
+  if(pool.length === 0) pool = PLAYERS; // herkesi biliyorsan (tebrikler) tekrar havuza al
+  const idx = hashStr(dateKey()) % pool.length;
+  return pool[idx];
+}
+
+/* ---------------- STATE ---------------- */
+let owned = [];
+let stats = {streak:0,lastSolvedDate:null,totalSolved:0};
+let activeTeam = null;
+let dailyPlayer = null;
+let progress = {guesses:[], solved:false};
+const MAX_GUESSES = 5;
+
+function teamColor(abbr){
+  const t = TEAMS.find(t=>t.abbr===abbr);
+  return t? t.color : "#333";
+}
+
+/* ---------------- RENDER: STATS ---------------- */
+function renderStats(){
+  document.getElementById('stat-owned').textContent = owned.length + '/' + PLAYERS.length;
+  document.getElementById('stat-streak').textContent = stats.streak;
+  document.getElementById('stat-total').textContent = stats.totalSolved;
+}
+
+/* ---------------- RENDER: DAILY CARD ---------------- */
+function cluesForGuessCount(n){
+  // Kullanıcının kendi bilgi seviyesine göre kişiselleştirilmiş sıralama:
+  // Pozisyon (genel başlangıç) -> Yaş (pozisyondan bağımsız, farklı tür bilgi)
+  // -> Boy (pozisyonla zaten ilişkili olduğu için ortalara alındı) -> Uyruk
+  // (ödül 2 stickere düştüğü an, getiri-götürü dengesi için) -> Takım + Forma No
+  // (son hak, "en azından sticker'ın kendisini kurtar" mantığıyla en güçlü
+  // ikili burada birlikte açılıyor). Forma No tek başına hiç kullanılmıyor.
+  const chips = [
+    {label:'Pozisyon: ' + dailyPlayer.position, needed:0},
+    {label:'Yaş: ' + (dailyPlayer.age||'—'), needed:1},
+    {label:'Boy: ' + (dailyPlayer.height_cm ? dailyPlayer.height_cm + ' cm' : '—'), needed:2},
+    {label:'Uyruk: ' + (dailyPlayer.nationality||'—'), needed:3},
+    {label:'Takım: ' + dailyPlayer.team_abbr, needed:4},
+    {label:'Forma No: #' + dailyPlayer.jersey_number, needed:4},
+  ];
+  return chips.map(c=>{
+    const unlocked = n >= c.needed;
+    return `<span class="chip ${unlocked?'':'locked'}">${unlocked? c.label : '🔒 İpucu ' + c.needed}</span>`;
+  }).join('');
+}
+
+function renderDailyCard(){
+  document.getElementById('clue-chips').innerHTML = cluesForGuessCount(progress.guesses.length);
+
+  const failedNow = !progress.solved && progress.guesses.length >= MAX_GUESSES;
+  document.getElementById('daily-card').classList.toggle('played', progress.solved || failedNow);
+
+  const img = document.getElementById('daily-img');
+  const qmark = document.getElementById('qmark');
+  img.src = photoUrl(dailyPlayer.player_id);
+  img.onerror = ()=>{ img.src = silhouette(teamColor(dailyPlayer.team_abbr)); };
+  img.style.display = 'block';
+  qmark.style.display = 'none';
+  if(progress.solved || failedNow){
+    img.style.filter = 'none'; // cevap zaten belli oldu, fotoğrafı da netleştir
+  } else {
+    const blurLevels = [18, 15, 12, 9, 6]; // her yanlış tahminde 3px azalır, son tahminde 6px
+    const blurPx = blurLevels[Math.min(progress.guesses.length, blurLevels.length - 1)];
+    img.style.filter = `blur(${blurPx}px) grayscale(0.15)`;
+  }
+
+  const pg = document.getElementById('past-guesses');
+  pg.innerHTML = progress.guesses.map(g=>{
+    let tagClass='miss', tagText='Farklı';
+    if(g.correct){ tagClass='hit'; tagText='DOĞRU'; }
+    else if(g.sameTeam){ tagClass='partial'; tagText='Aynı takım'; }
+    else if(g.samePos){ tagClass='partial'; tagText='Aynı pozisyon'; }
+    return `<div class="past-guess"><span class="tag ${tagClass}">${tagText}</span> ${g.name}</div>`;
+  }).join('');
+
+  const solvedMsg = document.getElementById('solved-msg');
+  const guessArea = document.getElementById('guess-area');
+
+  if(progress.solved){
+    solvedMsg.innerHTML = `<div class="solved-banner">✅ Doğru! Bugünün oyuncusu <b>${dailyPlayer.full_name}</b> idi. Yarın yeni bir oyuncu!</div>`;
+    guessArea.style.display='none';
+  } else if(failedNow){
+    solvedMsg.innerHTML = `<div class="solved-banner" style="background:rgba(179,32,43,0.18);border-color:rgba(179,32,43,0.4);color:#f18a91;">Hakların bitti. Cevap: <b>${dailyPlayer.full_name}</b>. Yarın tekrar dene!</div>`;
+    guessArea.style.display='none';
+  } else {
+    solvedMsg.innerHTML = '';
+    guessArea.style.display='block';
+  }
+}
+
+/* ---------------- GUESS LOGIC ---------------- */
+function normalize(s){ return s.trim().toLowerCase().replace(/\s+/g,' '); }
+
+async function submitGuess(){
+  const input = document.getElementById('guess-input');
+  const raw = input.value;
+  if(!raw.trim()) return;
+  const match = PLAYERS.find(p=> normalize(p.full_name) === normalize(raw));
+  const guessedPlayer = match || {full_name: raw, team_abbr:null, position:null};
+
+  const correct = match && match.player_id === dailyPlayer.player_id;
+  const sameTeam = match && !correct && match.team_abbr === dailyPlayer.team_abbr;
+  const samePos = match && !correct && match.position === dailyPlayer.position;
+
+  progress.guesses.push({name: guessedPlayer.full_name, correct, sameTeam, samePos});
+  input.value = '';
+
+  if(correct){
+    progress.solved = true;
+    const attemptNumber = progress.guesses.length; // bu doğru tahmin kaçıncı denemeydi (1-5)
+    const today = dateKey();
+    if(stats.lastSolvedDate !== today){
+      const y = new Date(); y.setDate(y.getDate()-1);
+      const yesterday = y.toISOString().slice(0,10);
+      stats.streak = (stats.lastSolvedDate === yesterday) ? stats.streak+1 : 1;
+      stats.totalSolved += 1;
+      stats.lastSolvedDate = today;
+      await setStats(stats);
+    }
+    // Ödül: 1. tahminde 5 sticker, 2.'de 4, 3.'te 3, 4.'te 2, son (5.) hakta sadece 1 (kendisi)
+    const totalReward = Math.max(1, 6 - attemptNumber);
+    await revealStickers(dailyPlayer, totalReward - 1);
+  }
+
+  await setDailyProgress(dateKey(), progress);
+  renderDailyCard();
+  renderStats();
+}
+
+/* ---------------- STICKER REVEAL ----------------
+   bonusCount: ana oyuncuya ek olarak kaç bonus sticker açılacağı (tahmin
+   hakkına göre değişir: 1. tahminde 4 bonus, ..., son hakta 0 bonus).
+   Bonus stickerlar TEKRAR edebilir (zaten owned bir oyuncu tekrar çıkabilir,
+   bu durumda "zaten vardı" rozeti gösterilir) -- sadece günün wordle hedefi
+   owned oyuncular arasından hiç seçilmiyor, bonus seçiminde bu kısıtlama yok. */
+async function revealStickers(mainPlayer, bonusCount){
+  const others = PLAYERS.filter(p=>p.player_id!==mainPlayer.player_id);
+  const shuffled = others.sort(()=>Math.random()-0.5).slice(0, Math.max(0, bonusCount));
+  const revealSet = [mainPlayer, ...shuffled];
+
+  const overlay = document.getElementById('reveal-overlay');
+  const cardsWrap = document.getElementById('reveal-cards');
+  cardsWrap.innerHTML = '';
+
+  for(const p of revealSet){
+    const isNew = !owned.includes(p.player_id);
+    if(isNew) owned.push(p.player_id);
+    const card = document.createElement('div');
+    card.className = 'reveal-card ' + (isNew?'new':'');
+    card.innerHTML = `
+      <img src="${photoUrl(p.player_id)}" onerror="this.src='${silhouette(teamColor(p.team_abbr))}'">
+      <div class="name">${p.full_name}</div>
+      <div class="meta">#${p.jersey_number} · ${p.position} · ${p.team_abbr}</div>
+      <div class="meta">${p.height_cm?p.height_cm+' cm':'—'} · ${p.age?p.age+' yaş':'—'} · ${p.nationality||'—'}</div>
+      <div class="reveal-badge ${isNew?'new':'dupe'}">${isNew? '★ YENİ STICKER' : '😔 ZATEN VARDI'}</div>
+    `;
+    cardsWrap.appendChild(card);
+  }
+  await setOwned(owned);
+  overlay.classList.add('show');
+}
+
+/* ---------------- TEAM TABS + ALBUM GRID ---------------- */
+function renderTabs(){
+  const sidebar = document.getElementById('team-sidebar');
+  sidebar.innerHTML = TEAMS.map(t=>
+    `<div class="team-tab-item ${t.abbr===activeTeam?'active':''}" data-abbr="${t.abbr}">
+      <span class="bookmark" style="background:${t.color}">${t.abbr.slice(0,2)}</span>
+      <span>${t.name}</span>
+    </div>`
+  ).join('');
+  sidebar.querySelectorAll('.team-tab-item').forEach(el=>{
+    el.addEventListener('click', ()=>{ activeTeam = el.dataset.abbr; renderTabs(); renderAlbum(); });
+  });
+}
+
+function renderAlbum(){
+  const team = TEAMS.find(t=>t.abbr===activeTeam);
+  const teamPlayers = PLAYERS.filter(p=>p.team_abbr===activeTeam);
+  document.getElementById('album-team-name').textContent = team? team.name : '—';
+  const ownedCount = teamPlayers.filter(p=>owned.includes(p.player_id)).length;
+  document.getElementById('album-progress').textContent = `${ownedCount} / ${teamPlayers.length} sticker toplandı`;
+
+  const grid = document.getElementById('album-grid');
+  grid.innerHTML = teamPlayers.map(p=>{
+    const isOwned = owned.includes(p.player_id);
+    if(isOwned){
+      return `<div class="slot owned">
+        <span class="num-badge">#${p.jersey_number}</span>
+        <img src="${photoUrl(p.player_id)}" onerror="this.src='${silhouette(team?team.color:'#333')}'">
+        <div class="n">${p.full_name}</div>
+        <div class="p">${p.position} · ${p.height_cm?p.height_cm+' cm':'—'} · ${p.nationality||'—'}</div>
+      </div>`;
+    }
+    return `<div class="slot">
+      <div class="locked-icon">🔒</div>
+      <div class="p">Kilitli</div>
+    </div>`;
+  }).join('');
+}
+
+/* ---------------- NEWS PANEL ---------------- */
+function renderNews(){
+  const list = document.getElementById('news-list');
+  if(!TRANSACTIONS.length){
+    list.innerHTML = `<div class="news-item"><span class="dot"></span>Henüz kayıtlı bir güncelleme yok.</div>`;
+    return;
+  }
+  let lastDate = null;
+  let html = '';
+  TRANSACTIONS.forEach(ev=>{
+    const involvesOwned = PLAYERS.some(p => p.full_name === ev.full_name && owned.includes(p.player_id));
+    if(ev.date !== lastDate){ html += `<div class="news-date">${ev.date}</div>`; lastDate = ev.date; }
+    html += `<div class="news-item ${involvesOwned?'highlight':''}">
+      <span class="dot"></span>
+      <span>${involvesOwned? '<b>STICKER TAŞINDI →</b> ' : ''}${ev.message}</span>
+    </div>`;
+  });
+  list.innerHTML = html;
+}
+
+/* ---------------- SAVE EXPORT / IMPORT (dosya bazlı, risksiz yedek) ---------------- */
+function currentSaveBlob(){
+  return { owned, stats, savedAt: new Date().toISOString() };
+}
+
+function exportSave(){
+  const blob = new Blob([JSON.stringify(currentSaveBlob(), null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'nba-sticker-save.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+async function importSaveFromFile(file){
+  const text = await file.text();
+  try{
+    const data = JSON.parse(text);
+    owned = data.owned || [];
+    stats = data.stats || stats;
+    await setOwned(owned); await setStats(stats);
+    renderAlbum(); renderNews(); renderStats(); renderDailyCard();
+    setSyncStatus('Dosyadan yüklendi ✓');
+  }catch(e){
+    setSyncStatus('Dosya okunamadı, geçersiz format.');
+  }
+}
+
+/* ---------------- GITHUB SENKRON ----------------
+   Token SADECE bu tarayıcının localStorage'ında tutulur, koda/repoya
+   asla yazılmaz. Fine-grained bir GitHub token oluştururken sadece bu
+   repoya ve sadece "Contents: Read and write" iznine izin ver. */
+function getGithubToken(){ return lsGet('nba-sticker:gh-token'); }
+function setGithubToken(t){ lsSet('nba-sticker:gh-token', t); }
+function setSyncStatus(msg){ document.getElementById('sync-status').textContent = msg; }
+
+async function pushSaveToGithub(){
+  const token = getGithubToken();
+  if(!token){ setSyncStatus('Önce "Token ayarla" ile bir GitHub token girmelisin.'); return; }
+  setSyncStatus('GitHub\'a yükleniyor...');
+  const { GITHUB_OWNER, GITHUB_REPO, SAVE_PATH } = CONFIG;
+  const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SAVE_PATH}`;
+
+  try{
+    // Var olan dosyanın sha'sını al (güncelleme için gerekli, yoksa 404 olur, o zaman sha yok)
+    let sha = undefined;
+    const existing = await fetch(apiUrl, { headers: { Authorization: `Bearer ${token}` }});
+    if(existing.ok){ sha = (await existing.json()).sha; }
+
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(currentSaveBlob(), null, 2))));
+    const res = await fetch(apiUrl, {
+      method: 'PUT',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        message: `Save güncelleme - ${new Date().toISOString()}`,
+        content, sha
+      })
+    });
+    if(!res.ok) throw new Error(await res.text());
+    setSyncStatus('GitHub\'a kaydedildi ✓ (' + new Date().toLocaleTimeString('tr-TR') + ')');
+  }catch(e){
+    console.error(e);
+    setSyncStatus('Yükleme başarısız. Token yetkisini/repo adını kontrol et.');
+  }
+}
+
+async function pullSaveFromGithub(){
+  setSyncStatus('GitHub\'dan çekiliyor...');
+  const { GITHUB_OWNER, GITHUB_REPO, SAVE_PATH } = CONFIG;
+  // Public repoda token gerekmeden okunabilir (raw.githubusercontent.com)
+  const url = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${SAVE_PATH}?t=${Date.now()}`;
+  try{
+    const res = await fetch(url);
+    if(!res.ok) throw new Error('save.json bulunamadı');
+    const data = await res.json();
+    owned = data.owned || [];
+    stats = data.stats || stats;
+    await setOwned(owned); await setStats(stats);
+    renderAlbum(); renderNews(); renderStats(); renderDailyCard();
+    setSyncStatus('GitHub\'dan yüklendi ✓ (' + new Date().toLocaleTimeString('tr-TR') + ')');
+  }catch(e){
+    setSyncStatus('Çekilemedi: GitHub\'da henüz bir save.json yok gibi.');
+  }
+}
+
+/* ---------------- AUTOCOMPLETE LIST ---------------- */
+function renderPlayerDatalist(){
+  document.getElementById('player-names').innerHTML =
+    PLAYERS.map(p=>`<option value="${p.full_name}">`).join('');
+}
+
+/* ---------------- INIT ---------------- */
+async function init(){
+  await loadData();
+  owned = await getOwned();
+  stats = await getStats();
+  dailyPlayer = getDailyPlayer();
+  progress = await getDailyProgress(dateKey());
+
+  // Günün hedefini SABİTLE: owned listesi gün içinde değişebileceği için
+  // (sticker kazandıkça havuz küçülür), aynı günün tekrar yüklenmesinde
+  // farklı bir oyuncuya kaymasın diye hedef player_id'yi kaydediyoruz.
+  if(progress.targetPlayerId){
+    const fixedTarget = PLAYERS.find(p => p.player_id === progress.targetPlayerId);
+    if(fixedTarget) dailyPlayer = fixedTarget;
+  } else {
+    progress.targetPlayerId = dailyPlayer.player_id;
+    await setDailyProgress(dateKey(), progress);
+  }
+  activeTeam = TEAMS[0].abbr;
+
+  renderPlayerDatalist();
+  renderTabs();
+  renderDailyCard();
+  renderAlbum();
+  renderNews();
+  renderStats();
+
+  document.getElementById('guess-btn').addEventListener('click', submitGuess);
+  document.getElementById('guess-input').addEventListener('keydown', e=>{ if(e.key==='Enter') submitGuess(); });
+  document.getElementById('reveal-close').addEventListener('click', ()=>{
+    document.getElementById('reveal-overlay').classList.remove('show');
+    renderAlbum();
+    renderNews();
+  });
+  document.getElementById('reset-btn').addEventListener('click', async ()=>{
+    if(!confirm('Tüm sticker koleksiyonun ve istatistiklerin silinecek. Emin misin?')) return;
+    owned = []; stats = {streak:0,lastSolvedDate:null,totalSolved:0};
+    await setOwned(owned); await setStats(stats);
+    await setDailyProgress(dateKey(), {guesses:[],solved:false});
+    progress = {guesses:[],solved:false};
+    renderDailyCard(); renderAlbum(); renderNews(); renderStats();
+  });
+
+  document.getElementById('export-btn').addEventListener('click', exportSave);
+  document.getElementById('import-btn').addEventListener('click', ()=> document.getElementById('import-file').click());
+  document.getElementById('import-file').addEventListener('change', (e)=>{
+    if(e.target.files[0]) importSaveFromFile(e.target.files[0]);
+  });
+  document.getElementById('gh-push-btn').addEventListener('click', pushSaveToGithub);
+  document.getElementById('gh-pull-btn').addEventListener('click', pullSaveFromGithub);
+  document.getElementById('gh-token-btn').addEventListener('click', ()=>{
+    const current = getGithubToken();
+    const t = prompt(
+      'GitHub kişisel erişim token\'ını yapıştır.\n\n' +
+      'Önerilen: github.com/settings/tokens → "Fine-grained tokens" → sadece\n' +
+      'bu repoyu seç → "Contents: Read and write" izni ver, başka izin verme.\n\n' +
+      'Bu token SADECE bu tarayıcıda saklanır, hiçbir yere gönderilmez.',
+      current || ''
+    );
+    if(t !== null){ setGithubToken(t.trim()); setSyncStatus(t.trim() ? 'Token kaydedildi (sadece bu tarayıcıda).' : 'Token temizlendi.'); }
+  });
+}
+init();
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(()=>{ /* GitHub Pages dışında sessiz geç */ });
+  });
+}
+</script>
+</body>
+</html>
