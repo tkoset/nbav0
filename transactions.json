@@ -3,6 +3,49 @@
     "2026-07-10": {
       "checked_at": "2026-07-10T12:29:49.923636+00:00",
       "events": []
+    },
+    "2026-07-11": {
+      "checked_at": "2026-07-11T11:11:20.617627+00:00",
+      "events": [
+        {
+          "type": "jersey_change",
+          "player_id": "5142621",
+          "full_name": "Chris Cenac Jr.",
+          "team_abbr": "BOS",
+          "old_number": "",
+          "new_number": "12",
+          "message": "Chris Cenac Jr. forma numarasini degistirdi: # -> #12"
+        },
+        {
+          "type": "team_change",
+          "player_id": "4592933",
+          "full_name": "Mouhamadou Gueye",
+          "from_team": "CHI",
+          "to_team": "CHA",
+          "message": "Mouhamadou Gueye: CHI -> CHA"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5148538",
+          "full_name": "Tarik Biberovic",
+          "team_abbr": "DAL",
+          "message": "Tarik Biberovic NBA rosterlarina yeni katildi (DAL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4066399",
+          "full_name": "Micah Potter",
+          "team_abbr": "POR",
+          "message": "Micah Potter NBA rosterlarina yeni katildi (POR)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4397784",
+          "full_name": "Malachi Smith",
+          "team_abbr": "BKN",
+          "message": "Malachi Smith aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
