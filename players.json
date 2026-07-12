@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T11:11:20.617977+00:00",
+  "generated_at": "2026-07-12T11:16:24.007504+00:00",
   "player_count": 577,
   "players": {
     "4278039": {
@@ -4825,7 +4825,7 @@
       "jersey_number": "44",
       "height_cm": "221",
       "weight": "254.0",
-      "age": 19,
+      "age": 20,
       "nationality": "",
       "team_id": "16",
       "team_abbr": "MIN",
@@ -6211,7 +6211,7 @@
       "jersey_number": "20",
       "height_cm": "206",
       "weight": "240.0",
-      "age": 21,
+      "age": 22,
       "nationality": "USA",
       "team_id": "21",
       "team_abbr": "PHX",
@@ -7177,7 +7177,7 @@
       "jersey_number": "",
       "height_cm": "208",
       "weight": "255.0",
-      "age": 18,
+      "age": 19,
       "nationality": "USA",
       "team_id": "24",
       "team_abbr": "SAS",
