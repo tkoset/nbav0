@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T12:35:55.229606+00:00",
-  "player_count": 577,
+  "generated_at": "2026-07-14T11:36:30.360920+00:00",
+  "player_count": 544,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -15,20 +15,6 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4278039.png"
-    },
-    "4065673": {
-      "player_id": "4065673",
-      "full_name": "Tony Bradley",
-      "position": "C",
-      "jersey_number": "13",
-      "height_cm": "208",
-      "weight": "248.0",
-      "age": 28,
-      "nationality": "USA",
-      "team_id": "1",
-      "team_abbr": "ATL",
-      "team_name": "Atlanta Hawks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065673.png"
     },
     "4433188": {
       "player_id": "4433188",
@@ -267,20 +253,6 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105571.png"
-    },
-    "3137259": {
-      "player_id": "3137259",
-      "full_name": "Gabe Vincent",
-      "position": "G",
-      "jersey_number": "4",
-      "height_cm": "188",
-      "weight": "200.0",
-      "age": 30,
-      "nationality": "USA",
-      "team_id": "1",
-      "team_abbr": "ATL",
-      "team_name": "Atlanta Hawks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3137259.png"
     },
     "4279118": {
       "player_id": "4279118",
@@ -800,34 +772,6 @@
       "team_name": "Brooklyn Nets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3150844.png"
     },
-    "4433137": {
-      "player_id": "4433137",
-      "full_name": "Ziaire Williams",
-      "position": "F",
-      "jersey_number": "1",
-      "height_cm": "206",
-      "weight": "185.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "17",
-      "team_abbr": "BKN",
-      "team_name": "Brooklyn Nets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433137.png"
-    },
-    "4431714": {
-      "player_id": "4431714",
-      "full_name": "Jalen Wilson",
-      "position": "F",
-      "jersey_number": "22",
-      "height_cm": "198",
-      "weight": "220.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "17",
-      "team_abbr": "BKN",
-      "team_name": "Brooklyn Nets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431714.png"
-    },
     "5107173": {
       "player_id": "5107173",
       "full_name": "Danny Wolf",
@@ -1080,20 +1024,6 @@
       "team_name": "Charlotte Hornets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5281370.png"
     },
-    "4277964": {
-      "player_id": "4277964",
-      "full_name": "Xavier Tillman",
-      "position": "F",
-      "jersey_number": "26",
-      "height_cm": "203",
-      "weight": "245.0",
-      "age": 27,
-      "nationality": "USA",
-      "team_id": "30",
-      "team_abbr": "CHA",
-      "team_name": "Charlotte Hornets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4277964.png"
-    },
     "4395651": {
       "player_id": "4395651",
       "full_name": "Coby White",
@@ -1289,20 +1219,6 @@
       "team_abbr": "CHI",
       "team_name": "Chicago Bulls",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2595516.png"
-    },
-    "4278076": {
-      "player_id": "4278076",
-      "full_name": "Nick Richards",
-      "position": "C",
-      "jersey_number": "13",
-      "height_cm": "211",
-      "weight": "245.0",
-      "age": 28,
-      "nationality": "Jamaica",
-      "team_id": "4",
-      "team_abbr": "CHI",
-      "team_name": "Chicago Bulls",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4278076.png"
     },
     "4397189": {
       "player_id": "4397189",
@@ -1836,20 +1752,6 @@
       "team_name": "Dallas Mavericks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4898238.png"
     },
-    "2531367": {
-      "player_id": "2531367",
-      "full_name": "Dwight Powell",
-      "position": "F",
-      "jersey_number": "7",
-      "height_cm": "208",
-      "weight": "240.0",
-      "age": 34,
-      "nationality": "Canada",
-      "team_id": "6",
-      "team_abbr": "DAL",
-      "team_name": "Dallas Mavericks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2531367.png"
-    },
     "4432107": {
       "player_id": "4432107",
       "full_name": "Marcus Sasser",
@@ -1906,20 +1808,6 @@
       "team_name": "Dallas Mavericks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4278078.png"
     },
-    "4397040": {
-      "player_id": "4397040",
-      "full_name": "Brandon Williams",
-      "position": "G",
-      "jersey_number": "10",
-      "height_cm": "185",
-      "weight": "190.0",
-      "age": 26,
-      "nationality": "USA",
-      "team_id": "6",
-      "team_abbr": "DAL",
-      "team_name": "Dallas Mavericks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397040.png"
-    },
     "4277848": {
       "player_id": "4277848",
       "full_name": "Marvin Bagley III",
@@ -1961,20 +1849,6 @@
       "team_abbr": "DEN",
       "team_name": "Denver Nuggets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4698719.png"
-    },
-    "4065670": {
-      "player_id": "4065670",
-      "full_name": "Bruce Brown",
-      "position": "G",
-      "jersey_number": "11",
-      "height_cm": "193",
-      "weight": "202.0",
-      "age": 29,
-      "nationality": "USA",
-      "team_id": "7",
-      "team_abbr": "DEN",
-      "team_name": "Denver Nuggets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065670.png"
     },
     "3064290": {
       "player_id": "3064290",
@@ -2494,20 +2368,6 @@
       "team_name": "Golden State Warriors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433149.png"
     },
-    "2326307": {
-      "player_id": "2326307",
-      "full_name": "Seth Curry",
-      "position": "G",
-      "jersey_number": "31",
-      "height_cm": "185",
-      "weight": "185.0",
-      "age": 35,
-      "nationality": "USA",
-      "team_id": "9",
-      "team_abbr": "GSW",
-      "team_name": "Golden State Warriors",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2326307.png"
-    },
     "3975": {
       "player_id": "3975",
       "full_name": "Stephen Curry",
@@ -2619,20 +2479,6 @@
       "team_abbr": "GSW",
       "team_name": "Golden State Warriors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432171.png"
-    },
-    "3134903": {
-      "player_id": "3134903",
-      "full_name": "Gary Payton II",
-      "position": "G",
-      "jersey_number": "0",
-      "height_cm": "188",
-      "weight": "195.0",
-      "age": 33,
-      "nationality": "USA",
-      "team_id": "9",
-      "team_abbr": "GSW",
-      "team_name": "Golden State Warriors",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3134903.png"
     },
     "4709138": {
       "player_id": "4709138",
@@ -2816,34 +2662,6 @@
       "team_name": "Houston Rockets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433192.png"
     },
-    "3209": {
-      "player_id": "3209",
-      "full_name": "Jeff Green",
-      "position": "F",
-      "jersey_number": "32",
-      "height_cm": "203",
-      "weight": "235.0",
-      "age": 39,
-      "nationality": "USA",
-      "team_id": "10",
-      "team_abbr": "HOU",
-      "team_name": "Houston Rockets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3209.png"
-    },
-    "3922230": {
-      "player_id": "3922230",
-      "full_name": "Aaron Holiday",
-      "position": "G",
-      "jersey_number": "0",
-      "height_cm": "183",
-      "weight": "185.0",
-      "age": 29,
-      "nationality": "USA",
-      "team_id": "10",
-      "team_abbr": "HOU",
-      "team_name": "Houston Rockets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3922230.png"
-    },
     "4592965": {
       "player_id": "4592965",
       "full_name": "Tristen Newton",
@@ -2913,20 +2731,6 @@
       "team_abbr": "HOU",
       "team_name": "Houston Rockets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432639.png"
-    },
-    "3136777": {
-      "player_id": "3136777",
-      "full_name": "Jae'Sean Tate",
-      "position": "F",
-      "jersey_number": "8",
-      "height_cm": "193",
-      "weight": "230.0",
-      "age": 30,
-      "nationality": "USA",
-      "team_id": "10",
-      "team_abbr": "HOU",
-      "team_name": "Houston Rockets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3136777.png"
     },
     "4684740": {
       "player_id": "4684740",
@@ -3411,7 +3215,7 @@
       "jersey_number": "",
       "height_cm": "208",
       "weight": "",
-      "age": 21,
+      "age": 22,
       "nationality": "France",
       "team_id": "12",
       "team_abbr": "LAC",
@@ -3726,11 +3530,25 @@
       "team_name": "Los Angeles Lakers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4278077.png"
     },
+    "4433137": {
+      "player_id": "4433137",
+      "full_name": "Ziaire Williams",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "206",
+      "weight": "185.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "13",
+      "team_abbr": "LAL",
+      "team_name": "Los Angeles Lakers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433137.png"
+    },
     "5041935": {
       "player_id": "5041935",
       "full_name": "Cameron Boozer",
       "position": "F",
-      "jersey_number": "",
+      "jersey_number": "27",
       "height_cm": "203",
       "weight": "253.0",
       "age": 18,
@@ -4160,20 +3978,6 @@
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2528210.png"
     },
-    "4431786": {
-      "player_id": "4431786",
-      "full_name": "Keshad Johnson",
-      "position": "F",
-      "jersey_number": "16",
-      "height_cm": "198",
-      "weight": "230.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "14",
-      "team_abbr": "MIA",
-      "team_name": "Miami Heat",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431786.png"
-    },
     "4997528": {
       "player_id": "4997528",
       "full_name": "Nikola Jovic",
@@ -4355,20 +4159,6 @@
       "team_abbr": "MIL",
       "team_name": "Milwaukee Bucks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4395725.png"
-    },
-    "4432190": {
-      "player_id": "4432190",
-      "full_name": "Andre Jackson Jr.",
-      "position": "G",
-      "jersey_number": "44",
-      "height_cm": "198",
-      "weight": "209.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "15",
-      "team_abbr": "MIL",
-      "team_name": "Milwaukee Bucks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432190.png"
     },
     "5214640": {
       "player_id": "5214640",
@@ -4734,20 +4524,6 @@
       "team_name": "Minnesota Timberwolves",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4592492.png"
     },
-    "2968436": {
-      "player_id": "2968436",
-      "full_name": "Joe Ingles",
-      "position": "F",
-      "jersey_number": "7",
-      "height_cm": "203",
-      "weight": "220.0",
-      "age": 38,
-      "nationality": "Australia",
-      "team_id": "16",
-      "team_abbr": "MIN",
-      "team_name": "Minnesota Timberwolves",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2968436.png"
-    },
     "4897438": {
       "player_id": "4897438",
       "full_name": "Trey Kaufman-Renn",
@@ -4761,6 +4537,20 @@
       "team_abbr": "MIN",
       "team_name": "Minnesota Timberwolves",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4897438.png"
+    },
+    "3136196": {
+      "player_id": "3136196",
+      "full_name": "Trey Lyles",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "206",
+      "weight": "234.0",
+      "age": 30,
+      "nationality": "USA",
+      "team_id": "16",
+      "team_abbr": "MIN",
+      "team_name": "Minnesota Timberwolves",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3136196.png"
     },
     "4431671": {
       "player_id": "4431671",
@@ -5210,20 +5000,6 @@
       "team_name": "New York Knicks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4395623.png"
     },
-    "4702159": {
-      "player_id": "4702159",
-      "full_name": "Dillon Jones",
-      "position": "F",
-      "jersey_number": "1",
-      "height_cm": "196",
-      "weight": "235.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "18",
-      "team_abbr": "NYK",
-      "team_name": "New York Knicks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702159.png"
-    },
     "5234862": {
       "player_id": "5234862",
       "full_name": "Jack Kayil",
@@ -5307,20 +5083,6 @@
       "team_abbr": "NYK",
       "team_name": "New York Knicks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png"
-    },
-    "4610139": {
-      "player_id": "4610139",
-      "full_name": "Jeremy Sochan",
-      "position": "F",
-      "jersey_number": "20",
-      "height_cm": "203",
-      "weight": "230.0",
-      "age": 23,
-      "nationality": "England",
-      "team_id": "18",
-      "team_abbr": "NYK",
-      "team_name": "New York Knicks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4610139.png"
     },
     "3136195": {
       "player_id": "3136195",
@@ -5713,20 +5475,6 @@
       "team_abbr": "ORL",
       "team_name": "Orlando Magic",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702382.png"
-    },
-    "5105806": {
-      "player_id": "5105806",
-      "full_name": "Jett Howard",
-      "position": "G",
-      "jersey_number": "13",
-      "height_cm": "203",
-      "weight": "215.0",
-      "age": 22,
-      "nationality": "USA",
-      "team_id": "19",
-      "team_abbr": "ORL",
-      "team_name": "Orlando Magic",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105806.png"
     },
     "4065654": {
       "player_id": "4065654",
@@ -6176,20 +5924,6 @@
       "team_name": "Phoenix Suns",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3155526.png"
     },
-    "4066387": {
-      "player_id": "4066387",
-      "full_name": "Amir Coffey",
-      "position": "G",
-      "jersey_number": "2",
-      "height_cm": "201",
-      "weight": "210.0",
-      "age": 29,
-      "nationality": "USA",
-      "team_id": "21",
-      "team_abbr": "PHX",
-      "team_name": "Phoenix Suns",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4066387.png"
-    },
     "4888725": {
       "player_id": "4888725",
       "full_name": "Ryan Dunn",
@@ -6582,34 +6316,6 @@
       "team_name": "Portland Trail Blazers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4914336.png"
     },
-    "3907498": {
-      "player_id": "3907498",
-      "full_name": "Matisse Thybulle",
-      "position": "G",
-      "jersey_number": "4",
-      "height_cm": "196",
-      "weight": "202.0",
-      "age": 29,
-      "nationality": "USA",
-      "team_id": "22",
-      "team_abbr": "POR",
-      "team_name": "Portland Trail Blazers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3907498.png"
-    },
-    "4683935": {
-      "player_id": "4683935",
-      "full_name": "Blake Wesley",
-      "position": "G",
-      "jersey_number": "1",
-      "height_cm": "193",
-      "weight": "190.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "22",
-      "team_abbr": "POR",
-      "team_name": "Portland Trail Blazers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4683935.png"
-    },
     "4066211": {
       "player_id": "4066211",
       "full_name": "Robert Williams III",
@@ -6694,20 +6400,6 @@
       "team_name": "Sacramento Kings",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702384.png"
     },
-    "3914285": {
-      "player_id": "3914285",
-      "full_name": "Drew Eubanks",
-      "position": "F",
-      "jersey_number": "19",
-      "height_cm": "208",
-      "weight": "245.0",
-      "age": 29,
-      "nationality": "USA",
-      "team_id": "23",
-      "team_abbr": "SAC",
-      "team_name": "Sacramento Kings",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3914285.png"
-    },
     "4397654": {
       "player_id": "4397654",
       "full_name": "Adam Flagler",
@@ -6721,20 +6413,6 @@
       "team_abbr": "SAC",
       "team_name": "Sacramento Kings",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397654.png"
-    },
-    "4683024": {
-      "player_id": "4683024",
-      "full_name": "Killian Hayes",
-      "position": "G",
-      "jersey_number": "3",
-      "height_cm": "193",
-      "weight": "195.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "23",
-      "team_abbr": "SAC",
-      "team_name": "Sacramento Kings",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4683024.png"
     },
     "4065732": {
       "player_id": "4065732",
@@ -6777,20 +6455,6 @@
       "team_abbr": "SAC",
       "team_name": "Sacramento Kings",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3064440.png"
-    },
-    "2528588": {
-      "player_id": "2528588",
-      "full_name": "Doug McDermott",
-      "position": "F",
-      "jersey_number": "7",
-      "height_cm": "201",
-      "weight": "225.0",
-      "age": 34,
-      "nationality": "USA",
-      "team_id": "23",
-      "team_abbr": "SAC",
-      "team_name": "Sacramento Kings",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2528588.png"
     },
     "5107897": {
       "player_id": "5107897",
@@ -6904,20 +6568,6 @@
       "team_name": "Sacramento Kings",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432117.png"
     },
-    "3468": {
-      "player_id": "3468",
-      "full_name": "Russell Westbrook",
-      "position": "G",
-      "jersey_number": "18",
-      "height_cm": "193",
-      "weight": "200.0",
-      "age": 37,
-      "nationality": "USA",
-      "team_id": "23",
-      "team_abbr": "SAC",
-      "team_name": "Sacramento Kings",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3468.png"
-    },
     "6578": {
       "player_id": "6578",
       "full_name": "Harrison Barnes",
@@ -6931,20 +6581,6 @@
       "team_abbr": "SAS",
       "team_name": "San Antonio Spurs",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/6578.png"
-    },
-    "6427": {
-      "player_id": "6427",
-      "full_name": "Bismack Biyombo",
-      "position": "C",
-      "jersey_number": "18",
-      "height_cm": "203",
-      "weight": "255.0",
-      "age": 33,
-      "nationality": "Congo",
-      "team_id": "24",
-      "team_abbr": "SAS",
-      "team_name": "San Antonio Spurs",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/6427.png"
     },
     "5105337": {
       "player_id": "5105337",
@@ -7142,34 +6778,6 @@
       "team_name": "San Antonio Spurs",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432872.png"
     },
-    "2489663": {
-      "player_id": "2489663",
-      "full_name": "Kelly Olynyk",
-      "position": "F",
-      "jersey_number": "8",
-      "height_cm": "213",
-      "weight": "240.0",
-      "age": 35,
-      "nationality": "Canada",
-      "team_id": "24",
-      "team_abbr": "SAS",
-      "team_name": "San Antonio Spurs",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2489663.png"
-    },
-    "2488653": {
-      "player_id": "2488653",
-      "full_name": "Mason Plumlee",
-      "position": "C",
-      "jersey_number": "45",
-      "height_cm": "213",
-      "weight": "254.0",
-      "age": 36,
-      "nationality": "USA",
-      "team_id": "24",
-      "team_abbr": "SAS",
-      "team_name": "San Antonio Spurs",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2488653.png"
-    },
     "5101845": {
       "player_id": "5101845",
       "full_name": "Jayden Quaintance",
@@ -7211,20 +6819,6 @@
       "team_abbr": "SAS",
       "team_name": "San Antonio Spurs",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4395630.png"
-    },
-    "4066317": {
-      "player_id": "4066317",
-      "full_name": "Lindy Waters III",
-      "position": "F",
-      "jersey_number": "43",
-      "height_cm": "196",
-      "weight": "210.0",
-      "age": 28,
-      "nationality": "USA",
-      "team_id": "24",
-      "team_abbr": "SAS",
-      "team_name": "San Antonio Spurs",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4066317.png"
     },
     "5104157": {
       "player_id": "5104157",
@@ -7478,20 +7072,6 @@
       "team_name": "Toronto Raptors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432241.png"
     },
-    "4023": {
-      "player_id": "4023",
-      "full_name": "Garrett Temple",
-      "position": "G",
-      "jersey_number": "17",
-      "height_cm": "196",
-      "weight": "195.0",
-      "age": 40,
-      "nationality": "USA",
-      "team_id": "28",
-      "team_abbr": "TOR",
-      "team_name": "Toronto Raptors",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4023.png"
-    },
     "4684272": {
       "player_id": "4684272",
       "full_name": "Ja'Kobe Walter",
@@ -7604,20 +7184,6 @@
       "team_name": "Utah Jazz",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433627.png"
     },
-    "5176420": {
-      "player_id": "5176420",
-      "full_name": "Hayden Gray",
-      "position": "G",
-      "jersey_number": "3",
-      "height_cm": "193",
-      "weight": "190.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "26",
-      "team_abbr": "UTA",
-      "team_name": "Utah Jazz",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5176420.png"
-    },
     "4397077": {
       "player_id": "4397077",
       "full_name": "Jaxson Hayes",
@@ -7673,20 +7239,6 @@
       "team_abbr": "UTA",
       "team_name": "Utah Jazz",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3134932.png"
-    },
-    "3449": {
-      "player_id": "3449",
-      "full_name": "Kevin Love",
-      "position": "F",
-      "jersey_number": "42",
-      "height_cm": "208",
-      "weight": "251.0",
-      "age": 37,
-      "nationality": "USA",
-      "team_id": "26",
-      "team_abbr": "UTA",
-      "team_name": "Utah Jazz",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3449.png"
     },
     "4066336": {
       "player_id": "4066336",
@@ -7762,7 +7314,7 @@
       "player_id": "5041955",
       "full_name": "Darryn Peterson",
       "position": "G",
-      "jersey_number": "",
+      "jersey_number": "22",
       "height_cm": "196",
       "weight": "199.0",
       "age": 19,
@@ -7925,20 +7477,6 @@
       "team_abbr": "WAS",
       "team_name": "Washington Wizards",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5174563.png"
-    },
-    "2581184": {
-      "player_id": "2581184",
-      "full_name": "Anthony Gill",
-      "position": "F",
-      "jersey_number": "16",
-      "height_cm": "201",
-      "weight": "230.0",
-      "age": 33,
-      "nationality": "USA",
-      "team_id": "27",
-      "team_abbr": "WAS",
-      "team_name": "Washington Wizards",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2581184.png"
     },
     "5238230": {
       "player_id": "5238230",

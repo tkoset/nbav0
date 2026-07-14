@@ -54,6 +54,282 @@
     "2026-07-13": {
       "checked_at": "2026-07-13T12:35:55.229207+00:00",
       "events": []
+    },
+    "2026-07-14": {
+      "checked_at": "2026-07-14T11:36:30.360280+00:00",
+      "events": [
+        {
+          "type": "team_change",
+          "player_id": "4433137",
+          "full_name": "Ziaire Williams",
+          "from_team": "BKN",
+          "to_team": "LAL",
+          "message": "Ziaire Williams: BKN -> LAL"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5041935",
+          "full_name": "Cameron Boozer",
+          "team_abbr": "MEM",
+          "old_number": "",
+          "new_number": "27",
+          "message": "Cameron Boozer forma numarasini degistirdi: # -> #27"
+        },
+        {
+          "type": "new_player",
+          "player_id": "3136196",
+          "full_name": "Trey Lyles",
+          "team_abbr": "MIN",
+          "message": "Trey Lyles NBA rosterlarina yeni katildi (MIN)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5041955",
+          "full_name": "Darryn Peterson",
+          "team_abbr": "UTA",
+          "old_number": "",
+          "new_number": "22",
+          "message": "Darryn Peterson forma numarasini degistirdi: # -> #22"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4065673",
+          "full_name": "Tony Bradley",
+          "team_abbr": "ATL",
+          "message": "Tony Bradley aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3137259",
+          "full_name": "Gabe Vincent",
+          "team_abbr": "ATL",
+          "message": "Gabe Vincent aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4431714",
+          "full_name": "Jalen Wilson",
+          "team_abbr": "BKN",
+          "message": "Jalen Wilson aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4277964",
+          "full_name": "Xavier Tillman",
+          "team_abbr": "CHA",
+          "message": "Xavier Tillman aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4278076",
+          "full_name": "Nick Richards",
+          "team_abbr": "CHI",
+          "message": "Nick Richards aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "2531367",
+          "full_name": "Dwight Powell",
+          "team_abbr": "DAL",
+          "message": "Dwight Powell aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4397040",
+          "full_name": "Brandon Williams",
+          "team_abbr": "DAL",
+          "message": "Brandon Williams aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4065670",
+          "full_name": "Bruce Brown",
+          "team_abbr": "DEN",
+          "message": "Bruce Brown aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "2326307",
+          "full_name": "Seth Curry",
+          "team_abbr": "GSW",
+          "message": "Seth Curry aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3134903",
+          "full_name": "Gary Payton II",
+          "team_abbr": "GSW",
+          "message": "Gary Payton II aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3209",
+          "full_name": "Jeff Green",
+          "team_abbr": "HOU",
+          "message": "Jeff Green aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3922230",
+          "full_name": "Aaron Holiday",
+          "team_abbr": "HOU",
+          "message": "Aaron Holiday aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3136777",
+          "full_name": "Jae'Sean Tate",
+          "team_abbr": "HOU",
+          "message": "Jae'Sean Tate aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4431786",
+          "full_name": "Keshad Johnson",
+          "team_abbr": "MIA",
+          "message": "Keshad Johnson aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432190",
+          "full_name": "Andre Jackson Jr.",
+          "team_abbr": "MIL",
+          "message": "Andre Jackson Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "2968436",
+          "full_name": "Joe Ingles",
+          "team_abbr": "MIN",
+          "message": "Joe Ingles aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4702159",
+          "full_name": "Dillon Jones",
+          "team_abbr": "NYK",
+          "message": "Dillon Jones aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4610139",
+          "full_name": "Jeremy Sochan",
+          "team_abbr": "NYK",
+          "message": "Jeremy Sochan aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5105806",
+          "full_name": "Jett Howard",
+          "team_abbr": "ORL",
+          "message": "Jett Howard aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4066387",
+          "full_name": "Amir Coffey",
+          "team_abbr": "PHX",
+          "message": "Amir Coffey aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3907498",
+          "full_name": "Matisse Thybulle",
+          "team_abbr": "POR",
+          "message": "Matisse Thybulle aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4683935",
+          "full_name": "Blake Wesley",
+          "team_abbr": "POR",
+          "message": "Blake Wesley aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3914285",
+          "full_name": "Drew Eubanks",
+          "team_abbr": "SAC",
+          "message": "Drew Eubanks aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4683024",
+          "full_name": "Killian Hayes",
+          "team_abbr": "SAC",
+          "message": "Killian Hayes aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "2528588",
+          "full_name": "Doug McDermott",
+          "team_abbr": "SAC",
+          "message": "Doug McDermott aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3468",
+          "full_name": "Russell Westbrook",
+          "team_abbr": "SAC",
+          "message": "Russell Westbrook aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "6427",
+          "full_name": "Bismack Biyombo",
+          "team_abbr": "SAS",
+          "message": "Bismack Biyombo aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "2489663",
+          "full_name": "Kelly Olynyk",
+          "team_abbr": "SAS",
+          "message": "Kelly Olynyk aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "2488653",
+          "full_name": "Mason Plumlee",
+          "team_abbr": "SAS",
+          "message": "Mason Plumlee aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4066317",
+          "full_name": "Lindy Waters III",
+          "team_abbr": "SAS",
+          "message": "Lindy Waters III aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4023",
+          "full_name": "Garrett Temple",
+          "team_abbr": "TOR",
+          "message": "Garrett Temple aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5176420",
+          "full_name": "Hayden Gray",
+          "team_abbr": "UTA",
+          "message": "Hayden Gray aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3449",
+          "full_name": "Kevin Love",
+          "team_abbr": "UTA",
+          "message": "Kevin Love aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "2581184",
+          "full_name": "Anthony Gill",
+          "team_abbr": "WAS",
+          "message": "Anthony Gill aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
