@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T11:40:10.481687+00:00",
+  "generated_at": "2026-07-16T11:45:29.558614+00:00",
   "player_count": 544,
   "players": {
     "4278039": {
@@ -1241,7 +1241,7 @@
       "jersey_number": "5",
       "height_cm": "201",
       "weight": "211.0",
-      "age": 20,
+      "age": 21,
       "nationality": "USA",
       "team_id": "4",
       "team_abbr": "CHI",
@@ -6687,7 +6687,7 @@
       "jersey_number": "",
       "height_cm": "203",
       "weight": "226.0",
-      "age": 33,
+      "age": 34,
       "nationality": "USA",
       "team_id": "24",
       "team_abbr": "SAS",
@@ -6995,7 +6995,7 @@
       "jersey_number": "0",
       "height_cm": "198",
       "weight": "179.0",
-      "age": 25,
+      "age": 26,
       "nationality": "Canada",
       "team_id": "28",
       "team_abbr": "TOR",
