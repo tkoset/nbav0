@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T11:13:48.902457+00:00",
+  "generated_at": "2026-07-20T12:21:26.701134+00:00",
   "player_count": 544,
   "players": {
     "4278039": {
@@ -57,6 +57,20 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431941.png"
+    },
+    "4397020": {
+      "player_id": "4397020",
+      "full_name": "Luguentz Dort",
+      "position": "G",
+      "jersey_number": "5",
+      "height_cm": "193",
+      "weight": "220.0",
+      "age": 27,
+      "nationality": "Canada",
+      "team_id": "1",
+      "team_abbr": "ATL",
+      "team_name": "Atlanta Hawks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397020.png"
     },
     "5106262": {
       "player_id": "5106262",
@@ -198,6 +212,20 @@
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2490149.png"
     },
+    "4433629": {
+      "player_id": "4433629",
+      "full_name": "Ryan Nembhard",
+      "position": "G",
+      "jersey_number": "9",
+      "height_cm": "180",
+      "weight": "180.0",
+      "age": 23,
+      "nationality": "Canada",
+      "team_id": "1",
+      "team_abbr": "ATL",
+      "team_name": "Atlanta Hawks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433629.png"
+    },
     "4873201": {
       "player_id": "4873201",
       "full_name": "Asa Newell",
@@ -225,20 +253,6 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431680.png"
-    },
-    "5211175": {
-      "player_id": "5211175",
-      "full_name": "Zaccharie Risacher",
-      "position": "F",
-      "jersey_number": "10",
-      "height_cm": "203",
-      "weight": "200.0",
-      "age": 21,
-      "nationality": "",
-      "team_id": "1",
-      "team_abbr": "ATL",
-      "team_name": "Atlanta Hawks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5211175.png"
     },
     "5105571": {
       "player_id": "5105571",
@@ -1724,20 +1738,6 @@
       "team_name": "Dallas Mavericks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3138160.png"
     },
-    "4433629": {
-      "player_id": "4433629",
-      "full_name": "Ryan Nembhard",
-      "position": "G",
-      "jersey_number": "9",
-      "height_cm": "180",
-      "weight": "180.0",
-      "age": 23,
-      "nationality": "Canada",
-      "team_id": "6",
-      "team_abbr": "DAL",
-      "team_name": "Dallas Mavericks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433629.png"
-    },
     "4898238": {
       "player_id": "4898238",
       "full_name": "John Poulakidas",
@@ -1751,6 +1751,20 @@
       "team_abbr": "DAL",
       "team_name": "Dallas Mavericks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4898238.png"
+    },
+    "5211175": {
+      "player_id": "5211175",
+      "full_name": "Zaccharie Risacher",
+      "position": "F",
+      "jersey_number": "10",
+      "height_cm": "203",
+      "weight": "200.0",
+      "age": 21,
+      "nationality": "",
+      "team_id": "6",
+      "team_abbr": "DAL",
+      "team_name": "Dallas Mavericks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5211175.png"
     },
     "4432107": {
       "player_id": "4432107",
@@ -3873,7 +3887,7 @@
       "jersey_number": "13",
       "height_cm": "206",
       "weight": "260.0",
-      "age": 28,
+      "age": 29,
       "nationality": "USA",
       "team_id": "14",
       "team_abbr": "MIA",
@@ -5140,20 +5154,6 @@
       "team_name": "Oklahoma City Thunder",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105800.png"
     },
-    "4397020": {
-      "player_id": "4397020",
-      "full_name": "Luguentz Dort",
-      "position": "G",
-      "jersey_number": "5",
-      "height_cm": "193",
-      "weight": "220.0",
-      "age": 27,
-      "nationality": "Canada",
-      "team_id": "25",
-      "team_abbr": "OKC",
-      "team_name": "Oklahoma City Thunder",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397020.png"
-    },
     "4278073": {
       "player_id": "4278073",
       "full_name": "Shai Gilgeous-Alexander",
@@ -5385,7 +5385,7 @@
       "jersey_number": "35",
       "height_cm": "211",
       "weight": "250.0",
-      "age": 26,
+      "age": 27,
       "nationality": "Georgia",
       "team_id": "19",
       "team_abbr": "ORL",
@@ -5623,7 +5623,7 @@
       "jersey_number": "22",
       "height_cm": "208",
       "weight": "235.0",
-      "age": 23,
+      "age": 24,
       "nationality": "USA",
       "team_id": "20",
       "team_abbr": "PHI",

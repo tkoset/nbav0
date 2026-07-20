@@ -350,6 +350,35 @@
     "2026-07-19": {
       "checked_at": "2026-07-19T11:13:48.901652+00:00",
       "events": []
+    },
+    "2026-07-20": {
+      "checked_at": "2026-07-20T12:21:26.700435+00:00",
+      "events": [
+        {
+          "type": "team_change",
+          "player_id": "4397020",
+          "full_name": "Luguentz Dort",
+          "from_team": "OKC",
+          "to_team": "ATL",
+          "message": "Luguentz Dort: OKC -> ATL"
+        },
+        {
+          "type": "team_change",
+          "player_id": "4433629",
+          "full_name": "Ryan Nembhard",
+          "from_team": "DAL",
+          "to_team": "ATL",
+          "message": "Ryan Nembhard: DAL -> ATL"
+        },
+        {
+          "type": "team_change",
+          "player_id": "5211175",
+          "full_name": "Zaccharie Risacher",
+          "from_team": "ATL",
+          "to_team": "DAL",
+          "message": "Zaccharie Risacher: ATL -> DAL"
+        }
+      ]
     }
   }
 }
