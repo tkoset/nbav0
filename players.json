@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T12:21:26.701134+00:00",
+  "generated_at": "2026-07-21T11:51:45.005388+00:00",
   "player_count": 544,
   "players": {
     "4278039": {
@@ -1640,6 +1640,20 @@
       "team_name": "Dallas Mavericks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4278049.png"
     },
+    "5105806": {
+      "player_id": "5105806",
+      "full_name": "Jett Howard",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "203",
+      "weight": "215.0",
+      "age": 22,
+      "nationality": "USA",
+      "team_id": "6",
+      "team_abbr": "DAL",
+      "team_name": "Dallas Mavericks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105806.png"
+    },
     "6442": {
       "player_id": "6442",
       "full_name": "Kyrie Irving",
@@ -1780,20 +1794,6 @@
       "team_name": "Dallas Mavericks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432107.png"
     },
-    "5167876": {
-      "player_id": "5167876",
-      "full_name": "Tyler Smith",
-      "position": "F",
-      "jersey_number": "23",
-      "height_cm": "206",
-      "weight": "224.0",
-      "age": 21,
-      "nationality": "USA",
-      "team_id": "6",
-      "team_abbr": "DAL",
-      "team_name": "Dallas Mavericks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5167876.png"
-    },
     "6475": {
       "player_id": "6475",
       "full_name": "Klay Thompson",
@@ -1863,6 +1863,20 @@
       "team_abbr": "DEN",
       "team_name": "Denver Nuggets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4698719.png"
+    },
+    "4065813": {
+      "player_id": "4065813",
+      "full_name": "Alpha Diallo",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "201",
+      "weight": "210.0",
+      "age": 29,
+      "nationality": "USA",
+      "team_id": "7",
+      "team_abbr": "DEN",
+      "team_name": "Denver Nuggets",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065813.png"
     },
     "3064290": {
       "player_id": "3064290",
@@ -2571,7 +2585,7 @@
       "jersey_number": "12",
       "height_cm": "211",
       "weight": "265.0",
-      "age": 32,
+      "age": 33,
       "nationality": "New Zealand",
       "team_id": "10",
       "team_abbr": "HOU",
@@ -2927,20 +2941,6 @@
       "team_abbr": "IND",
       "team_name": "Indiana Pacers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3133603.png"
-    },
-    "4703421": {
-      "player_id": "4703421",
-      "full_name": "Taelon Peter",
-      "position": "G",
-      "jersey_number": "4",
-      "height_cm": "190",
-      "weight": "185.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "11",
-      "team_abbr": "IND",
-      "team_name": "Indiana Pacers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4703421.png"
     },
     "4433076": {
       "player_id": "4433076",

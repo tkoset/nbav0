@@ -379,6 +379,39 @@
           "message": "Zaccharie Risacher: ATL -> DAL"
         }
       ]
+    },
+    "2026-07-21": {
+      "checked_at": "2026-07-21T11:51:45.004910+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "5105806",
+          "full_name": "Jett Howard",
+          "team_abbr": "DAL",
+          "message": "Jett Howard NBA rosterlarina yeni katildi (DAL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4065813",
+          "full_name": "Alpha Diallo",
+          "team_abbr": "DEN",
+          "message": "Alpha Diallo NBA rosterlarina yeni katildi (DEN)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5167876",
+          "full_name": "Tyler Smith",
+          "team_abbr": "DAL",
+          "message": "Tyler Smith aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4703421",
+          "full_name": "Taelon Peter",
+          "team_abbr": "IND",
+          "message": "Taelon Peter aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
