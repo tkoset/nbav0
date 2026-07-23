@@ -416,6 +416,25 @@
     "2026-07-22": {
       "checked_at": "2026-07-22T11:52:31.482587+00:00",
       "events": []
+    },
+    "2026-07-23": {
+      "checked_at": "2026-07-23T11:55:00.642406+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4431714",
+          "full_name": "Jalen Wilson",
+          "team_abbr": "ATL",
+          "message": "Jalen Wilson NBA rosterlarina yeni katildi (ATL)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5106674",
+          "full_name": "Peter Suder",
+          "team_abbr": "LAL",
+          "message": "Peter Suder aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }

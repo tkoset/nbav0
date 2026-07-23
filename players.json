@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T11:52:31.483299+00:00",
+  "generated_at": "2026-07-23T11:55:00.643163+00:00",
   "player_count": 544,
   "players": {
     "4278039": {
@@ -295,6 +295,20 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397183.png"
+    },
+    "4431714": {
+      "player_id": "4431714",
+      "full_name": "Jalen Wilson",
+      "position": "F",
+      "jersey_number": "22",
+      "height_cm": "198",
+      "weight": "220.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "1",
+      "team_abbr": "ATL",
+      "team_name": "Atlanta Hawks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431714.png"
     },
     "5142621": {
       "player_id": "5142621",
@@ -3501,20 +3515,6 @@
       "team_abbr": "LAL",
       "team_name": "Los Angeles Lakers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4277811.png"
-    },
-    "5106674": {
-      "player_id": "5106674",
-      "full_name": "Peter Suder",
-      "position": "G",
-      "jersey_number": "35",
-      "height_cm": "193",
-      "weight": "213.0",
-      "age": 22,
-      "nationality": "USA",
-      "team_id": "13",
-      "team_abbr": "LAL",
-      "team_name": "Los Angeles Lakers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5106674.png"
     },
     "5060631": {
       "player_id": "5060631",
@@ -7373,7 +7373,7 @@
       "jersey_number": "",
       "height_cm": "213",
       "weight": "252.0",
-      "age": 27,
+      "age": 28,
       "nationality": "Bahamas",
       "team_id": "27",
       "team_abbr": "WAS",
