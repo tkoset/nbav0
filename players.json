@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T11:46:28.234537+00:00",
+  "generated_at": "2026-07-25T11:16:47.722011+00:00",
   "player_count": 544,
   "players": {
     "4278039": {
@@ -5700,6 +5700,20 @@
       "team_name": "Philadelphia 76ers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4871141.png"
     },
+    "1966": {
+      "player_id": "1966",
+      "full_name": "LeBron James",
+      "position": "F",
+      "jersey_number": "23",
+      "height_cm": "206",
+      "weight": "250.0",
+      "age": 41,
+      "nationality": "USA",
+      "team_id": "20",
+      "team_abbr": "PHI",
+      "team_name": "Philadelphia 76ers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png"
+    },
     "4433144": {
       "player_id": "4433144",
       "full_name": "Caleb Love",
@@ -5713,20 +5727,6 @@
       "team_abbr": "PHI",
       "team_name": "Philadelphia 76ers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433144.png"
-    },
-    "4397179": {
-      "player_id": "4397179",
-      "full_name": "Tyrese Martin",
-      "position": "G",
-      "jersey_number": "23",
-      "height_cm": "198",
-      "weight": "215.0",
-      "age": 27,
-      "nationality": "USA",
-      "team_id": "20",
-      "team_abbr": "PHI",
-      "team_name": "Philadelphia 76ers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397179.png"
     },
     "4431678": {
       "player_id": "4431678",

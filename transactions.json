@@ -439,6 +439,25 @@
     "2026-07-24": {
       "checked_at": "2026-07-24T11:46:28.233718+00:00",
       "events": []
+    },
+    "2026-07-25": {
+      "checked_at": "2026-07-25T11:16:47.721241+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "1966",
+          "full_name": "LeBron James",
+          "team_abbr": "PHI",
+          "message": "LeBron James NBA rosterlarina yeni katildi (PHI)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4397179",
+          "full_name": "Tyrese Martin",
+          "team_abbr": "PHI",
+          "message": "Tyrese Martin aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
