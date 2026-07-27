@@ -462,6 +462,48 @@
     "2026-07-26": {
       "checked_at": "2026-07-26T11:23:57.662556+00:00",
       "events": []
+    },
+    "2026-07-27": {
+      "checked_at": "2026-07-27T12:58:00.986991+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "2995706",
+          "full_name": "Mario Hezonja",
+          "team_abbr": "CLE",
+          "message": "Mario Hezonja NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "3136777",
+          "full_name": "Jae'Sean Tate",
+          "team_abbr": "HOU",
+          "message": "Jae'Sean Tate NBA rosterlarina yeni katildi (HOU)"
+        },
+        {
+          "type": "team_change",
+          "player_id": "2581018",
+          "full_name": "Kentavious Caldwell-Pope",
+          "from_team": "MEM",
+          "to_team": "PHI",
+          "message": "Kentavious Caldwell-Pope: MEM -> PHI"
+        },
+        {
+          "type": "team_change",
+          "player_id": "4593043",
+          "full_name": "John Tonje",
+          "from_team": "BOS",
+          "to_team": "POR",
+          "message": "John Tonje: BOS -> POR"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4433159",
+          "full_name": "Dalen Terry",
+          "team_abbr": "PHI",
+          "message": "Dalen Terry aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
