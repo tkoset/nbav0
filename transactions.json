@@ -504,6 +504,25 @@
           "message": "Dalen Terry aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-07-28": {
+      "checked_at": "2026-07-28T12:01:33.798096+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "3907498",
+          "full_name": "Matisse Thybulle",
+          "team_abbr": "LAL",
+          "message": "Matisse Thybulle NBA rosterlarina yeni katildi (LAL)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432117",
+          "full_name": "Isaiah Stevens",
+          "team_abbr": "SAC",
+          "message": "Isaiah Stevens aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }

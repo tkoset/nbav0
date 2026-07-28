@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T12:58:00.987762+00:00",
+  "generated_at": "2026-07-28T12:01:33.798889+00:00",
   "player_count": 545,
   "players": {
     "4278039": {
@@ -3544,6 +3544,20 @@
       "team_name": "Los Angeles Lakers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5060631.png"
     },
+    "3907498": {
+      "player_id": "3907498",
+      "full_name": "Matisse Thybulle",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "196",
+      "weight": "202.0",
+      "age": 29,
+      "nationality": "USA",
+      "team_id": "13",
+      "team_abbr": "LAL",
+      "team_name": "Los Angeles Lakers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3907498.png"
+    },
     "4278077": {
       "player_id": "4278077",
       "full_name": "Jarred Vanderbilt",
@@ -4951,7 +4965,7 @@
       "jersey_number": "4",
       "height_cm": "206",
       "weight": "210.0",
-      "age": 20,
+      "age": 21,
       "nationality": "France",
       "team_id": "18",
       "team_abbr": "NYK",
@@ -6057,7 +6071,7 @@
       "jersey_number": "18",
       "height_cm": "198",
       "weight": "232.0",
-      "age": 27,
+      "age": 28,
       "nationality": "USA",
       "team_id": "21",
       "team_abbr": "PHX",
@@ -6568,20 +6582,6 @@
       "team_name": "Sacramento Kings",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5106058.png"
     },
-    "4432117": {
-      "player_id": "4432117",
-      "full_name": "Isaiah Stevens",
-      "position": "G",
-      "jersey_number": "24",
-      "height_cm": "180",
-      "weight": "185.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "23",
-      "team_abbr": "SAC",
-      "team_name": "Sacramento Kings",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432117.png"
-    },
     "6578": {
       "player_id": "6578",
       "full_name": "Harrison Barnes",
@@ -6953,7 +6953,7 @@
       "jersey_number": "",
       "height_cm": "203",
       "weight": "225.0",
-      "age": 19,
+      "age": 20,
       "nationality": "USA",
       "team_id": "28",
       "team_abbr": "TOR",
