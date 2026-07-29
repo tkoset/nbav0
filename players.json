@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T12:01:33.798889+00:00",
+  "generated_at": "2026-07-29T12:06:02.779243+00:00",
   "player_count": 545,
   "players": {
     "4278039": {
@@ -3082,6 +3082,20 @@
       "team_name": "Indiana Pacers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4017837.png"
     },
+    "4433569": {
+      "player_id": "4433569",
+      "full_name": "Johni Broome",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "208",
+      "weight": "235.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "12",
+      "team_abbr": "LAC",
+      "team_name": "LA Clippers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433569.png"
+    },
     "4845363": {
       "player_id": "4845363",
       "full_name": "Cam Christie",
@@ -5629,20 +5643,6 @@
       "team_abbr": "PHI",
       "team_name": "Philadelphia 76ers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105637.png"
-    },
-    "4433569": {
-      "player_id": "4433569",
-      "full_name": "Johni Broome",
-      "position": "F",
-      "jersey_number": "22",
-      "height_cm": "208",
-      "weight": "235.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "20",
-      "team_abbr": "PHI",
-      "team_name": "Philadelphia 76ers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433569.png"
     },
     "3917376": {
       "player_id": "3917376",

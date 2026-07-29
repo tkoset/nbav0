@@ -523,6 +523,19 @@
           "message": "Isaiah Stevens aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-07-29": {
+      "checked_at": "2026-07-29T12:06:02.778389+00:00",
+      "events": [
+        {
+          "type": "team_change",
+          "player_id": "4433569",
+          "full_name": "Johni Broome",
+          "from_team": "PHI",
+          "to_team": "LAC",
+          "message": "Johni Broome: PHI -> LAC"
+        }
+      ]
     }
   }
 }
