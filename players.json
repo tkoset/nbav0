@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T11:56:15.669229+00:00",
-  "player_count": 545,
+  "generated_at": "2026-07-31T12:05:10.919722+00:00",
+  "player_count": 544,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -869,20 +869,6 @@
       "team_abbr": "CHA",
       "team_name": "Charlotte Hornets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2578185.png"
-    },
-    "4592933": {
-      "player_id": "4592933",
-      "full_name": "Mouhamadou Gueye",
-      "position": "F",
-      "jersey_number": "16",
-      "height_cm": "206",
-      "weight": "210.0",
-      "age": 28,
-      "nationality": "USA",
-      "team_id": "30",
-      "team_abbr": "CHA",
-      "team_name": "Charlotte Hornets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4592933.png"
     },
     "4701225": {
       "player_id": "4701225",
@@ -4643,7 +4629,7 @@
       "jersey_number": "1",
       "height_cm": "198",
       "weight": "215.0",
-      "age": 25,
+      "age": 26,
       "nationality": "USA",
       "team_id": "16",
       "team_abbr": "MIN",
@@ -5679,7 +5665,7 @@
       "jersey_number": "77",
       "height_cm": "193",
       "weight": "180.0",
-      "age": 20,
+      "age": 21,
       "nationality": "Bahamas",
       "team_id": "20",
       "team_abbr": "PHI",

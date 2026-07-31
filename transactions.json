@@ -540,6 +540,18 @@
     "2026-07-30": {
       "checked_at": "2026-07-30T11:56:15.668326+00:00",
       "events": []
+    },
+    "2026-07-31": {
+      "checked_at": "2026-07-31T12:05:10.918809+00:00",
+      "events": [
+        {
+          "type": "left_league",
+          "player_id": "4592933",
+          "full_name": "Mouhamadou Gueye",
+          "team_abbr": "CHA",
+          "message": "Mouhamadou Gueye aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
