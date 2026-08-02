@@ -556,6 +556,18 @@
     "2026-08-01": {
       "checked_at": "2026-08-01T11:22:19.940128+00:00",
       "events": []
+    },
+    "2026-08-02": {
+      "checked_at": "2026-08-02T11:20:45.396842+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4610139",
+          "full_name": "Jeremy Sochan",
+          "team_abbr": "POR",
+          "message": "Jeremy Sochan NBA rosterlarina yeni katildi (POR)"
+        }
+      ]
     }
   }
 }

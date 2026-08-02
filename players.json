@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T11:22:19.941062+00:00",
-  "player_count": 544,
+  "generated_at": "2026-08-02T11:20:45.397712+00:00",
+  "player_count": 545,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -1311,7 +1311,7 @@
       "jersey_number": "3",
       "height_cm": "206",
       "weight": "248.0",
-      "age": 28,
+      "age": 29,
       "nationality": "USA",
       "team_id": "5",
       "team_abbr": "CLE",
@@ -6315,6 +6315,20 @@
       "team_abbr": "POR",
       "team_name": "Portland Trail Blazers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4914336.png"
+    },
+    "4610139": {
+      "player_id": "4610139",
+      "full_name": "Jeremy Sochan",
+      "position": "F",
+      "jersey_number": "20",
+      "height_cm": "203",
+      "weight": "230.0",
+      "age": 23,
+      "nationality": "England",
+      "team_id": "22",
+      "team_abbr": "POR",
+      "team_name": "Portland Trail Blazers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4610139.png"
     },
     "4593043": {
       "player_id": "4593043",
