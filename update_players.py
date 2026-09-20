@@ -42,7 +42,7 @@ import requests
 
 PLAYERS_FILE = "players.json"
 TRANSACTIONS_FILE = "transactions.json"
-BASE_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba"
+BASE_URL = "https://site.web.api.espn.com/apis/site/v2/sports/basketball/nba"
 REQUEST_DELAY_SECONDS = 1.5  # nazik davranmak icin, sert bir rate limit belgelenmedi
 
 # ESPN takim ID'si -> bizim standart NBA kisaltmamiz.
