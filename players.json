@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:33:52.716336+00:00",
+  "generated_at": "2026-09-23T14:49:48.694051+00:00",
   "player_count": 561,
   "players": {
     "4278039": {
@@ -72,6 +72,20 @@
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5106262.png"
     },
+    "2578185": {
+      "player_id": "2578185",
+      "full_name": "Dorian Finney-Smith",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "201",
+      "weight": "220.0",
+      "age": 33,
+      "nationality": "USA",
+      "team_id": "1",
+      "team_abbr": "ATL",
+      "team_name": "Atlanta Hawks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2578185.png"
+    },
     "5149077": {
       "player_id": "5149077",
       "full_name": "Kingston Flemings",
@@ -113,20 +127,6 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4712863.png"
-    },
-    "2990984": {
-      "player_id": "2990984",
-      "full_name": "Buddy Hield",
-      "position": "G",
-      "jersey_number": "8",
-      "height_cm": "193",
-      "weight": "220.0",
-      "age": 33,
-      "nationality": "Bahamas",
-      "team_id": "1",
-      "team_abbr": "ATL",
-      "team_name": "Atlanta Hawks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2990984.png"
     },
     "4701230": {
       "player_id": "4701230",
@@ -183,20 +183,6 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2490149.png"
-    },
-    "4433629": {
-      "player_id": "4433629",
-      "full_name": "Ryan Nembhard",
-      "position": "G",
-      "jersey_number": "19",
-      "height_cm": "180",
-      "weight": "180.0",
-      "age": 23,
-      "nationality": "Canada",
-      "team_id": "1",
-      "team_abbr": "ATL",
-      "team_name": "Atlanta Hawks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433629.png"
     },
     "4873201": {
       "player_id": "4873201",
@@ -814,20 +800,6 @@
       "team_name": "Charlotte Hornets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433249.png"
     },
-    "2578185": {
-      "player_id": "2578185",
-      "full_name": "Dorian Finney-Smith",
-      "position": "F",
-      "jersey_number": "",
-      "height_cm": "201",
-      "weight": "220.0",
-      "age": 33,
-      "nationality": "USA",
-      "team_id": "30",
-      "team_abbr": "CHA",
-      "team_name": "Charlotte Hornets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2578185.png"
-    },
     "4701225": {
       "player_id": "4701225",
       "full_name": "PJ Hall",
@@ -841,6 +813,20 @@
       "team_abbr": "CHA",
       "team_name": "Charlotte Hornets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4701225.png"
+    },
+    "2990984": {
+      "player_id": "2990984",
+      "full_name": "Buddy Hield",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "193",
+      "weight": "220.0",
+      "age": 33,
+      "nationality": "Bahamas",
+      "team_id": "30",
+      "team_abbr": "CHA",
+      "team_name": "Charlotte Hornets",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2990984.png"
     },
     "4602025": {
       "player_id": "4602025",
@@ -911,6 +897,20 @@
       "team_abbr": "CHA",
       "team_name": "Charlotte Hornets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433287.png"
+    },
+    "4433629": {
+      "player_id": "4433629",
+      "full_name": "Ryan Nembhard",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "180",
+      "weight": "180.0",
+      "age": 23,
+      "nationality": "Canada",
+      "team_id": "30",
+      "team_abbr": "CHA",
+      "team_name": "Charlotte Hornets",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433629.png"
     },
     "2583632": {
       "player_id": "2583632",
@@ -1353,7 +1353,7 @@
       "jersey_number": "12",
       "height_cm": "201",
       "weight": "230.0",
-      "age": 25,
+      "age": 26,
       "nationality": "USA",
       "team_id": "5",
       "team_abbr": "CLE",
@@ -2431,7 +2431,7 @@
       "jersey_number": "33",
       "height_cm": "206",
       "weight": "203.0",
-      "age": 26,
+      "age": 27,
       "nationality": "Netherlands",
       "team_id": "9",
       "team_abbr": "GSW",
@@ -4131,6 +4131,20 @@
       "team_abbr": "MIA",
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4601025.png"
+    },
+    "4898237": {
+      "player_id": "4898237",
+      "full_name": "Bez Mbeng",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "193",
+      "weight": "185.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "14",
+      "team_abbr": "MIA",
+      "team_name": "Miami Heat",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4898237.png"
     },
     "4278053": {
       "player_id": "4278053",
@@ -7505,20 +7519,6 @@
       "team_abbr": "UTA",
       "team_name": "Utah Jazz",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4066336.png"
-    },
-    "4898237": {
-      "player_id": "4898237",
-      "full_name": "Bez Mbeng",
-      "position": "G",
-      "jersey_number": "21",
-      "height_cm": "193",
-      "weight": "185.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "26",
-      "team_abbr": "UTA",
-      "team_name": "Utah Jazz",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4898237.png"
     },
     "3133602": {
       "player_id": "3133602",

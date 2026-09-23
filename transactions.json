@@ -1103,6 +1103,43 @@
     "2026-09-22": {
       "checked_at": "2026-09-22T14:33:52.713658+00:00",
       "events": []
+    },
+    "2026-09-23": {
+      "checked_at": "2026-09-23T14:49:48.692551+00:00",
+      "events": [
+        {
+          "type": "team_change",
+          "player_id": "2578185",
+          "full_name": "Dorian Finney-Smith",
+          "from_team": "CHA",
+          "to_team": "ATL",
+          "message": "Dorian Finney-Smith: CHA -> ATL"
+        },
+        {
+          "type": "team_change",
+          "player_id": "2990984",
+          "full_name": "Buddy Hield",
+          "from_team": "ATL",
+          "to_team": "CHA",
+          "message": "Buddy Hield: ATL -> CHA"
+        },
+        {
+          "type": "team_change",
+          "player_id": "4433629",
+          "full_name": "Ryan Nembhard",
+          "from_team": "ATL",
+          "to_team": "CHA",
+          "message": "Ryan Nembhard: ATL -> CHA"
+        },
+        {
+          "type": "team_change",
+          "player_id": "4898237",
+          "full_name": "Bez Mbeng",
+          "from_team": "UTA",
+          "to_team": "MIA",
+          "message": "Bez Mbeng: UTA -> MIA"
+        }
+      ]
     }
   }
 }
