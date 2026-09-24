@@ -1140,6 +1140,25 @@
           "message": "Bez Mbeng: UTA -> MIA"
         }
       ]
+    },
+    "2026-09-24": {
+      "checked_at": "2026-09-24T14:48:06.658671+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4432192",
+          "full_name": "Keon Johnson",
+          "team_abbr": "ATL",
+          "message": "Keon Johnson NBA rosterlarina yeni katildi (ATL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4278075",
+          "full_name": "Kevin Knox II",
+          "team_abbr": "ORL",
+          "message": "Kevin Knox II NBA rosterlarina yeni katildi (ORL)"
+        }
+      ]
     }
   }
 }

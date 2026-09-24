@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T14:49:48.694051+00:00",
-  "player_count": 561,
+  "generated_at": "2026-09-24T14:48:06.660407+00:00",
+  "player_count": 563,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -141,6 +141,20 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png"
+    },
+    "4432192": {
+      "player_id": "4432192",
+      "full_name": "Keon Johnson",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "196",
+      "weight": "185.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "1",
+      "team_abbr": "ATL",
+      "team_name": "Atlanta Hawks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432192.png"
     },
     "4280151": {
       "player_id": "4280151",
@@ -2039,7 +2053,7 @@
       "jersey_number": "",
       "height_cm": "206",
       "weight": "226.0",
-      "age": 28,
+      "age": 29,
       "nationality": "USA",
       "team_id": "8",
       "team_abbr": "DET",
@@ -5685,6 +5699,20 @@
       "team_abbr": "ORL",
       "team_name": "Orlando Magic",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065654.png"
+    },
+    "4278075": {
+      "player_id": "4278075",
+      "full_name": "Kevin Knox II",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "203",
+      "weight": "215.0",
+      "age": 27,
+      "nationality": "USA",
+      "team_id": "19",
+      "team_abbr": "ORL",
+      "team_name": "Orlando Magic",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4278075.png"
     },
     "4593034": {
       "player_id": "4593034",
