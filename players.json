@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:48:06.660407+00:00",
+  "generated_at": "2026-09-25T15:06:00.468149+00:00",
   "player_count": 563,
   "players": {
     "4278039": {
@@ -141,20 +141,6 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4701230.png"
-    },
-    "4432192": {
-      "player_id": "4432192",
-      "full_name": "Keon Johnson",
-      "position": "G",
-      "jersey_number": "",
-      "height_cm": "196",
-      "weight": "185.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "1",
-      "team_abbr": "ATL",
-      "team_name": "Atlanta Hawks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432192.png"
     },
     "4280151": {
       "player_id": "4280151",
@@ -1738,6 +1724,20 @@
       "team_name": "Dallas Mavericks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4898238.png"
     },
+    "2531367": {
+      "player_id": "2531367",
+      "full_name": "Dwight Powell",
+      "position": "F",
+      "jersey_number": "7",
+      "height_cm": "208",
+      "weight": "240.0",
+      "age": 35,
+      "nationality": "Canada",
+      "team_id": "6",
+      "team_abbr": "DAL",
+      "team_name": "Dallas Mavericks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2531367.png"
+    },
     "5211175": {
       "player_id": "5211175",
       "full_name": "Zaccharie Risacher",
@@ -3081,20 +3081,6 @@
       "team_abbr": "LAC",
       "team_name": "LA Clippers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/6580.png"
-    },
-    "4433569": {
-      "player_id": "4433569",
-      "full_name": "Johni Broome",
-      "position": "F",
-      "jersey_number": "",
-      "height_cm": "208",
-      "weight": "235.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "12",
-      "team_abbr": "LAC",
-      "team_name": "LA Clippers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433569.png"
     },
     "4845363": {
       "player_id": "4845363",
@@ -5041,6 +5027,20 @@
       "team_abbr": "NOP",
       "team_name": "New Orleans Pelicans",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4869780.png"
+    },
+    "4683742": {
+      "player_id": "4683742",
+      "full_name": "Julian Reese",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "206",
+      "weight": "252.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "3",
+      "team_abbr": "NOP",
+      "team_name": "New Orleans Pelicans",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4683742.png"
     },
     "4431675": {
       "player_id": "4431675",

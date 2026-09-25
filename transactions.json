@@ -1159,6 +1159,39 @@
           "message": "Kevin Knox II NBA rosterlarina yeni katildi (ORL)"
         }
       ]
+    },
+    "2026-09-25": {
+      "checked_at": "2026-09-25T15:06:00.466065+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "2531367",
+          "full_name": "Dwight Powell",
+          "team_abbr": "DAL",
+          "message": "Dwight Powell NBA rosterlarina yeni katildi (DAL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4683742",
+          "full_name": "Julian Reese",
+          "team_abbr": "NOP",
+          "message": "Julian Reese NBA rosterlarina yeni katildi (NOP)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432192",
+          "full_name": "Keon Johnson",
+          "team_abbr": "ATL",
+          "message": "Keon Johnson aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4433569",
+          "full_name": "Johni Broome",
+          "team_abbr": "LAC",
+          "message": "Johni Broome aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
