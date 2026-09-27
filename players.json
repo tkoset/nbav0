@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T14:17:08.371816+00:00",
-  "player_count": 563,
+  "generated_at": "2026-09-27T15:03:51.200968+00:00",
+  "player_count": 561,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -415,7 +415,7 @@
       "jersey_number": "55",
       "height_cm": "198",
       "weight": "205.0",
-      "age": 25,
+      "age": 26,
       "nationality": "USA",
       "team_id": "2",
       "team_abbr": "BOS",
@@ -1681,6 +1681,20 @@
       "team_abbr": "DAL",
       "team_name": "Dallas Mavericks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4683688.png"
+    },
+    "4431775": {
+      "player_id": "4431775",
+      "full_name": "Seth Lundy",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "193",
+      "weight": "202.0",
+      "age": 26,
+      "nationality": "USA",
+      "team_id": "6",
+      "team_abbr": "DAL",
+      "team_name": "Dallas Mavericks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431775.png"
     },
     "4278594": {
       "player_id": "4278594",
@@ -3306,20 +3320,6 @@
       "team_name": "LA Clippers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702352.png"
     },
-    "4897696": {
-      "player_id": "4897696",
-      "full_name": "Jamarion Sharp",
-      "position": "C",
-      "jersey_number": "",
-      "height_cm": "226",
-      "weight": "235.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "12",
-      "team_abbr": "LAC",
-      "team_name": "LA Clippers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4897696.png"
-    },
     "4065778": {
       "player_id": "4065778",
       "full_name": "Max Strus",
@@ -3712,6 +3712,20 @@
       "team_name": "Memphis Grizzlies",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2991070.png"
     },
+    "5105589": {
+      "player_id": "5105589",
+      "full_name": "Brendan Hausen",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "193",
+      "weight": "220.0",
+      "age": 22,
+      "nationality": "USA",
+      "team_id": "29",
+      "team_abbr": "MEM",
+      "team_name": "Memphis Grizzlies",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105589.png"
+    },
     "4683750": {
       "player_id": "4683750",
       "full_name": "Jordan Hawkins",
@@ -3865,20 +3879,6 @@
       "team_abbr": "MEM",
       "team_name": "Memphis Grizzlies",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4595400.png"
-    },
-    "3136776": {
-      "player_id": "3136776",
-      "full_name": "D'Angelo Russell",
-      "position": "G",
-      "jersey_number": "",
-      "height_cm": "190",
-      "weight": "193.0",
-      "age": 30,
-      "nationality": "USA",
-      "team_id": "29",
-      "team_abbr": "MEM",
-      "team_name": "Memphis Grizzlies",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3136776.png"
     },
     "5105462": {
       "player_id": "5105462",
@@ -4230,20 +4230,6 @@
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3059319.png"
     },
-    "4433133": {
-      "player_id": "4433133",
-      "full_name": "Jahmir Young",
-      "position": "G",
-      "jersey_number": "17",
-      "height_cm": "183",
-      "weight": "185.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "14",
-      "team_abbr": "MIA",
-      "team_name": "Miami Heat",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433133.png"
-    },
     "5164559": {
       "player_id": "5164559",
       "full_name": "Nate Ament",
@@ -4293,7 +4279,7 @@
       "jersey_number": "20",
       "height_cm": "193",
       "weight": "190.0",
-      "age": 26,
+      "age": 27,
       "nationality": "USA",
       "team_id": "15",
       "team_abbr": "MIL",
@@ -5699,20 +5685,6 @@
       "team_abbr": "ORL",
       "team_name": "Orlando Magic",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065654.png"
-    },
-    "4278075": {
-      "player_id": "4278075",
-      "full_name": "Kevin Knox II",
-      "position": "F",
-      "jersey_number": "",
-      "height_cm": "203",
-      "weight": "215.0",
-      "age": 27,
-      "nationality": "USA",
-      "team_id": "19",
-      "team_abbr": "ORL",
-      "team_name": "Orlando Magic",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4278075.png"
     },
     "4593034": {
       "player_id": "4593034",

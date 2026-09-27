@@ -1196,6 +1196,53 @@
     "2026-09-26": {
       "checked_at": "2026-09-26T14:17:08.369957+00:00",
       "events": []
+    },
+    "2026-09-27": {
+      "checked_at": "2026-09-27T15:03:51.199127+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4431775",
+          "full_name": "Seth Lundy",
+          "team_abbr": "DAL",
+          "message": "Seth Lundy NBA rosterlarina yeni katildi (DAL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5105589",
+          "full_name": "Brendan Hausen",
+          "team_abbr": "MEM",
+          "message": "Brendan Hausen NBA rosterlarina yeni katildi (MEM)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4897696",
+          "full_name": "Jamarion Sharp",
+          "team_abbr": "LAC",
+          "message": "Jamarion Sharp aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3136776",
+          "full_name": "D'Angelo Russell",
+          "team_abbr": "MEM",
+          "message": "D'Angelo Russell aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4433133",
+          "full_name": "Jahmir Young",
+          "team_abbr": "MIA",
+          "message": "Jahmir Young aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4278075",
+          "full_name": "Kevin Knox II",
+          "team_abbr": "ORL",
+          "message": "Kevin Knox II aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
