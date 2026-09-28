@@ -1243,6 +1243,827 @@
           "message": "Kevin Knox II aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-09-28": {
+      "checked_at": "2026-09-28T18:02:22.659179+00:00",
+      "events": [
+        {
+          "type": "jersey_change",
+          "player_id": "2578185",
+          "full_name": "Dorian Finney-Smith",
+          "team_abbr": "ATL",
+          "old_number": "",
+          "new_number": "8",
+          "message": "Dorian Finney-Smith forma numarasini degistirdi: # -> #8"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4431714",
+          "full_name": "Jalen Wilson",
+          "team_abbr": "ATL",
+          "old_number": "12",
+          "new_number": "22",
+          "message": "Jalen Wilson forma numarasini degistirdi: #12 -> #22"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4433188",
+          "full_name": "Devin Carter",
+          "team_abbr": "BOS",
+          "message": "Devin Carter NBA rosterlarina yeni katildi (BOS)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4837238",
+          "full_name": "Tucker DeVries",
+          "team_abbr": "BOS",
+          "message": "Tucker DeVries NBA rosterlarina yeni katildi (BOS)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5176420",
+          "full_name": "Hayden Gray",
+          "team_abbr": "BOS",
+          "message": "Hayden Gray NBA rosterlarina yeni katildi (BOS)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4398356",
+          "full_name": "Gabe McGlothan",
+          "team_abbr": "BOS",
+          "message": "Gabe McGlothan NBA rosterlarina yeni katildi (BOS)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5106283",
+          "full_name": "Dillon Mitchell",
+          "team_abbr": "BOS",
+          "old_number": "",
+          "new_number": "20",
+          "message": "Dillon Mitchell forma numarasini degistirdi: # -> #20"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5106272",
+          "full_name": "Milos Uzan",
+          "team_abbr": "BOS",
+          "message": "Milos Uzan NBA rosterlarina yeni katildi (BOS)"
+        },
+        {
+          "type": "team_change",
+          "player_id": "4684275",
+          "full_name": "Rob Dillingham",
+          "from_team": "CHI",
+          "to_team": "CHA",
+          "message": "Rob Dillingham: CHI -> CHA"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5105555",
+          "full_name": "Tobe Awaka",
+          "team_abbr": "CHI",
+          "old_number": "",
+          "new_number": "19",
+          "message": "Tobe Awaka forma numarasini degistirdi: # -> #19"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4432162",
+          "full_name": "Brandon Boston Jr.",
+          "team_abbr": "CHI",
+          "message": "Brandon Boston Jr. NBA rosterlarina yeni katildi (CHI)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4278067",
+          "full_name": "Nic Claxton",
+          "team_abbr": "CHI",
+          "old_number": "",
+          "new_number": "9",
+          "message": "Nic Claxton forma numarasini degistirdi: # -> #9"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5242496",
+          "full_name": "Noa Essengue",
+          "team_abbr": "CHI",
+          "old_number": "24",
+          "new_number": "2",
+          "message": "Noa Essengue forma numarasini degistirdi: #24 -> #2"
+        },
+        {
+          "type": "team_change",
+          "player_id": "2990984",
+          "full_name": "Buddy Hield",
+          "from_team": "CHA",
+          "to_team": "CHI",
+          "message": "Buddy Hield: CHA -> CHI"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4397689",
+          "full_name": "Drew Peterson",
+          "team_abbr": "CHI",
+          "message": "Drew Peterson NBA rosterlarina yeni katildi (CHI)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "2595516",
+          "full_name": "Norman Powell",
+          "team_abbr": "CHI",
+          "old_number": "",
+          "new_number": "24",
+          "message": "Norman Powell forma numarasini degistirdi: # -> #24"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4593049",
+          "full_name": "Orlando Robinson",
+          "team_abbr": "CHI",
+          "message": "Orlando Robinson NBA rosterlarina yeni katildi (CHI)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5106674",
+          "full_name": "Peter Suder",
+          "team_abbr": "CHI",
+          "message": "Peter Suder NBA rosterlarina yeni katildi (CHI)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5107264",
+          "full_name": "Marquel Sutton",
+          "team_abbr": "CHI",
+          "message": "Marquel Sutton NBA rosterlarina yeni katildi (CHI)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4593815",
+          "full_name": "Rashaun Agee",
+          "team_abbr": "CLE",
+          "message": "Rashaun Agee NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4702099",
+          "full_name": "Zack Austin",
+          "team_abbr": "CLE",
+          "message": "Zack Austin NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4898369",
+          "full_name": "Curtis Jones",
+          "team_abbr": "CLE",
+          "message": "Curtis Jones NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4701845",
+          "full_name": "Kadary Richmond",
+          "team_abbr": "CLE",
+          "message": "Kadary Richmond NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5041951",
+          "full_name": "Meleek Thomas",
+          "team_abbr": "CLE",
+          "old_number": "",
+          "new_number": "15",
+          "message": "Meleek Thomas forma numarasini degistirdi: # -> #15"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5106261",
+          "full_name": "Ernest Udeh Jr.",
+          "team_abbr": "CLE",
+          "old_number": "",
+          "new_number": "39",
+          "message": "Ernest Udeh Jr. forma numarasini degistirdi: # -> #39"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4576087",
+          "full_name": "Peyton Watson",
+          "team_abbr": "CLE",
+          "old_number": "",
+          "new_number": "8",
+          "message": "Peyton Watson forma numarasini degistirdi: # -> #8"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4593125",
+          "full_name": "Santi Aldama",
+          "team_abbr": "DAL",
+          "old_number": "",
+          "new_number": "34",
+          "message": "Santi Aldama forma numarasini degistirdi: # -> #34"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5148538",
+          "full_name": "Tarik Biberovic",
+          "team_abbr": "DAL",
+          "old_number": "",
+          "new_number": "13",
+          "message": "Tarik Biberovic forma numarasini degistirdi: # -> #13"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432582",
+          "full_name": "Max Christie",
+          "team_abbr": "DAL",
+          "old_number": "00",
+          "new_number": "0",
+          "message": "Max Christie forma numarasini degistirdi: #00 -> #0"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5105806",
+          "full_name": "Jett Howard",
+          "team_abbr": "DAL",
+          "old_number": "",
+          "new_number": "9",
+          "message": "Jett Howard forma numarasini degistirdi: # -> #9"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5106040",
+          "full_name": "Tobi Lawal",
+          "team_abbr": "DAL",
+          "old_number": "",
+          "new_number": "33",
+          "message": "Tobi Lawal forma numarasini degistirdi: # -> #33"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4431775",
+          "full_name": "Seth Lundy",
+          "team_abbr": "DAL",
+          "old_number": "",
+          "new_number": "5",
+          "message": "Seth Lundy forma numarasini degistirdi: # -> #5"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432107",
+          "full_name": "Marcus Sasser",
+          "team_abbr": "DAL",
+          "old_number": "25",
+          "new_number": "8",
+          "message": "Marcus Sasser forma numarasini degistirdi: #25 -> #8"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4397134",
+          "full_name": "Cole Swider",
+          "team_abbr": "LAL",
+          "message": "Cole Swider NBA rosterlarina yeni katildi (LAL)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432816",
+          "full_name": "LaMelo Ball",
+          "team_abbr": "MIN",
+          "old_number": "",
+          "new_number": "1",
+          "message": "LaMelo Ball forma numarasini degistirdi: # -> #1"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432247",
+          "full_name": "Jaylen Clark",
+          "team_abbr": "MIN",
+          "old_number": "22",
+          "new_number": "7",
+          "message": "Jaylen Clark forma numarasini degistirdi: #22 -> #7"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5061585",
+          "full_name": "Isaiah Evans",
+          "team_abbr": "MIN",
+          "old_number": "",
+          "new_number": "33",
+          "message": "Isaiah Evans forma numarasini degistirdi: # -> #33"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4433247",
+          "full_name": "Jonathan Kuminga",
+          "team_abbr": "MIN",
+          "old_number": "",
+          "new_number": "24",
+          "message": "Jonathan Kuminga forma numarasini degistirdi: # -> #24"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "3136196",
+          "full_name": "Trey Lyles",
+          "team_abbr": "MIN",
+          "old_number": "",
+          "new_number": "41",
+          "message": "Trey Lyles forma numarasini degistirdi: # -> #41"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4431828",
+          "full_name": "KJ Martin",
+          "team_abbr": "MIN",
+          "message": "KJ Martin NBA rosterlarina yeni katildi (MIN)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4702134",
+          "full_name": "Norchad Omier",
+          "team_abbr": "MIN",
+          "message": "Norchad Omier NBA rosterlarina yeni katildi (MIN)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4592686",
+          "full_name": "Antonio Reeves",
+          "team_abbr": "MIN",
+          "message": "Antonio Reeves NBA rosterlarina yeni katildi (MIN)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432847",
+          "full_name": "Terrence Shannon Jr.",
+          "team_abbr": "MIN",
+          "old_number": "1",
+          "new_number": "4",
+          "message": "Terrence Shannon Jr. forma numarasini degistirdi: #1 -> #4"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4431695",
+          "full_name": "Drew Timme",
+          "team_abbr": "MIN",
+          "message": "Drew Timme NBA rosterlarina yeni katildi (MIN)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4895758",
+          "full_name": "Cody Williams",
+          "team_abbr": "MIN",
+          "old_number": "",
+          "new_number": "9",
+          "message": "Cody Williams forma numarasini degistirdi: # -> #9"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4683736",
+          "full_name": "Kobe Bufkin",
+          "team_abbr": "NOP",
+          "message": "Kobe Bufkin NBA rosterlarina yeni katildi (NOP)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4712862",
+          "full_name": "Malik Dia",
+          "team_abbr": "NOP",
+          "old_number": "",
+          "new_number": "8",
+          "message": "Malik Dia forma numarasini degistirdi: # -> #8"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4433623",
+          "full_name": "Caleb Houstan",
+          "team_abbr": "NOP",
+          "message": "Caleb Houstan NBA rosterlarina yeni katildi (NOP)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5170947",
+          "full_name": "AJ Johnson",
+          "team_abbr": "NOP",
+          "old_number": "",
+          "new_number": "14",
+          "message": "AJ Johnson forma numarasini degistirdi: # -> #14"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4431778",
+          "full_name": "Christian Koloko",
+          "team_abbr": "NOP",
+          "message": "Christian Koloko NBA rosterlarina yeni katildi (NOP)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4683634",
+          "full_name": "Bennedict Mathurin",
+          "team_abbr": "NOP",
+          "old_number": "",
+          "new_number": "24",
+          "message": "Bennedict Mathurin forma numarasini degistirdi: # -> #24"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4703115",
+          "full_name": "Jaron Pierre Jr.",
+          "team_abbr": "NOP",
+          "old_number": "",
+          "new_number": "10",
+          "message": "Jaron Pierre Jr. forma numarasini degistirdi: # -> #10"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4683742",
+          "full_name": "Julian Reese",
+          "team_abbr": "NOP",
+          "old_number": "",
+          "new_number": "13",
+          "message": "Julian Reese forma numarasini degistirdi: # -> #13"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4431675",
+          "full_name": "Trendon Watford",
+          "team_abbr": "NOP",
+          "old_number": "",
+          "new_number": "9",
+          "message": "Trendon Watford forma numarasini degistirdi: # -> #9"
+        },
+        {
+          "type": "team_change",
+          "player_id": "3134932",
+          "full_name": "John Konchar",
+          "from_team": "MIN",
+          "to_team": "NYK",
+          "message": "John Konchar: MIN -> NYK"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5105800",
+          "full_name": "Josh Dix",
+          "team_abbr": "OKC",
+          "old_number": "",
+          "new_number": "21",
+          "message": "Josh Dix forma numarasini degistirdi: # -> #21"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5116468",
+          "full_name": "Andrew Holifield",
+          "team_abbr": "OKC",
+          "message": "Andrew Holifield NBA rosterlarina yeni katildi (OKC)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5174983",
+          "full_name": "Aday Mara",
+          "team_abbr": "OKC",
+          "old_number": "",
+          "new_number": "15",
+          "message": "Aday Mara forma numarasini degistirdi: # -> #15"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4685802",
+          "full_name": "Robert McCray V",
+          "team_abbr": "OKC",
+          "message": "Robert McCray V NBA rosterlarina yeni katildi (OKC)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5106270",
+          "full_name": "Otega Oweh",
+          "team_abbr": "OKC",
+          "old_number": "",
+          "new_number": "13",
+          "message": "Otega Oweh forma numarasini degistirdi: # -> #13"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4277923",
+          "full_name": "Zhaire Smith",
+          "team_abbr": "OKC",
+          "message": "Zhaire Smith NBA rosterlarina yeni katildi (OKC)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5241364",
+          "full_name": "Bennett Stirtz",
+          "team_abbr": "OKC",
+          "old_number": "",
+          "new_number": "14",
+          "message": "Bennett Stirtz forma numarasini degistirdi: # -> #14"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5109790",
+          "full_name": "Christoph Tilly",
+          "team_abbr": "OKC",
+          "message": "Christoph Tilly NBA rosterlarina yeni katildi (OKC)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4592435",
+          "full_name": "Branden Carlson",
+          "team_abbr": "POR",
+          "old_number": "",
+          "new_number": "10",
+          "message": "Branden Carlson forma numarasini degistirdi: # -> #10"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4066399",
+          "full_name": "Micah Potter",
+          "team_abbr": "POR",
+          "old_number": "11",
+          "new_number": "9",
+          "message": "Micah Potter forma numarasini degistirdi: #11 -> #9"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4610139",
+          "full_name": "Jeremy Sochan",
+          "team_abbr": "POR",
+          "old_number": "20",
+          "new_number": "4",
+          "message": "Jeremy Sochan forma numarasini degistirdi: #20 -> #4"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4593043",
+          "full_name": "John Tonje",
+          "team_abbr": "POR",
+          "old_number": "",
+          "new_number": "2",
+          "message": "John Tonje forma numarasini degistirdi: # -> #2"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "2993874",
+          "full_name": "Kyle Anderson",
+          "team_abbr": "TOR",
+          "old_number": "",
+          "new_number": "12",
+          "message": "Kyle Anderson forma numarasini degistirdi: # -> #12"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5149115",
+          "full_name": "Allen Graves",
+          "team_abbr": "TOR",
+          "old_number": "",
+          "new_number": "22",
+          "message": "Allen Graves forma numarasini degistirdi: # -> #22"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4395623",
+          "full_name": "Trey Jemison III",
+          "team_abbr": "TOR",
+          "old_number": "",
+          "new_number": "50",
+          "message": "Trey Jemison III forma numarasini degistirdi: # -> #50"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4279143",
+          "full_name": "Tyreke Key",
+          "team_abbr": "TOR",
+          "message": "Tyreke Key NBA rosterlarina yeni katildi (TOR)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4397784",
+          "full_name": "Malachi Smith",
+          "team_abbr": "TOR",
+          "message": "Malachi Smith NBA rosterlarina yeni katildi (TOR)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4684682",
+          "full_name": "Jonas Aidoo",
+          "team_abbr": "UTA",
+          "message": "Jonas Aidoo NBA rosterlarina yeni katildi (UTA)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4433268",
+          "full_name": "Trey Alexander",
+          "team_abbr": "UTA",
+          "old_number": "23",
+          "new_number": "15",
+          "message": "Trey Alexander forma numarasini degistirdi: #23 -> #15"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4277919",
+          "full_name": "Mo Bamba",
+          "team_abbr": "UTA",
+          "old_number": "11",
+          "new_number": "44",
+          "message": "Mo Bamba forma numarasini degistirdi: #11 -> #44"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4683933",
+          "full_name": "Tamar Bates",
+          "team_abbr": "UTA",
+          "old_number": "",
+          "new_number": "0",
+          "message": "Tamar Bates forma numarasini degistirdi: # -> #0"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4684793",
+          "full_name": "Kyle Filipowski",
+          "team_abbr": "UTA",
+          "old_number": "22",
+          "new_number": "2",
+          "message": "Kyle Filipowski forma numarasini degistirdi: #22 -> #2"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432811",
+          "full_name": "Josh Green",
+          "team_abbr": "UTA",
+          "old_number": "",
+          "new_number": "5",
+          "message": "Josh Green forma numarasini degistirdi: # -> #5"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4397077",
+          "full_name": "Jaxson Hayes",
+          "team_abbr": "UTA",
+          "old_number": "",
+          "new_number": "11",
+          "message": "Jaxson Hayes forma numarasini degistirdi: # -> #11"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4396963",
+          "full_name": "Blake Hinson",
+          "team_abbr": "UTA",
+          "old_number": "2",
+          "new_number": "25",
+          "message": "Blake Hinson forma numarasini degistirdi: #2 -> #25"
+        },
+        {
+          "type": "team_change",
+          "player_id": "4433618",
+          "full_name": "Harrison Ingram",
+          "from_team": "SAS",
+          "to_team": "UTA",
+          "message": "Harrison Ingram: SAS -> UTA"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4065663",
+          "full_name": "Josh Okogie",
+          "team_abbr": "UTA",
+          "old_number": "",
+          "new_number": "21",
+          "message": "Josh Okogie forma numarasini degistirdi: # -> #21"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4278129",
+          "full_name": "Deandre Ayton",
+          "team_abbr": "WAS",
+          "old_number": "",
+          "new_number": "6",
+          "message": "Deandre Ayton forma numarasini degistirdi: # -> #6"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4432187",
+          "full_name": "Reece Beekman",
+          "team_abbr": "WAS",
+          "message": "Reece Beekman NBA rosterlarina yeni katildi (WAS)"
+        },
+        {
+          "type": "team_change",
+          "player_id": "4432645",
+          "full_name": "Trevor Keels",
+          "from_team": "MIA",
+          "to_team": "WAS",
+          "message": "Trevor Keels: MIA -> WAS"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4433622",
+          "full_name": "Chris Livingston",
+          "team_abbr": "WAS",
+          "message": "Chris Livingston NBA rosterlarina yeni katildi (WAS)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432819",
+          "full_name": "Tre Mann",
+          "team_abbr": "WAS",
+          "old_number": "",
+          "new_number": "1",
+          "message": "Tre Mann forma numarasini degistirdi: # -> #1"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5105841",
+          "full_name": "Felix Okpara",
+          "team_abbr": "WAS",
+          "old_number": "",
+          "new_number": "34",
+          "message": "Felix Okpara forma numarasini degistirdi: # -> #34"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4704043",
+          "full_name": "Steve Settle III",
+          "team_abbr": "WAS",
+          "message": "Steve Settle III NBA rosterlarina yeni katildi (WAS)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4397071",
+          "full_name": "Mac McClung",
+          "team_abbr": "CHI",
+          "message": "Mac McClung aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4017844",
+          "full_name": "Guerschon Yabusele",
+          "team_abbr": "CHI",
+          "message": "Guerschon Yabusele aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4278046",
+          "full_name": "Olivier Sarr",
+          "team_abbr": "CLE",
+          "message": "Olivier Sarr aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5358755",
+          "full_name": "Vsevolod Ishchenko",
+          "team_abbr": "DAL",
+          "message": "Vsevolod Ishchenko aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4710770",
+          "full_name": "Meechie Johnson",
+          "team_abbr": "LAL",
+          "message": "Meechie Johnson aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5105598",
+          "full_name": "Chase Ross",
+          "team_abbr": "LAL",
+          "message": "Chase Ross aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4897438",
+          "full_name": "Trey Kaufman-Renn",
+          "team_abbr": "MIN",
+          "message": "Trey Kaufman-Renn aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5105553",
+          "full_name": "Julian Phillips",
+          "team_abbr": "MIN",
+          "message": "Julian Phillips aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432068",
+          "full_name": "Josh Oduro",
+          "team_abbr": "NOP",
+          "message": "Josh Oduro aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4067017",
+          "full_name": "A.J. Lawson",
+          "team_abbr": "TOR",
+          "message": "A.J. Lawson aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432827",
+          "full_name": "Oscar Tshiebwe",
+          "team_abbr": "UTA",
+          "message": "Oscar Tshiebwe aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432173",
+          "full_name": "Sharife Cooper",
+          "team_abbr": "WAS",
+          "message": "Sharife Cooper aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
