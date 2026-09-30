@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T16:25:54.306789+00:00",
-  "player_count": 605,
+  "generated_at": "2026-09-30T16:20:47.643155+00:00",
+  "player_count": 607,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -2655,7 +2655,7 @@
       "jersey_number": "1",
       "height_cm": "206",
       "weight": "241.0",
-      "age": 23,
+      "age": 24,
       "nationality": "USA",
       "team_id": "9",
       "team_abbr": "GSW",
@@ -2921,7 +2921,7 @@
       "jersey_number": "7",
       "height_cm": "211",
       "weight": "240.0",
-      "age": 37,
+      "age": 38,
       "nationality": "USA",
       "team_id": "10",
       "team_abbr": "HOU",
@@ -4440,6 +4440,20 @@
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3064482.png"
     },
+    "4431720": {
+      "player_id": "4431720",
+      "full_name": "Lester Quinones",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "193",
+      "weight": "208.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "14",
+      "team_abbr": "MIA",
+      "team_name": "Miami Heat",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431720.png"
+    },
     "4278076": {
       "player_id": "4278076",
       "full_name": "Nick Richards",
@@ -4979,7 +4993,7 @@
       "jersey_number": "3",
       "height_cm": "206",
       "weight": "185.0",
-      "age": 25,
+      "age": 26,
       "nationality": "USA",
       "team_id": "16",
       "team_abbr": "MIN",
@@ -6805,6 +6819,20 @@
       "team_abbr": "PHX",
       "team_name": "Phoenix Suns",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4592714.png"
+    },
+    "4909710": {
+      "player_id": "4909710",
+      "full_name": "Phillip Wheeler",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "203",
+      "weight": "185.0",
+      "age": 24,
+      "nationality": "",
+      "team_id": "21",
+      "team_abbr": "PHX",
+      "team_name": "Phoenix Suns",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4909710.png"
     },
     "4701232": {
       "player_id": "4701232",

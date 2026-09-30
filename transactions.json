@@ -3284,6 +3284,25 @@
           "message": "Isaiah Livers aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-09-30": {
+      "checked_at": "2026-09-30T16:20:47.639571+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4431720",
+          "full_name": "Lester Quinones",
+          "team_abbr": "MIA",
+          "message": "Lester Quinones NBA rosterlarina yeni katildi (MIA)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4909710",
+          "full_name": "Phillip Wheeler",
+          "team_abbr": "PHX",
+          "message": "Phillip Wheeler NBA rosterlarina yeni katildi (PHX)"
+        }
+      ]
     }
   }
 }
