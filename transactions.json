@@ -3303,6 +3303,147 @@
           "message": "Phillip Wheeler NBA rosterlarina yeni katildi (PHX)"
         }
       ]
+    },
+    "2026-10-01": {
+      "checked_at": "2026-10-01T16:57:47.740189+00:00",
+      "events": [
+        {
+          "type": "jersey_change",
+          "player_id": "3135045",
+          "full_name": "Grayson Allen",
+          "team_abbr": "CHA",
+          "old_number": "",
+          "new_number": "8",
+          "message": "Grayson Allen forma numarasini degistirdi: # -> #8"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5060701",
+          "full_name": "Christian Anderson",
+          "team_abbr": "CHA",
+          "old_number": "",
+          "new_number": "5",
+          "message": "Christian Anderson forma numarasini degistirdi: # -> #5"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4684269",
+          "full_name": "Kylan Boswell",
+          "team_abbr": "CHA",
+          "message": "Kylan Boswell NBA rosterlarina yeni katildi (CHA)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4897504",
+          "full_name": "Wyatt Fricks",
+          "team_abbr": "CHA",
+          "old_number": "",
+          "new_number": "23",
+          "message": "Wyatt Fricks forma numarasini degistirdi: # -> #23"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4278729",
+          "full_name": "Jarkel Joiner",
+          "team_abbr": "CHA",
+          "old_number": "",
+          "new_number": "20",
+          "message": "Jarkel Joiner forma numarasini degistirdi: # -> #20"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "2583632",
+          "full_name": "Royce O'Neale",
+          "team_abbr": "CHA",
+          "old_number": "",
+          "new_number": "00",
+          "message": "Royce O'Neale forma numarasini degistirdi: # -> #00"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4396971",
+          "full_name": "Naz Reid",
+          "team_abbr": "CHA",
+          "old_number": "",
+          "new_number": "0",
+          "message": "Naz Reid forma numarasini degistirdi: # -> #0"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "3032979",
+          "full_name": "Dennis Schroder",
+          "team_abbr": "CHA",
+          "old_number": "",
+          "new_number": "17",
+          "message": "Dennis Schroder forma numarasini degistirdi: # -> #17"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5281370",
+          "full_name": "Hannes Steinbach",
+          "team_abbr": "CHA",
+          "old_number": "",
+          "new_number": "22",
+          "message": "Hannes Steinbach forma numarasini degistirdi: # -> #22"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "3999",
+          "full_name": "James Johnson",
+          "team_abbr": "IND",
+          "old_number": "",
+          "new_number": "16",
+          "message": "James Johnson forma numarasini degistirdi: # -> #16"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "2580365",
+          "full_name": "Larry Nance Jr.",
+          "team_abbr": "IND",
+          "old_number": "",
+          "new_number": "22",
+          "message": "Larry Nance Jr. forma numarasini degistirdi: # -> #22"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "3133603",
+          "full_name": "Kelly Oubre Jr.",
+          "team_abbr": "IND",
+          "old_number": "",
+          "new_number": "10",
+          "message": "Kelly Oubre Jr. forma numarasini degistirdi: # -> #10"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "5105854",
+          "full_name": "Braden Smith",
+          "team_abbr": "IND",
+          "old_number": "",
+          "new_number": "18",
+          "message": "Braden Smith forma numarasini degistirdi: # -> #18"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4683834",
+          "full_name": "KJ Simpson",
+          "team_abbr": "DEN",
+          "message": "KJ Simpson aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4592401",
+          "full_name": "N'Faly Dante",
+          "team_abbr": "NYK",
+          "message": "N'Faly Dante aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "3134932",
+          "full_name": "John Konchar",
+          "team_abbr": "NYK",
+          "message": "John Konchar aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
