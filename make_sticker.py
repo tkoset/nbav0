@@ -30,6 +30,7 @@ TODO (kullanıcının kendi örneği gelince uygulanacak -- henüz YAPILMADI):
 
 import json
 import math
+import os
 import sys
 from PIL import Image, ImageDraw, ImageFont, ImageOps, ImageFilter
 
@@ -101,17 +102,21 @@ def add_outline_and_shadow(img: Image.Image) -> Image.Image:
     return base
 
 
-# Takım renkleri: (ana renk, ikincil/koyu renk, aksan rengi)
-TEAM_COLORS = {
-    "HOU": ("#CE1141", "#080808", "#C4CED4"),
-    "LAL": ("#552583", "#080808", "#FDB927"),
-    "BOS": ("#007A33", "#080808", "#BA9653"),
-    "GSW": ("#1D428A", "#080808", "#FFC72C"),
-    "DEN": ("#0E2240", "#080808", "#FEC524"),
-    "MIL": ("#00471B", "#080808", "#EEE1C6"),
-    "OKC": ("#007AC1", "#080808", "#EF3B24"),
-    "DEFAULT": ("#4B2E83", "#080808", "#D9D9D9"),
-}
+# Takım renkleri: team_colors.json'dan okunur (primary, dark, accent).
+# Kaynak: teamcolorcodes.com -- 30 takımın resmi marka renkleri.
+def load_team_colors():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "team_colors.json")
+    with open(path, "r", encoding="utf-8") as f:
+        raw = json.load(f)
+    colors = {}
+    for abbr, v in raw.items():
+        if abbr.startswith("_"):
+            continue
+        colors[abbr] = (v["primary"], v["dark"], v["accent"])
+    colors["DEFAULT"] = ("#4B2E83", "#080808", "#D9D9D9")
+    return colors
+
+TEAM_COLORS = load_team_colors()
 
 # Basitleştirilmiş bayrak çizimleri (tam vektörel değil, kart üstünde
 # küçük bir rozet olarak yeterince tanınabilir olacak şekilde)
