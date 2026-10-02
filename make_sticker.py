@@ -41,7 +41,9 @@ CARD_W, CARD_H = 600, 800
 BORDER = 16
 INNER_BORDER = 5
 
-OUTLINE_PX = 16       # beyaz çerçevenin kalınlığı
+OUTLINE_PX = 8        # beyaz çerçevenin kalınlığı (senin orijinal cv2 kernel_size=16
+                      # ~8px kalınlık üretiyordu -- MaxFilter'ın matematiği farklı
+                      # olduğu için burada direkt 8 kullanıyoruz, 16 demiyoruz)
 SHADOW_OFFSET_X = 40
 SHADOW_OFFSET_Y = 30
 SHADOW_ALPHA = 180
