@@ -3444,6 +3444,39 @@
           "message": "John Konchar aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-02": {
+      "checked_at": "2026-10-02T16:11:00.373883+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4433629",
+          "full_name": "Ryan Nembhard",
+          "team_abbr": "DEN",
+          "message": "Ryan Nembhard NBA rosterlarina yeni katildi (DEN)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5106674",
+          "full_name": "Peter Suder",
+          "team_abbr": "CHI",
+          "message": "Peter Suder aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5107264",
+          "full_name": "Marquel Sutton",
+          "team_abbr": "CHI",
+          "message": "Marquel Sutton aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4684443",
+          "full_name": "Rafael Castro",
+          "team_abbr": "HOU",
+          "message": "Rafael Castro aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }

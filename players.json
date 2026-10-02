@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T16:57:47.744148+00:00",
-  "player_count": 605,
+  "generated_at": "2026-10-02T16:11:00.377758+00:00",
+  "player_count": 603,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -1346,34 +1346,6 @@
       "team_name": "Chicago Bulls",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397189.png"
     },
-    "5106674": {
-      "player_id": "5106674",
-      "full_name": "Peter Suder",
-      "position": "G",
-      "jersey_number": "15",
-      "height_cm": "193",
-      "weight": "213.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "4",
-      "team_abbr": "CHI",
-      "team_name": "Chicago Bulls",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5106674.png"
-    },
-    "5107264": {
-      "player_id": "5107264",
-      "full_name": "Marquel Sutton",
-      "position": "F",
-      "jersey_number": "0",
-      "height_cm": "203",
-      "weight": "225.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "4",
-      "team_abbr": "CHI",
-      "team_name": "Chicago Bulls",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5107264.png"
-    },
     "4848625": {
       "player_id": "4848625",
       "full_name": "Dailyn Swain",
@@ -2214,6 +2186,20 @@
       "team_name": "Denver Nuggets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3936299.png"
     },
+    "4433629": {
+      "player_id": "4433629",
+      "full_name": "Ryan Nembhard",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "180",
+      "weight": "180.0",
+      "age": 23,
+      "nationality": "Canada",
+      "team_id": "7",
+      "team_abbr": "DEN",
+      "team_name": "Denver Nuggets",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433629.png"
+    },
     "4431690": {
       "player_id": "4431690",
       "full_name": "Zeke Nnaji",
@@ -2871,20 +2857,6 @@
       "team_abbr": "HOU",
       "team_name": "Houston Rockets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3102529.png"
-    },
-    "4684443": {
-      "player_id": "4684443",
-      "full_name": "Rafael Castro",
-      "position": "C",
-      "jersey_number": "00",
-      "height_cm": "206",
-      "weight": "224.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "10",
-      "team_abbr": "HOU",
-      "team_name": "Houston Rockets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4684443.png"
     },
     "4683860": {
       "player_id": "4683860",
