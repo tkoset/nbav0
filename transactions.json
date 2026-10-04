@@ -3481,6 +3481,97 @@
     "2026-10-03": {
       "checked_at": "2026-10-03T14:37:57.423924+00:00",
       "events": []
+    },
+    "2026-10-04": {
+      "checked_at": "2026-10-04T15:13:10.343218+00:00",
+      "events": [
+        {
+          "type": "jersey_change",
+          "player_id": "5107157",
+          "full_name": "Ryan Conwell",
+          "team_abbr": "MIA",
+          "old_number": "",
+          "new_number": "4",
+          "message": "Ryan Conwell forma numarasini degistirdi: # -> #4"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4837356",
+          "full_name": "Tre Donaldson",
+          "team_abbr": "MIA",
+          "old_number": "",
+          "new_number": "24",
+          "message": "Tre Donaldson forma numarasini degistirdi: # -> #24"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4702784",
+          "full_name": "J'Vonne Hadley",
+          "team_abbr": "MIA",
+          "old_number": "",
+          "new_number": "14",
+          "message": "J'Vonne Hadley forma numarasini degistirdi: # -> #14"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4898237",
+          "full_name": "Bez Mbeng",
+          "team_abbr": "MIA",
+          "old_number": "",
+          "new_number": "19",
+          "message": "Bez Mbeng forma numarasini degistirdi: # -> #19"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4431720",
+          "full_name": "Lester Quinones",
+          "team_abbr": "MIA",
+          "old_number": "",
+          "new_number": "25",
+          "message": "Lester Quinones forma numarasini degistirdi: # -> #25"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4693954",
+          "full_name": "Ian Schieffelin",
+          "team_abbr": "MIA",
+          "message": "Ian Schieffelin NBA rosterlarina yeni katildi (MIA)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "6475",
+          "full_name": "Klay Thompson",
+          "team_abbr": "MIA",
+          "old_number": "",
+          "new_number": "11",
+          "message": "Klay Thompson forma numarasini degistirdi: # -> #11"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432737",
+          "full_name": "Jaden Bradley",
+          "team_abbr": "TOR",
+          "old_number": "",
+          "new_number": "8",
+          "message": "Jaden Bradley forma numarasini degistirdi: # -> #8"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4433138",
+          "full_name": "Nimari Burnett",
+          "team_abbr": "TOR",
+          "message": "Nimari Burnett NBA rosterlarina yeni katildi (TOR)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4279143",
+          "full_name": "Tyreke Key",
+          "team_abbr": "TOR",
+          "old_number": "",
+          "new_number": "11",
+          "message": "Tyreke Key forma numarasini degistirdi: # -> #11"
+        }
+      ]
     }
   }
 }
