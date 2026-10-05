@@ -3572,6 +3572,18 @@
           "message": "Tyreke Key forma numarasini degistirdi: # -> #11"
         }
       ]
+    },
+    "2026-10-05": {
+      "checked_at": "2026-10-05T19:10:23.341171+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4395997",
+          "full_name": "Terrell Brown Jr.",
+          "team_abbr": "UTA",
+          "message": "Terrell Brown Jr. NBA rosterlarina yeni katildi (UTA)"
+        }
+      ]
     }
   }
 }

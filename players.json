@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T15:13:10.346447+00:00",
-  "player_count": 605,
+  "generated_at": "2026-10-05T19:10:23.345148+00:00",
+  "player_count": 606,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -1507,7 +1507,7 @@
       "jersey_number": "14",
       "height_cm": "190",
       "weight": "195.0",
-      "age": 24,
+      "age": 25,
       "nationality": "USA",
       "team_id": "5",
       "team_abbr": "CLE",
@@ -7981,6 +7981,20 @@
       "team_abbr": "UTA",
       "team_name": "Utah Jazz",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4683933.png"
+    },
+    "4395997": {
+      "player_id": "4395997",
+      "full_name": "Terrell Brown Jr.",
+      "position": "G",
+      "jersey_number": "16",
+      "height_cm": "190",
+      "weight": "180.0",
+      "age": 28,
+      "nationality": "USA",
+      "team_id": "26",
+      "team_abbr": "UTA",
+      "team_name": "Utah Jazz",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4395997.png"
     },
     "4683766": {
       "player_id": "4683766",
