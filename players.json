@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T19:10:23.345148+00:00",
-  "player_count": 606,
+  "generated_at": "2026-10-06T16:37:30.488485+00:00",
+  "player_count": 607,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -219,7 +219,7 @@
       "jersey_number": "14",
       "height_cm": "211",
       "weight": "224.0",
-      "age": 20,
+      "age": 21,
       "nationality": "USA",
       "team_id": "1",
       "team_abbr": "ATL",
@@ -4937,7 +4937,7 @@
       "jersey_number": "24",
       "height_cm": "201",
       "weight": "225.0",
-      "age": 23,
+      "age": 24,
       "nationality": "Democratic Republic of Congo",
       "team_id": "16",
       "team_abbr": "MIN",
@@ -5175,7 +5175,7 @@
       "jersey_number": "2",
       "height_cm": "201",
       "weight": "206.0",
-      "age": 27,
+      "age": 28,
       "nationality": "USA",
       "team_id": "3",
       "team_abbr": "NOP",
@@ -5392,6 +5392,20 @@
       "team_name": "New York Knicks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397018.png"
     },
+    "4683730": {
+      "player_id": "4683730",
+      "full_name": "Jaden Akins",
+      "position": "G",
+      "jersey_number": "14",
+      "height_cm": "193",
+      "weight": "195.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "18",
+      "team_abbr": "NYK",
+      "team_name": "New York Knicks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4683730.png"
+    },
     "4277869": {
       "player_id": "4277869",
       "full_name": "Jose Alvarado",
@@ -5420,6 +5434,20 @@
       "team_name": "New York Knicks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png"
     },
+    "4065673": {
+      "player_id": "4065673",
+      "full_name": "Tony Bradley",
+      "position": "C",
+      "jersey_number": "13",
+      "height_cm": "208",
+      "weight": "248.0",
+      "age": 28,
+      "nationality": "USA",
+      "team_id": "18",
+      "team_abbr": "NYK",
+      "team_name": "New York Knicks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065673.png"
+    },
     "3147657": {
       "player_id": "3147657",
       "full_name": "Mikal Bridges",
@@ -5438,7 +5466,7 @@
       "player_id": "4065670",
       "full_name": "Bruce Brown",
       "position": "G",
-      "jersey_number": "",
+      "jersey_number": "1",
       "height_cm": "193",
       "weight": "202.0",
       "age": 30,
@@ -5634,7 +5662,7 @@
       "player_id": "4432808",
       "full_name": "James Wiseman",
       "position": "C",
-      "jersey_number": "",
+      "jersey_number": "35",
       "height_cm": "211",
       "weight": "240.0",
       "age": 25,
@@ -7743,20 +7771,6 @@
       "team_abbr": "TOR",
       "team_name": "Toronto Raptors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4590360.png"
-    },
-    "4432190": {
-      "player_id": "4432190",
-      "full_name": "Andre Jackson Jr.",
-      "position": "G",
-      "jersey_number": "44",
-      "height_cm": "198",
-      "weight": "209.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "28",
-      "team_abbr": "TOR",
-      "team_name": "Toronto Raptors",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432190.png"
     },
     "4431684": {
       "player_id": "4431684",

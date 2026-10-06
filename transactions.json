@@ -3584,6 +3584,50 @@
           "message": "Terrell Brown Jr. NBA rosterlarina yeni katildi (UTA)"
         }
       ]
+    },
+    "2026-10-06": {
+      "checked_at": "2026-10-06T16:37:30.483853+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4683730",
+          "full_name": "Jaden Akins",
+          "team_abbr": "NYK",
+          "message": "Jaden Akins NBA rosterlarina yeni katildi (NYK)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4065673",
+          "full_name": "Tony Bradley",
+          "team_abbr": "NYK",
+          "message": "Tony Bradley NBA rosterlarina yeni katildi (NYK)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4065670",
+          "full_name": "Bruce Brown",
+          "team_abbr": "NYK",
+          "old_number": "",
+          "new_number": "1",
+          "message": "Bruce Brown forma numarasini degistirdi: # -> #1"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432808",
+          "full_name": "James Wiseman",
+          "team_abbr": "NYK",
+          "old_number": "",
+          "new_number": "35",
+          "message": "James Wiseman forma numarasini degistirdi: # -> #35"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432190",
+          "full_name": "Andre Jackson Jr.",
+          "team_abbr": "TOR",
+          "message": "Andre Jackson Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
