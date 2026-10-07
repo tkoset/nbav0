@@ -3628,6 +3628,46 @@
           "message": "Andre Jackson Jr. aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-07": {
+      "checked_at": "2026-10-07T17:22:02.276302+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4897155",
+          "full_name": "Anthony Pritchard",
+          "team_abbr": "OKC",
+          "message": "Anthony Pritchard NBA rosterlarina yeni katildi (OKC)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4278395",
+          "full_name": "Taylor Funk",
+          "team_abbr": "UTA",
+          "message": "Taylor Funk NBA rosterlarina yeni katildi (UTA)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5105853",
+          "full_name": "Fletcher Loyer",
+          "team_abbr": "LAC",
+          "message": "Fletcher Loyer aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4685802",
+          "full_name": "Robert McCray V",
+          "team_abbr": "OKC",
+          "message": "Robert McCray V aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4395997",
+          "full_name": "Terrell Brown Jr.",
+          "team_abbr": "UTA",
+          "message": "Terrell Brown Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
