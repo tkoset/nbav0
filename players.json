@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T17:22:02.280245+00:00",
-  "player_count": 606,
+  "generated_at": "2026-10-08T17:18:53.284504+00:00",
+  "player_count": 609,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -849,7 +849,7 @@
       "jersey_number": "8",
       "height_cm": "190",
       "weight": "198.0",
-      "age": 30,
+      "age": 31,
       "nationality": "USA",
       "team_id": "30",
       "team_abbr": "CHA",
@@ -1150,6 +1150,20 @@
       "team_name": "Chicago Bulls",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432162.png"
     },
+    "4432946": {
+      "player_id": "4432946",
+      "full_name": "Jalen Bridges",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "201",
+      "weight": "225.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "4",
+      "team_abbr": "CHI",
+      "team_name": "Chicago Bulls",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432946.png"
+    },
     "4711294": {
       "player_id": "4711294",
       "full_name": "Matas Buzelis",
@@ -1219,6 +1233,20 @@
       "team_abbr": "CHI",
       "team_name": "Chicago Bulls",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4871145.png"
+    },
+    "4683750": {
+      "player_id": "4683750",
+      "full_name": "Jordan Hawkins",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "196",
+      "weight": "190.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "4",
+      "team_abbr": "CHI",
+      "team_name": "Chicago Bulls",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4683750.png"
     },
     "2990984": {
       "player_id": "2990984",
@@ -1345,6 +1373,20 @@
       "team_abbr": "CHI",
       "team_name": "Chicago Bulls",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397189.png"
+    },
+    "4432117": {
+      "player_id": "4432117",
+      "full_name": "Isaiah Stevens",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "180",
+      "weight": "185.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "4",
+      "team_abbr": "CHI",
+      "team_name": "Chicago Bulls",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432117.png"
     },
     "4848625": {
       "player_id": "4848625",
@@ -3978,20 +4020,6 @@
       "team_name": "Memphis Grizzlies",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2991070.png"
     },
-    "4683750": {
-      "player_id": "4683750",
-      "full_name": "Jordan Hawkins",
-      "position": "G",
-      "jersey_number": "19",
-      "height_cm": "196",
-      "weight": "190.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "29",
-      "team_abbr": "MEM",
-      "team_name": "Memphis Grizzlies",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4683750.png"
-    },
     "4684806": {
       "player_id": "4684806",
       "full_name": "Taylor Hendricks",
@@ -4496,6 +4524,20 @@
       "team_name": "Milwaukee Bucks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5164559.png"
     },
+    "4433569": {
+      "player_id": "4433569",
+      "full_name": "Johni Broome",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "208",
+      "weight": "235.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "15",
+      "team_abbr": "MIL",
+      "team_name": "Milwaukee Bucks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433569.png"
+    },
     "5082206": {
       "player_id": "5082206",
       "full_name": "Brayden Burries",
@@ -4509,20 +4551,6 @@
       "team_abbr": "MIL",
       "team_name": "Milwaukee Bucks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5082206.png"
-    },
-    "4432588": {
-      "player_id": "4432588",
-      "full_name": "John Butler Jr.",
-      "position": "F",
-      "jersey_number": "27",
-      "height_cm": "213",
-      "weight": "212.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "15",
-      "team_abbr": "MIL",
-      "team_name": "Milwaukee Bucks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432588.png"
     },
     "4997526": {
       "player_id": "4997526",
@@ -6973,6 +7001,20 @@
       "team_abbr": "POR",
       "team_name": "Portland Trail Blazers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/6606.png"
+    },
+    "4684737": {
+      "player_id": "4684737",
+      "full_name": "Jaylen Martin",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "198",
+      "weight": "216.0",
+      "age": 22,
+      "nationality": "USA",
+      "team_id": "22",
+      "team_abbr": "POR",
+      "team_name": "Portland Trail Blazers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4684737.png"
     },
     "4279888": {
       "player_id": "4279888",

@@ -3668,6 +3668,54 @@
           "message": "Terrell Brown Jr. aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-08": {
+      "checked_at": "2026-10-08T17:18:53.280415+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4432946",
+          "full_name": "Jalen Bridges",
+          "team_abbr": "CHI",
+          "message": "Jalen Bridges NBA rosterlarina yeni katildi (CHI)"
+        },
+        {
+          "type": "team_change",
+          "player_id": "4683750",
+          "full_name": "Jordan Hawkins",
+          "from_team": "MEM",
+          "to_team": "CHI",
+          "message": "Jordan Hawkins: MEM -> CHI"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4432117",
+          "full_name": "Isaiah Stevens",
+          "team_abbr": "CHI",
+          "message": "Isaiah Stevens NBA rosterlarina yeni katildi (CHI)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4433569",
+          "full_name": "Johni Broome",
+          "team_abbr": "MIL",
+          "message": "Johni Broome NBA rosterlarina yeni katildi (MIL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4684737",
+          "full_name": "Jaylen Martin",
+          "team_abbr": "POR",
+          "message": "Jaylen Martin NBA rosterlarina yeni katildi (POR)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432588",
+          "full_name": "John Butler Jr.",
+          "team_abbr": "MIL",
+          "message": "John Butler Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
