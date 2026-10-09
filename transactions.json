@@ -3716,6 +3716,55 @@
           "message": "John Butler Jr. aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-09": {
+      "checked_at": "2026-10-09T16:54:41.195928+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "3950760",
+          "full_name": "Kylor Kelley",
+          "team_abbr": "MIA",
+          "message": "Kylor Kelley NBA rosterlarina yeni katildi (MIA)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4432753",
+          "full_name": "Gabe Madsen",
+          "team_abbr": "MIA",
+          "message": "Gabe Madsen NBA rosterlarina yeni katildi (MIA)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4065673",
+          "full_name": "Tony Bradley",
+          "team_abbr": "NYK",
+          "old_number": "13",
+          "new_number": "18",
+          "message": "Tony Bradley forma numarasini degistirdi: #13 -> #18"
+        },
+        {
+          "type": "new_player",
+          "player_id": "3936296",
+          "full_name": "Skal Labissiere",
+          "team_abbr": "WAS",
+          "message": "Skal Labissiere NBA rosterlarina yeni katildi (WAS)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4702784",
+          "full_name": "J'Vonne Hadley",
+          "team_abbr": "MIA",
+          "message": "J'Vonne Hadley aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4431720",
+          "full_name": "Lester Quinones",
+          "team_abbr": "MIA",
+          "message": "Lester Quinones aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }

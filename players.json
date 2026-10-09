@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T17:18:53.284504+00:00",
-  "player_count": 609,
+  "generated_at": "2026-10-09T16:54:41.198414+00:00",
+  "player_count": 610,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -4314,20 +4314,6 @@
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4700818.png"
     },
-    "4702784": {
-      "player_id": "4702784",
-      "full_name": "J'Vonne Hadley",
-      "position": "F",
-      "jersey_number": "14",
-      "height_cm": "196",
-      "weight": "210.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "14",
-      "team_abbr": "MIA",
-      "team_name": "Miami Heat",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702784.png"
-    },
     "2528210": {
       "player_id": "2528210",
       "full_name": "Tim Hardaway Jr.",
@@ -4370,6 +4356,20 @@
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4997528.png"
     },
+    "3950760": {
+      "player_id": "3950760",
+      "full_name": "Kylor Kelley",
+      "position": "C",
+      "jersey_number": "",
+      "height_cm": "213",
+      "weight": "230.0",
+      "age": 29,
+      "nationality": "USA",
+      "team_id": "14",
+      "team_abbr": "MIA",
+      "team_name": "Miami Heat",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3950760.png"
+    },
     "4601025": {
       "player_id": "4601025",
       "full_name": "Pelle Larsson",
@@ -4383,6 +4383,20 @@
       "team_abbr": "MIA",
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4601025.png"
+    },
+    "4432753": {
+      "player_id": "4432753",
+      "full_name": "Gabe Madsen",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "198",
+      "weight": "200.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "14",
+      "team_abbr": "MIA",
+      "team_name": "Miami Heat",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432753.png"
     },
     "4898237": {
       "player_id": "4898237",
@@ -4425,20 +4439,6 @@
       "team_abbr": "MIA",
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3064482.png"
-    },
-    "4431720": {
-      "player_id": "4431720",
-      "full_name": "Lester Quinones",
-      "position": "G",
-      "jersey_number": "25",
-      "height_cm": "193",
-      "weight": "208.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "14",
-      "team_abbr": "MIA",
-      "team_name": "Miami Heat",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431720.png"
     },
     "4278076": {
       "player_id": "4278076",
@@ -5452,7 +5452,7 @@
       "player_id": "4065673",
       "full_name": "Tony Bradley",
       "position": "C",
-      "jersey_number": "13",
+      "jersey_number": "18",
       "height_cm": "208",
       "weight": "248.0",
       "age": 28,
@@ -8031,7 +8031,7 @@
       "jersey_number": "8",
       "height_cm": "193",
       "weight": "210.0",
-      "age": 21,
+      "age": 22,
       "nationality": "USA",
       "team_id": "26",
       "team_abbr": "UTA",
@@ -8255,7 +8255,7 @@
       "jersey_number": "26",
       "height_cm": "190",
       "weight": "190.0",
-      "age": 24,
+      "age": 25,
       "nationality": "USA",
       "team_id": "27",
       "team_abbr": "WAS",
@@ -8387,6 +8387,20 @@
       "team_abbr": "WAS",
       "team_name": "Washington Wizards",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432645.png"
+    },
+    "3936296": {
+      "player_id": "3936296",
+      "full_name": "Skal Labissiere",
+      "position": "C",
+      "jersey_number": "17",
+      "height_cm": "208",
+      "weight": "235.0",
+      "age": 30,
+      "nationality": "Haiti",
+      "team_id": "27",
+      "team_abbr": "WAS",
+      "team_name": "Washington Wizards",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3936296.png"
     },
     "4433622": {
       "player_id": "4433622",
