@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:54:41.198414+00:00",
+  "generated_at": "2026-10-10T15:48:28.801038+00:00",
   "player_count": 610,
   "players": {
     "4278039": {
@@ -1154,7 +1154,7 @@
       "player_id": "4432946",
       "full_name": "Jalen Bridges",
       "position": "F",
-      "jersey_number": "",
+      "jersey_number": "20",
       "height_cm": "201",
       "weight": "225.0",
       "age": 25,
@@ -1227,7 +1227,7 @@
       "jersey_number": "3",
       "height_cm": "201",
       "weight": "216.0",
-      "age": 23,
+      "age": 24,
       "nationality": "",
       "team_id": "4",
       "team_abbr": "CHI",
@@ -1238,7 +1238,7 @@
       "player_id": "4683750",
       "full_name": "Jordan Hawkins",
       "position": "G",
-      "jersey_number": "",
+      "jersey_number": "15",
       "height_cm": "196",
       "weight": "190.0",
       "age": 24,
@@ -1252,7 +1252,7 @@
       "player_id": "2990984",
       "full_name": "Buddy Hield",
       "position": "G",
-      "jersey_number": "",
+      "jersey_number": "7",
       "height_cm": "193",
       "weight": "220.0",
       "age": 33,
@@ -2599,7 +2599,7 @@
       "jersey_number": "18",
       "height_cm": "183",
       "weight": "200.0",
-      "age": 24,
+      "age": 25,
       "nationality": "USA",
       "team_id": "9",
       "team_abbr": "GSW",
@@ -2963,7 +2963,7 @@
       "jersey_number": "0",
       "height_cm": "185",
       "weight": "195.0",
-      "age": 23,
+      "age": 24,
       "nationality": "USA",
       "team_id": "10",
       "team_abbr": "HOU",
@@ -3656,6 +3656,20 @@
       "team_name": "Los Angeles Lakers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5113969.png"
     },
+    "4684443": {
+      "player_id": "4684443",
+      "full_name": "Rafael Castro",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "206",
+      "weight": "224.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "13",
+      "team_abbr": "LAL",
+      "team_name": "Los Angeles Lakers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4684443.png"
+    },
     "3945274": {
       "player_id": "3945274",
       "full_name": "Luka Doncic",
@@ -3753,20 +3767,6 @@
       "team_abbr": "LAL",
       "team_name": "Los Angeles Lakers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4897943.png"
-    },
-    "5107258": {
-      "player_id": "5107258",
-      "full_name": "William Kyle III",
-      "position": "F",
-      "jersey_number": "45",
-      "height_cm": "206",
-      "weight": "230.0",
-      "age": 22,
-      "nationality": "USA",
-      "team_id": "13",
-      "team_abbr": "LAL",
-      "team_name": "Los Angeles Lakers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5107258.png"
     },
     "4592691": {
       "player_id": "4592691",

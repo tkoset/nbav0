@@ -3765,6 +3765,52 @@
           "message": "Lester Quinones aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-10": {
+      "checked_at": "2026-10-10T15:48:28.796343+00:00",
+      "events": [
+        {
+          "type": "jersey_change",
+          "player_id": "4432946",
+          "full_name": "Jalen Bridges",
+          "team_abbr": "CHI",
+          "old_number": "",
+          "new_number": "20",
+          "message": "Jalen Bridges forma numarasini degistirdi: # -> #20"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4683750",
+          "full_name": "Jordan Hawkins",
+          "team_abbr": "CHI",
+          "old_number": "",
+          "new_number": "15",
+          "message": "Jordan Hawkins forma numarasini degistirdi: # -> #15"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "2990984",
+          "full_name": "Buddy Hield",
+          "team_abbr": "CHI",
+          "old_number": "",
+          "new_number": "7",
+          "message": "Buddy Hield forma numarasini degistirdi: # -> #7"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4684443",
+          "full_name": "Rafael Castro",
+          "team_abbr": "LAL",
+          "message": "Rafael Castro NBA rosterlarina yeni katildi (LAL)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5107258",
+          "full_name": "William Kyle III",
+          "team_abbr": "LAL",
+          "message": "William Kyle III aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
