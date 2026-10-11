@@ -3811,6 +3811,67 @@
           "message": "William Kyle III aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-11": {
+      "checked_at": "2026-10-11T16:13:04.152844+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "5105853",
+          "full_name": "Fletcher Loyer",
+          "team_abbr": "LAC",
+          "message": "Fletcher Loyer NBA rosterlarina yeni katildi (LAC)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4702785",
+          "full_name": "Jahmyl Telfort",
+          "team_abbr": "LAC",
+          "message": "Jahmyl Telfort NBA rosterlarina yeni katildi (LAC)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4702784",
+          "full_name": "J'Vonne Hadley",
+          "team_abbr": "MIA",
+          "message": "J'Vonne Hadley NBA rosterlarina yeni katildi (MIA)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4431720",
+          "full_name": "Lester Quinones",
+          "team_abbr": "MIA",
+          "message": "Lester Quinones NBA rosterlarina yeni katildi (MIA)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4065697",
+          "full_name": "Dennis Smith Jr.",
+          "team_abbr": "MIA",
+          "message": "Dennis Smith Jr. NBA rosterlarina yeni katildi (MIA)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4898260",
+          "full_name": "Tyson Degenhart",
+          "team_abbr": "TOR",
+          "message": "Tyson Degenhart NBA rosterlarina yeni katildi (TOR)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4432190",
+          "full_name": "Andre Jackson Jr.",
+          "team_abbr": "TOR",
+          "message": "Andre Jackson Jr. NBA rosterlarina yeni katildi (TOR)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4708972",
+          "full_name": "Jazian Gortman",
+          "team_abbr": "WAS",
+          "message": "Jazian Gortman NBA rosterlarina yeni katildi (WAS)"
+        }
+      ]
     }
   }
 }

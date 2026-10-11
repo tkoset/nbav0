@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T15:48:28.801038+00:00",
-  "player_count": 610,
+  "generated_at": "2026-10-11T16:13:04.157130+00:00",
+  "player_count": 618,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -317,7 +317,7 @@
       "jersey_number": "45",
       "height_cm": "185",
       "weight": "175.0",
-      "age": 38,
+      "age": 39,
       "nationality": "USA",
       "team_id": "2",
       "team_abbr": "BOS",
@@ -1003,7 +1003,7 @@
       "jersey_number": "33",
       "height_cm": "201",
       "weight": "210.0",
-      "age": 20,
+      "age": 21,
       "nationality": "USA",
       "team_id": "30",
       "team_abbr": "CHA",
@@ -3516,6 +3516,20 @@
       "team_name": "LA Clippers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3448.png"
     },
+    "5105853": {
+      "player_id": "5105853",
+      "full_name": "Fletcher Loyer",
+      "position": "G",
+      "jersey_number": "26",
+      "height_cm": "190",
+      "weight": "180.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "12",
+      "team_abbr": "LAC",
+      "team_name": "LA Clippers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105853.png"
+    },
     "5105832": {
       "player_id": "5105832",
       "full_name": "Nick Martinelli",
@@ -3613,6 +3627,20 @@
       "team_abbr": "LAC",
       "team_name": "LA Clippers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065778.png"
+    },
+    "4702785": {
+      "player_id": "4702785",
+      "full_name": "Jahmyl Telfort",
+      "position": "F",
+      "jersey_number": "19",
+      "height_cm": "201",
+      "weight": "225.0",
+      "age": 25,
+      "nationality": "Canada",
+      "team_id": "12",
+      "team_abbr": "LAC",
+      "team_name": "LA Clippers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702785.png"
     },
     "5254165": {
       "player_id": "5254165",
@@ -4314,6 +4342,20 @@
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4700818.png"
     },
+    "4702784": {
+      "player_id": "4702784",
+      "full_name": "J'Vonne Hadley",
+      "position": "F",
+      "jersey_number": "14",
+      "height_cm": "196",
+      "weight": "210.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "14",
+      "team_abbr": "MIA",
+      "team_name": "Miami Heat",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702784.png"
+    },
     "2528210": {
       "player_id": "2528210",
       "full_name": "Tim Hardaway Jr.",
@@ -4440,6 +4482,20 @@
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3064482.png"
     },
+    "4431720": {
+      "player_id": "4431720",
+      "full_name": "Lester Quinones",
+      "position": "G",
+      "jersey_number": "25",
+      "height_cm": "193",
+      "weight": "208.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "14",
+      "team_abbr": "MIA",
+      "team_name": "Miami Heat",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431720.png"
+    },
     "4278076": {
       "player_id": "4278076",
       "full_name": "Nick Richards",
@@ -4481,6 +4537,20 @@
       "team_abbr": "MIA",
       "team_name": "Miami Heat",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4066993.png"
+    },
+    "4065697": {
+      "player_id": "4065697",
+      "full_name": "Dennis Smith Jr.",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "188",
+      "weight": "205.0",
+      "age": 28,
+      "nationality": "USA",
+      "team_id": "14",
+      "team_abbr": "MIA",
+      "team_name": "Miami Heat",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4065697.png"
     },
     "6475": {
       "player_id": "6475",
@@ -7541,7 +7611,7 @@
       "jersey_number": "3",
       "height_cm": "196",
       "weight": "220.0",
-      "age": 26,
+      "age": 27,
       "nationality": "USA",
       "team_id": "24",
       "team_abbr": "SAS",
@@ -7772,6 +7842,20 @@
       "team_name": "Toronto Raptors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433138.png"
     },
+    "4898260": {
+      "player_id": "4898260",
+      "full_name": "Tyson Degenhart",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "201",
+      "weight": "232.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "28",
+      "team_abbr": "TOR",
+      "team_name": "Toronto Raptors",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4898260.png"
+    },
     "5149115": {
       "player_id": "5149115",
       "full_name": "Allen Graves",
@@ -7799,6 +7883,20 @@
       "team_abbr": "TOR",
       "team_name": "Toronto Raptors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4590360.png"
+    },
+    "4432190": {
+      "player_id": "4432190",
+      "full_name": "Andre Jackson Jr.",
+      "position": "G",
+      "jersey_number": "44",
+      "height_cm": "198",
+      "weight": "209.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "28",
+      "team_abbr": "TOR",
+      "team_name": "Toronto Raptors",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432190.png"
     },
     "4431684": {
       "player_id": "4431684",
@@ -8359,6 +8457,20 @@
       "team_abbr": "WAS",
       "team_name": "Washington Wizards",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2581184.png"
+    },
+    "4708972": {
+      "player_id": "4708972",
+      "full_name": "Jazian Gortman",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "185",
+      "weight": "175.0",
+      "age": 23,
+      "nationality": "",
+      "team_id": "27",
+      "team_abbr": "WAS",
+      "team_name": "Washington Wizards",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4708972.png"
     },
     "5238230": {
       "player_id": "5238230",
