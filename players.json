@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T16:13:04.157130+00:00",
-  "player_count": 618,
+  "generated_at": "2026-10-12T19:43:25.243469+00:00",
+  "player_count": 622,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -1378,7 +1378,7 @@
       "player_id": "4432117",
       "full_name": "Isaiah Stevens",
       "position": "G",
-      "jersey_number": "",
+      "jersey_number": "99",
       "height_cm": "180",
       "weight": "185.0",
       "age": 25,
@@ -1654,6 +1654,20 @@
       "team_name": "Cleveland Cavaliers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4701845.png"
     },
+    "4702528": {
+      "player_id": "4702528",
+      "full_name": "Jaxson Robinson",
+      "position": "F",
+      "jersey_number": "2",
+      "height_cm": "198",
+      "weight": "192.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "5",
+      "team_abbr": "CLE",
+      "team_name": "Cleveland Cavaliers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702528.png"
+    },
     "5041951": {
       "player_id": "5041951",
       "full_name": "Meleek Thomas",
@@ -1723,6 +1737,20 @@
       "team_abbr": "CLE",
       "team_name": "Cleveland Cavaliers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4576087.png"
+    },
+    "5457832": {
+      "player_id": "5457832",
+      "full_name": "Noam Yaacov",
+      "position": "G",
+      "jersey_number": "30",
+      "height_cm": "185",
+      "weight": "",
+      "age": 21,
+      "nationality": "",
+      "team_id": "5",
+      "team_abbr": "CLE",
+      "team_name": "Cleveland Cavaliers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5457832.png"
     },
     "4593125": {
       "player_id": "4593125",
@@ -2232,7 +2260,7 @@
       "player_id": "4433629",
       "full_name": "Ryan Nembhard",
       "position": "G",
-      "jersey_number": "",
+      "jersey_number": "9",
       "height_cm": "180",
       "weight": "180.0",
       "age": 23,
@@ -4598,7 +4626,7 @@
       "player_id": "4433569",
       "full_name": "Johni Broome",
       "position": "F",
-      "jersey_number": "",
+      "jersey_number": "22",
       "height_cm": "208",
       "weight": "235.0",
       "age": 24,
@@ -4621,6 +4649,20 @@
       "team_abbr": "MIL",
       "team_name": "Milwaukee Bucks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5082206.png"
+    },
+    "4432588": {
+      "player_id": "4432588",
+      "full_name": "John Butler Jr.",
+      "position": "F",
+      "jersey_number": "27",
+      "height_cm": "213",
+      "weight": "212.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "15",
+      "team_abbr": "MIL",
+      "team_name": "Milwaukee Bucks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432588.png"
     },
     "4997526": {
       "player_id": "4997526",
@@ -6287,6 +6329,20 @@
       "team_abbr": "ORL",
       "team_name": "Orlando Magic",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5239561.png"
+    },
+    "5105875": {
+      "player_id": "5105875",
+      "full_name": "Mike Sharavjamts",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "206",
+      "weight": "195.0",
+      "age": 24,
+      "nationality": "Mongolia",
+      "team_id": "19",
+      "team_abbr": "ORL",
+      "team_name": "Orlando Magic",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105875.png"
     },
     "4432165": {
       "player_id": "4432165",
