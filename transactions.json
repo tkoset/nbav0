@@ -3932,6 +3932,101 @@
           "message": "Mike Sharavjamts NBA rosterlarina yeni katildi (ORL)"
         }
       ]
+    },
+    "2026-10-13": {
+      "checked_at": "2026-10-13T17:28:09.630933+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4712845",
+          "full_name": "Isaac McKneely",
+          "team_abbr": "ATL",
+          "message": "Isaac McKneely NBA rosterlarina yeni katildi (ATL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5107242",
+          "full_name": "Dion Brown",
+          "team_abbr": "BKN",
+          "message": "Dion Brown NBA rosterlarina yeni katildi (BKN)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4278053",
+          "full_name": "Davion Mitchell",
+          "team_abbr": "MIA",
+          "old_number": "45",
+          "new_number": "2",
+          "message": "Davion Mitchell forma numarasini degistirdi: #45 -> #2"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4702134",
+          "full_name": "Norchad Omier",
+          "team_abbr": "MIN",
+          "old_number": "",
+          "new_number": "23",
+          "message": "Norchad Omier forma numarasini degistirdi: # -> #23"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4685802",
+          "full_name": "Robert McCray V",
+          "team_abbr": "OKC",
+          "message": "Robert McCray V NBA rosterlarina yeni katildi (OKC)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4395997",
+          "full_name": "Terrell Brown Jr.",
+          "team_abbr": "UTA",
+          "message": "Terrell Brown Jr. NBA rosterlarina yeni katildi (UTA)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4278395",
+          "full_name": "Taylor Funk",
+          "team_abbr": "UTA",
+          "old_number": "",
+          "new_number": "33",
+          "message": "Taylor Funk forma numarasini degistirdi: # -> #33"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5106293",
+          "full_name": "Mohamed Wague",
+          "team_abbr": "UTA",
+          "message": "Mohamed Wague NBA rosterlarina yeni katildi (UTA)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4592216",
+          "full_name": "Alondes Williams",
+          "team_abbr": "WAS",
+          "message": "Alondes Williams NBA rosterlarina yeni katildi (WAS)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4277890",
+          "full_name": "Lonnie Walker IV",
+          "team_abbr": "DEN",
+          "message": "Lonnie Walker IV aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4433623",
+          "full_name": "Caleb Houstan",
+          "team_abbr": "NOP",
+          "message": "Caleb Houstan aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4590360",
+          "full_name": "Chucky Hepburn",
+          "team_abbr": "TOR",
+          "message": "Chucky Hepburn aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
