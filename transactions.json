@@ -4027,6 +4027,88 @@
           "message": "Chucky Hepburn aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-14": {
+      "checked_at": "2026-10-14T14:58:08.309819+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4431914",
+          "full_name": "Tyler Burton",
+          "team_abbr": "GSW",
+          "message": "Tyler Burton NBA rosterlarina yeni katildi (GSW)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5107258",
+          "full_name": "William Kyle III",
+          "team_abbr": "LAL",
+          "message": "William Kyle III NBA rosterlarina yeni katildi (LAL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4701192",
+          "full_name": "Viktor Lakhin",
+          "team_abbr": "SAC",
+          "message": "Viktor Lakhin NBA rosterlarina yeni katildi (SAC)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4897696",
+          "full_name": "Jamarion Sharp",
+          "team_abbr": "TOR",
+          "message": "Jamarion Sharp NBA rosterlarina yeni katildi (TOR)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4712845",
+          "full_name": "Isaac McKneely",
+          "team_abbr": "ATL",
+          "message": "Isaac McKneely aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5107242",
+          "full_name": "Dion Brown",
+          "team_abbr": "BKN",
+          "message": "Dion Brown aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432189",
+          "full_name": "Dain Dainja",
+          "team_abbr": "BKN",
+          "message": "Dain Dainja aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4696317",
+          "full_name": "Miles Kelly",
+          "team_abbr": "GSW",
+          "message": "Miles Kelly aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5159895",
+          "full_name": "Yuki Kawamura",
+          "team_abbr": "LAC",
+          "message": "Yuki Kawamura aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4433176",
+          "full_name": "RJ Davis",
+          "team_abbr": "SAS",
+          "message": "RJ Davis aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5106293",
+          "full_name": "Mohamed Wague",
+          "team_abbr": "UTA",
+          "message": "Mohamed Wague aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
