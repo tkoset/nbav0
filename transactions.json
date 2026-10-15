@@ -4109,6 +4109,116 @@
           "message": "Mohamed Wague aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-15": {
+      "checked_at": "2026-10-15T14:47:47.066969+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4397003",
+          "full_name": "Giorgi Bezhanishvili",
+          "team_abbr": "ATL",
+          "message": "Giorgi Bezhanishvili NBA rosterlarina yeni katildi (ATL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5105411",
+          "full_name": "Jorge Diaz Graham",
+          "team_abbr": "DAL",
+          "message": "Jorge Diaz Graham NBA rosterlarina yeni katildi (DAL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4588201",
+          "full_name": "Steven Crowl",
+          "team_abbr": "DEN",
+          "message": "Steven Crowl NBA rosterlarina yeni katildi (DEN)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4277890",
+          "full_name": "Lonnie Walker IV",
+          "team_abbr": "DEN",
+          "message": "Lonnie Walker IV NBA rosterlarina yeni katildi (DEN)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5159895",
+          "full_name": "Yuki Kawamura",
+          "team_abbr": "LAC",
+          "message": "Yuki Kawamura NBA rosterlarina yeni katildi (LAC)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4397355",
+          "full_name": "DeAndre Williams",
+          "team_abbr": "LAC",
+          "message": "DeAndre Williams NBA rosterlarina yeni katildi (LAC)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4433623",
+          "full_name": "Caleb Houstan",
+          "team_abbr": "NOP",
+          "message": "Caleb Houstan NBA rosterlarina yeni katildi (NOP)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4701819",
+          "full_name": "Jalon Moore",
+          "team_abbr": "NOP",
+          "message": "Jalon Moore NBA rosterlarina yeni katildi (NOP)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4433176",
+          "full_name": "RJ Davis",
+          "team_abbr": "SAS",
+          "message": "RJ Davis NBA rosterlarina yeni katildi (SAS)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4279815",
+          "full_name": "Terry Taylor",
+          "team_abbr": "SAS",
+          "message": "Terry Taylor NBA rosterlarina yeni katildi (SAS)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4702528",
+          "full_name": "Jaxson Robinson",
+          "team_abbr": "CLE",
+          "message": "Jaxson Robinson aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4397134",
+          "full_name": "Cole Swider",
+          "team_abbr": "LAL",
+          "message": "Cole Swider aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4703421",
+          "full_name": "Taelon Peter",
+          "team_abbr": "SAS",
+          "message": "Taelon Peter aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4277880",
+          "full_name": "Malik Williams",
+          "team_abbr": "SAS",
+          "message": "Malik Williams aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4395623",
+          "full_name": "Trey Jemison III",
+          "team_abbr": "TOR",
+          "message": "Trey Jemison III aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
