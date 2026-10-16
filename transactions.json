@@ -4219,6 +4219,32 @@
           "message": "Trey Jemison III aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-16": {
+      "checked_at": "2026-10-16T14:42:01.552832+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4432394",
+          "full_name": "Cameron Matthews",
+          "team_abbr": "HOU",
+          "message": "Cameron Matthews NBA rosterlarina yeni katildi (HOU)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4590360",
+          "full_name": "Chucky Hepburn",
+          "team_abbr": "TOR",
+          "message": "Chucky Hepburn NBA rosterlarina yeni katildi (TOR)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4395623",
+          "full_name": "Trey Jemison III",
+          "team_abbr": "TOR",
+          "message": "Trey Jemison III NBA rosterlarina yeni katildi (TOR)"
+        }
+      ]
     }
   }
 }

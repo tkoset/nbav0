@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T14:47:47.071413+00:00",
-  "player_count": 627,
+  "generated_at": "2026-10-16T14:42:01.557983+00:00",
+  "player_count": 630,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -2998,6 +2998,20 @@
       "team_name": "Houston Rockets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433192.png"
     },
+    "4432394": {
+      "player_id": "4432394",
+      "full_name": "Cameron Matthews",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "201",
+      "weight": "235.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "10",
+      "team_abbr": "HOU",
+      "team_name": "Houston Rockets",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432394.png"
+    },
     "4709131": {
       "player_id": "4709131",
       "full_name": "Sean Pedulla",
@@ -3285,7 +3299,7 @@
       "jersey_number": "23",
       "height_cm": "196",
       "weight": "215.0",
-      "age": 26,
+      "age": 27,
       "nationality": "USA",
       "team_id": "11",
       "team_abbr": "IND",
@@ -7982,6 +7996,20 @@
       "team_name": "Toronto Raptors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5149115.png"
     },
+    "4590360": {
+      "player_id": "4590360",
+      "full_name": "Chucky Hepburn",
+      "position": "G",
+      "jersey_number": "24",
+      "height_cm": "183",
+      "weight": "193.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "28",
+      "team_abbr": "TOR",
+      "team_name": "Toronto Raptors",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4590360.png"
+    },
     "4432190": {
       "player_id": "4432190",
       "full_name": "Andre Jackson Jr.",
@@ -8009,6 +8037,20 @@
       "team_abbr": "TOR",
       "team_name": "Toronto Raptors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431684.png"
+    },
+    "4395623": {
+      "player_id": "4395623",
+      "full_name": "Trey Jemison III",
+      "position": "C",
+      "jersey_number": "50",
+      "height_cm": "208",
+      "weight": "270.0",
+      "age": 26,
+      "nationality": "USA",
+      "team_id": "28",
+      "team_abbr": "TOR",
+      "team_name": "Toronto Raptors",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4395623.png"
     },
     "4279143": {
       "player_id": "4279143",
