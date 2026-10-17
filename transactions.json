@@ -4245,6 +4245,158 @@
           "message": "Trey Jemison III NBA rosterlarina yeni katildi (TOR)"
         }
       ]
+    },
+    "2026-10-17": {
+      "checked_at": "2026-10-17T13:33:27.880221+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4712845",
+          "full_name": "Isaac McKneely",
+          "team_abbr": "ATL",
+          "message": "Isaac McKneely NBA rosterlarina yeni katildi (ATL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4702484",
+          "full_name": "Latrell Wrightsell Jr.",
+          "team_abbr": "CHA",
+          "message": "Latrell Wrightsell Jr. NBA rosterlarina yeni katildi (CHA)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "6576",
+          "full_name": "Quincy Acy",
+          "team_abbr": "DAL",
+          "message": "Quincy Acy NBA rosterlarina yeni katildi (DAL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4696317",
+          "full_name": "Miles Kelly",
+          "team_abbr": "GSW",
+          "message": "Miles Kelly NBA rosterlarina yeni katildi (GSW)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "984",
+          "full_name": "Tyson Chandler",
+          "team_abbr": "HOU",
+          "message": "Tyson Chandler NBA rosterlarina yeni katildi (HOU)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4711203",
+          "full_name": "Aniwaniwa Tait-Jones",
+          "team_abbr": "LAL",
+          "message": "Aniwaniwa Tait-Jones NBA rosterlarina yeni katildi (LAL)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5107069",
+          "full_name": "Zach Cleveland",
+          "team_abbr": "MEM",
+          "message": "Zach Cleveland NBA rosterlarina yeni katildi (MEM)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5106051",
+          "full_name": "Ezra Ausar",
+          "team_abbr": "MIA",
+          "message": "Ezra Ausar NBA rosterlarina yeni katildi (MIA)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5241706",
+          "full_name": "Cris Carroll",
+          "team_abbr": "PHI",
+          "message": "Cris Carroll NBA rosterlarina yeni katildi (PHI)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5239799",
+          "full_name": "Taye Fields",
+          "team_abbr": "PHI",
+          "message": "Taye Fields NBA rosterlarina yeni katildi (PHI)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4703421",
+          "full_name": "Taelon Peter",
+          "team_abbr": "SAS",
+          "message": "Taelon Peter NBA rosterlarina yeni katildi (SAS)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4277880",
+          "full_name": "Malik Williams",
+          "team_abbr": "SAS",
+          "message": "Malik Williams NBA rosterlarina yeni katildi (SAS)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "2578239",
+          "full_name": "Pat Connaughton",
+          "team_abbr": "CHA",
+          "message": "Pat Connaughton aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5105411",
+          "full_name": "Jorge Diaz Graham",
+          "team_abbr": "DAL",
+          "message": "Jorge Diaz Graham aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4433623",
+          "full_name": "Caleb Houstan",
+          "team_abbr": "NOP",
+          "message": "Caleb Houstan aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5116468",
+          "full_name": "Andrew Holifield",
+          "team_abbr": "OKC",
+          "message": "Andrew Holifield aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4897155",
+          "full_name": "Anthony Pritchard",
+          "team_abbr": "OKC",
+          "message": "Anthony Pritchard aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4277923",
+          "full_name": "Zhaire Smith",
+          "team_abbr": "OKC",
+          "message": "Zhaire Smith aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4565201",
+          "full_name": "Malaki Branham",
+          "team_abbr": "ORL",
+          "message": "Malaki Branham aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4576085",
+          "full_name": "JD Davison",
+          "team_abbr": "ORL",
+          "message": "JD Davison aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4278075",
+          "full_name": "Kevin Knox II",
+          "team_abbr": "ORL",
+          "message": "Kevin Knox II aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
