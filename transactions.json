@@ -5068,6 +5068,136 @@
           "message": "Alondes Williams aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-19": {
+      "checked_at": "2026-10-19T16:53:23.594894+00:00",
+      "events": [
+        {
+          "type": "jersey_change",
+          "player_id": "4585618",
+          "full_name": "Keshon Gilbert",
+          "team_abbr": "ATL",
+          "old_number": "51",
+          "new_number": "00",
+          "message": "Keshon Gilbert forma numarasini degistirdi: #51 -> #00"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4065673",
+          "full_name": "Tony Bradley",
+          "team_abbr": "UTA",
+          "old_number": "",
+          "new_number": "13",
+          "message": "Tony Bradley forma numarasini degistirdi: # -> #13"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4278129",
+          "full_name": "Deandre Ayton",
+          "team_abbr": "WAS",
+          "old_number": "6",
+          "new_number": "8",
+          "message": "Deandre Ayton forma numarasini degistirdi: #6 -> #8"
+        },
+        {
+          "type": "left_league",
+          "player_id": "6576",
+          "full_name": "Quincy Acy",
+          "team_abbr": "DAL",
+          "message": "Quincy Acy aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "2531367",
+          "full_name": "Dwight Powell",
+          "team_abbr": "DAL",
+          "message": "Dwight Powell aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "984",
+          "full_name": "Tyson Chandler",
+          "team_abbr": "HOU",
+          "message": "Tyson Chandler aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4702784",
+          "full_name": "J'Vonne Hadley",
+          "team_abbr": "MIA",
+          "message": "J'Vonne Hadley aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4431720",
+          "full_name": "Lester Quinones",
+          "team_abbr": "MIA",
+          "message": "Lester Quinones aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4065697",
+          "full_name": "Dennis Smith Jr.",
+          "team_abbr": "MIA",
+          "message": "Dennis Smith Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432588",
+          "full_name": "John Butler Jr.",
+          "team_abbr": "MIL",
+          "message": "John Butler Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4431778",
+          "full_name": "Christian Koloko",
+          "team_abbr": "NOP",
+          "message": "Christian Koloko aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4685802",
+          "full_name": "Robert McCray V",
+          "team_abbr": "OKC",
+          "message": "Robert McCray V aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5105875",
+          "full_name": "Mike Sharavjamts",
+          "team_abbr": "ORL",
+          "message": "Mike Sharavjamts aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4684737",
+          "full_name": "Jaylen Martin",
+          "team_abbr": "POR",
+          "message": "Jaylen Martin aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4395997",
+          "full_name": "Terrell Brown Jr.",
+          "team_abbr": "UTA",
+          "message": "Terrell Brown Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4708972",
+          "full_name": "Jazian Gortman",
+          "team_abbr": "WAS",
+          "message": "Jazian Gortman aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4704043",
+          "full_name": "Steve Settle III",
+          "team_abbr": "WAS",
+          "message": "Steve Settle III aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
