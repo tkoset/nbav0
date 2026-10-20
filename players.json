@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T16:53:23.599679+00:00",
-  "player_count": 525,
+  "generated_at": "2026-10-20T14:52:38.448815+00:00",
+  "player_count": 517,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -1177,20 +1177,6 @@
       "team_abbr": "CHI",
       "team_name": "Chicago Bulls",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397189.png"
-    },
-    "4432117": {
-      "player_id": "4432117",
-      "full_name": "Isaiah Stevens",
-      "position": "G",
-      "jersey_number": "99",
-      "height_cm": "180",
-      "weight": "185.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "4",
-      "team_abbr": "CHI",
-      "team_name": "Chicago Bulls",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432117.png"
     },
     "4848625": {
       "player_id": "4848625",
@@ -2550,20 +2536,6 @@
       "team_name": "Houston Rockets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433192.png"
     },
-    "4709131": {
-      "player_id": "4709131",
-      "full_name": "Sean Pedulla",
-      "position": "G",
-      "jersey_number": "0",
-      "height_cm": "185",
-      "weight": "195.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "10",
-      "team_abbr": "HOU",
-      "team_name": "Houston Rockets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4709131.png"
-    },
     "5105553": {
       "player_id": "5105553",
       "full_name": "Julian Phillips",
@@ -2890,7 +2862,7 @@
       "player_id": "5105854",
       "full_name": "Braden Smith",
       "position": "G",
-      "jersey_number": "18",
+      "jersey_number": "3",
       "height_cm": "178",
       "weight": "167.0",
       "age": 23,
@@ -3292,20 +3264,6 @@
       "team_name": "Los Angeles Lakers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433136.png"
     },
-    "4897943": {
-      "player_id": "4897943",
-      "full_name": "Dalton Knecht",
-      "position": "F",
-      "jersey_number": "4",
-      "height_cm": "198",
-      "weight": "215.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "13",
-      "team_abbr": "LAL",
-      "team_name": "Los Angeles Lakers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4897943.png"
-    },
     "4592691": {
       "player_id": "4592691",
       "full_name": "Jake LaRavia",
@@ -3474,20 +3432,6 @@
       "team_name": "Memphis Grizzlies",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5041935.png"
     },
-    "4896372": {
-      "player_id": "4896372",
-      "full_name": "Walter Clayton Jr.",
-      "position": "G",
-      "jersey_number": "4",
-      "height_cm": "193",
-      "weight": "195.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "29",
-      "team_abbr": "MEM",
-      "team_name": "Memphis Grizzlies",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4896372.png"
-    },
     "5105817": {
       "player_id": "5105817",
       "full_name": "Carson Cooper",
@@ -3627,20 +3571,6 @@
       "team_abbr": "MEM",
       "team_name": "Memphis Grizzlies",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4594326.png"
-    },
-    "4432185": {
-      "player_id": "4432185",
-      "full_name": "Micah Peavy",
-      "position": "G",
-      "jersey_number": "7",
-      "height_cm": "201",
-      "weight": "220.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "29",
-      "team_abbr": "MEM",
-      "team_name": "Memphis Grizzlies",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432185.png"
     },
     "4431785": {
       "player_id": "4431785",
@@ -4132,20 +4062,6 @@
       "team_name": "Milwaukee Bucks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5214989.png"
     },
-    "4397140": {
-      "player_id": "4397140",
-      "full_name": "Kevin Porter Jr.",
-      "position": "G",
-      "jersey_number": "7",
-      "height_cm": "196",
-      "weight": "203.0",
-      "age": 26,
-      "nationality": "USA",
-      "team_id": "15",
-      "team_abbr": "MIL",
-      "team_name": "Milwaukee Bucks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397140.png"
-    },
     "4591725": {
       "player_id": "4591725",
       "full_name": "Ryan Rollins",
@@ -4181,7 +4097,7 @@
       "jersey_number": "00",
       "height_cm": "208",
       "weight": "250.0",
-      "age": 27,
+      "age": 28,
       "nationality": "USA",
       "team_id": "15",
       "team_abbr": "MIL",
@@ -5686,20 +5602,6 @@
       "team_name": "Phoenix Suns",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4280245.png"
     },
-    "4591259": {
-      "player_id": "4591259",
-      "full_name": "Koby Brea",
-      "position": "G",
-      "jersey_number": "14",
-      "height_cm": "198",
-      "weight": "215.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "21",
-      "team_abbr": "PHX",
-      "team_name": "Phoenix Suns",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4591259.png"
-    },
     "4066383": {
       "player_id": "4066383",
       "full_name": "Miles Bridges",
@@ -5798,20 +5700,6 @@
       "team_name": "Phoenix Suns",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4437244.png"
     },
-    "4702602": {
-      "player_id": "4702602",
-      "full_name": "CJ Huntley",
-      "position": "F",
-      "jersey_number": "21",
-      "height_cm": "208",
-      "weight": "230.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "21",
-      "team_abbr": "PHX",
-      "team_name": "Phoenix Suns",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702602.png"
-    },
     "4601023": {
       "player_id": "4601023",
       "full_name": "Oso Ighodaro",
@@ -5895,6 +5783,20 @@
       "team_abbr": "PHX",
       "team_name": "Phoenix Suns",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4592714.png"
+    },
+    "4431695": {
+      "player_id": "4431695",
+      "full_name": "Drew Timme",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "208",
+      "weight": "235.0",
+      "age": 26,
+      "nationality": "USA",
+      "team_id": "21",
+      "team_abbr": "PHX",
+      "team_name": "Phoenix Suns",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431695.png"
     },
     "4701232": {
       "player_id": "4701232",
@@ -6217,20 +6119,6 @@
       "team_abbr": "SAC",
       "team_name": "Sacramento Kings",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702384.png"
-    },
-    "4397654": {
-      "player_id": "4397654",
-      "full_name": "Adam Flagler",
-      "position": "G",
-      "jersey_number": "20",
-      "height_cm": "185",
-      "weight": "180.0",
-      "age": 26,
-      "nationality": "USA",
-      "team_id": "23",
-      "team_abbr": "SAC",
-      "team_name": "Sacramento Kings",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397654.png"
     },
     "4065732": {
       "player_id": "4065732",

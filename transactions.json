@@ -5198,6 +5198,90 @@
           "message": "Steve Settle III aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-20": {
+      "checked_at": "2026-10-20T14:52:38.442893+00:00",
+      "events": [
+        {
+          "type": "jersey_change",
+          "player_id": "5105854",
+          "full_name": "Braden Smith",
+          "team_abbr": "IND",
+          "old_number": "18",
+          "new_number": "3",
+          "message": "Braden Smith forma numarasini degistirdi: #18 -> #3"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4431695",
+          "full_name": "Drew Timme",
+          "team_abbr": "PHX",
+          "message": "Drew Timme NBA rosterlarina yeni katildi (PHX)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432117",
+          "full_name": "Isaiah Stevens",
+          "team_abbr": "CHI",
+          "message": "Isaiah Stevens aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4709131",
+          "full_name": "Sean Pedulla",
+          "team_abbr": "HOU",
+          "message": "Sean Pedulla aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4897943",
+          "full_name": "Dalton Knecht",
+          "team_abbr": "LAL",
+          "message": "Dalton Knecht aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4896372",
+          "full_name": "Walter Clayton Jr.",
+          "team_abbr": "MEM",
+          "message": "Walter Clayton Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4432185",
+          "full_name": "Micah Peavy",
+          "team_abbr": "MEM",
+          "message": "Micah Peavy aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4397140",
+          "full_name": "Kevin Porter Jr.",
+          "team_abbr": "MIL",
+          "message": "Kevin Porter Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4591259",
+          "full_name": "Koby Brea",
+          "team_abbr": "PHX",
+          "message": "Koby Brea aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4702602",
+          "full_name": "CJ Huntley",
+          "team_abbr": "PHX",
+          "message": "CJ Huntley aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4397654",
+          "full_name": "Adam Flagler",
+          "team_abbr": "SAC",
+          "message": "Adam Flagler aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
