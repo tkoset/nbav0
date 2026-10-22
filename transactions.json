@@ -5286,6 +5286,34 @@
     "2026-10-21": {
       "checked_at": "2026-10-21T14:59:45.656544+00:00",
       "events": []
+    },
+    "2026-10-22": {
+      "checked_at": "2026-10-22T14:59:28.400673+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4896372",
+          "full_name": "Walter Clayton Jr.",
+          "team_abbr": "DAL",
+          "message": "Walter Clayton Jr. NBA rosterlarina yeni katildi (DAL)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "3907498",
+          "full_name": "Matisse Thybulle",
+          "team_abbr": "LAL",
+          "old_number": "26",
+          "new_number": "4",
+          "message": "Matisse Thybulle forma numarasini degistirdi: #26 -> #4"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4397233",
+          "full_name": "Pete Nance",
+          "team_abbr": "MIL",
+          "message": "Pete Nance NBA rosterlarina yeni katildi (MIL)"
+        }
+      ]
     }
   }
 }
