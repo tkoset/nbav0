@@ -5314,6 +5314,32 @@
           "message": "Pete Nance NBA rosterlarina yeni katildi (MIL)"
         }
       ]
+    },
+    "2026-10-23": {
+      "checked_at": "2026-10-23T14:49:38.016624+00:00",
+      "events": [
+        {
+          "type": "left_league",
+          "player_id": "4997530",
+          "full_name": "Khalifa Diop",
+          "team_abbr": "CLE",
+          "message": "Khalifa Diop aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5106268",
+          "full_name": "Nae'Qwan Tomlin",
+          "team_abbr": "CLE",
+          "message": "Nae'Qwan Tomlin aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5106261",
+          "full_name": "Ernest Udeh Jr.",
+          "team_abbr": "CLE",
+          "message": "Ernest Udeh Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
