@@ -5340,6 +5340,39 @@
           "message": "Ernest Udeh Jr. aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-24": {
+      "checked_at": "2026-10-24T13:54:54.540662+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4897943",
+          "full_name": "Dalton Knecht",
+          "team_abbr": "NYK",
+          "message": "Dalton Knecht NBA rosterlarina yeni katildi (NYK)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4432185",
+          "full_name": "Micah Peavy",
+          "team_abbr": "OKC",
+          "message": "Micah Peavy NBA rosterlarina yeni katildi (OKC)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4709131",
+          "full_name": "Sean Pedulla",
+          "team_abbr": "SAC",
+          "message": "Sean Pedulla NBA rosterlarina yeni katildi (SAC)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4411057",
+          "full_name": "Kevin McCullar Jr.",
+          "team_abbr": "NYK",
+          "message": "Kevin McCullar Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }

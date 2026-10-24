@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T14:49:38.021287+00:00",
-  "player_count": 516,
+  "generated_at": "2026-10-24T13:54:54.546181+00:00",
+  "player_count": 518,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -4748,6 +4748,20 @@
       "team_name": "New York Knicks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png"
     },
+    "4897943": {
+      "player_id": "4897943",
+      "full_name": "Dalton Knecht",
+      "position": "F",
+      "jersey_number": "99",
+      "height_cm": "198",
+      "weight": "215.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "18",
+      "team_abbr": "NYK",
+      "team_name": "New York Knicks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4897943.png"
+    },
     "4433225": {
       "player_id": "4433225",
       "full_name": "Tyler Kolek",
@@ -4775,20 +4789,6 @@
       "team_abbr": "NYK",
       "team_name": "New York Knicks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431823.png"
-    },
-    "4411057": {
-      "player_id": "4411057",
-      "full_name": "Kevin McCullar Jr.",
-      "position": "G",
-      "jersey_number": "9",
-      "height_cm": "198",
-      "weight": "210.0",
-      "age": 25,
-      "nationality": "USA",
-      "team_id": "18",
-      "team_abbr": "NYK",
-      "team_name": "New York Knicks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4411057.png"
     },
     "4838721": {
       "player_id": "4838721",
@@ -4985,6 +4985,20 @@
       "team_abbr": "OKC",
       "team_name": "Oklahoma City Thunder",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5106270.png"
+    },
+    "4432185": {
+      "player_id": "4432185",
+      "full_name": "Micah Peavy",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "201",
+      "weight": "220.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "25",
+      "team_abbr": "OKC",
+      "team_name": "Oklahoma City Thunder",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432185.png"
     },
     "5061603": {
       "player_id": "5061603",
@@ -5301,7 +5315,7 @@
       "jersey_number": "9",
       "height_cm": "206",
       "weight": "260.0",
-      "age": 35,
+      "age": 36,
       "nationality": "USA",
       "team_id": "19",
       "team_abbr": "ORL",
@@ -6189,6 +6203,20 @@
       "team_abbr": "SAC",
       "team_name": "Sacramento Kings",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4594327.png"
+    },
+    "4709131": {
+      "player_id": "4709131",
+      "full_name": "Sean Pedulla",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "185",
+      "weight": "195.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "23",
+      "team_abbr": "SAC",
+      "team_name": "Sacramento Kings",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4709131.png"
     },
     "4279318": {
       "player_id": "4279318",
