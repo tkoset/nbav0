@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:54:54.546181+00:00",
+  "generated_at": "2026-10-25T14:13:06.812295+00:00",
   "player_count": 518,
   "players": {
     "4278039": {
@@ -163,7 +163,7 @@
       "jersey_number": "31",
       "height_cm": "211",
       "weight": "255.0",
-      "age": 30,
+      "age": 31,
       "nationality": "Australia",
       "team_id": "1",
       "team_abbr": "ATL",
@@ -5371,7 +5371,7 @@
       "jersey_number": "7",
       "height_cm": "198",
       "weight": "223.0",
-      "age": 29,
+      "age": 30,
       "nationality": "USA",
       "team_id": "20",
       "team_abbr": "PHI",
@@ -6208,7 +6208,7 @@
       "player_id": "4709131",
       "full_name": "Sean Pedulla",
       "position": "G",
-      "jersey_number": "",
+      "jersey_number": "3",
       "height_cm": "185",
       "weight": "195.0",
       "age": 24,

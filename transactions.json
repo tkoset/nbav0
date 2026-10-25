@@ -5373,6 +5373,20 @@
           "message": "Kevin McCullar Jr. aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-25": {
+      "checked_at": "2026-10-25T14:13:06.806832+00:00",
+      "events": [
+        {
+          "type": "jersey_change",
+          "player_id": "4709131",
+          "full_name": "Sean Pedulla",
+          "team_abbr": "SAC",
+          "old_number": "",
+          "new_number": "3",
+          "message": "Sean Pedulla forma numarasini degistirdi: # -> #3"
+        }
+      ]
     }
   }
 }
