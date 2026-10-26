@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T14:13:06.812295+00:00",
+  "generated_at": "2026-10-26T16:41:11.468103+00:00",
   "player_count": 518,
   "players": {
     "4278039": {
@@ -4069,7 +4069,7 @@
       "jersey_number": "30",
       "height_cm": "196",
       "weight": "195.0",
-      "age": 27,
+      "age": 28,
       "nationality": "USA",
       "team_id": "15",
       "team_abbr": "MIL",
@@ -7206,7 +7206,7 @@
       "height_cm": "213",
       "weight": "205.0",
       "age": 21,
-      "nationality": "",
+      "nationality": "France",
       "team_id": "27",
       "team_abbr": "WAS",
       "team_name": "Washington Wizards",
