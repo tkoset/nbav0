@@ -5395,6 +5395,18 @@
     "2026-10-27": {
       "checked_at": "2026-10-27T15:48:35.398527+00:00",
       "events": []
+    },
+    "2026-10-28": {
+      "checked_at": "2026-10-28T16:31:53.920467+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4592699",
+          "full_name": "Enrique Freeman",
+          "team_abbr": "MIN",
+          "message": "Enrique Freeman NBA rosterlarina yeni katildi (MIN)"
+        }
+      ]
     }
   }
 }
