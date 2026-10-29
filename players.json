@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:31:53.925941+00:00",
+  "generated_at": "2026-10-29T16:48:07.584949+00:00",
   "player_count": 519,
   "players": {
     "4278039": {
@@ -2165,7 +2165,7 @@
       "jersey_number": "28",
       "height_cm": "208",
       "weight": "230.0",
-      "age": 25,
+      "age": 26,
       "nationality": "Nigeria",
       "team_id": "9",
       "team_abbr": "GSW",
@@ -3263,6 +3263,20 @@
       "team_abbr": "LAL",
       "team_name": "Los Angeles Lakers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3155535.png"
+    },
+    "4596528": {
+      "player_id": "4596528",
+      "full_name": "Lawson Lovering",
+      "position": "C",
+      "jersey_number": "",
+      "height_cm": "216",
+      "weight": "233.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "13",
+      "team_abbr": "LAL",
+      "team_name": "Los Angeles Lakers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4596528.png"
     },
     "4278580": {
       "player_id": "4278580",
@@ -4985,20 +4999,6 @@
       "team_abbr": "OKC",
       "team_name": "Oklahoma City Thunder",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png"
-    },
-    "5106270": {
-      "player_id": "5106270",
-      "full_name": "Otega Oweh",
-      "position": "G",
-      "jersey_number": "13",
-      "height_cm": "193",
-      "weight": "217.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "25",
-      "team_abbr": "OKC",
-      "team_name": "Oklahoma City Thunder",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5106270.png"
     },
     "4432185": {
       "player_id": "4432185",

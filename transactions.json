@@ -5407,6 +5407,25 @@
           "message": "Enrique Freeman NBA rosterlarina yeni katildi (MIN)"
         }
       ]
+    },
+    "2026-10-29": {
+      "checked_at": "2026-10-29T16:48:07.342228+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4596528",
+          "full_name": "Lawson Lovering",
+          "team_abbr": "LAL",
+          "message": "Lawson Lovering NBA rosterlarina yeni katildi (LAL)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5106270",
+          "full_name": "Otega Oweh",
+          "team_abbr": "OKC",
+          "message": "Otega Oweh aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
