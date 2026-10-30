@@ -5426,6 +5426,25 @@
           "message": "Otega Oweh aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-10-30": {
+      "checked_at": "2026-10-30T16:37:01.070885+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "5106261",
+          "full_name": "Ernest Udeh Jr.",
+          "team_abbr": "CLE",
+          "message": "Ernest Udeh Jr. NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4683935",
+          "full_name": "Blake Wesley",
+          "team_abbr": "LAC",
+          "message": "Blake Wesley NBA rosterlarina yeni katildi (LAC)"
+        }
+      ]
     }
   }
 }
