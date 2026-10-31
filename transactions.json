@@ -5445,6 +5445,18 @@
           "message": "Blake Wesley NBA rosterlarina yeni katildi (LAC)"
         }
       ]
+    },
+    "2026-10-31": {
+      "checked_at": "2026-10-31T15:40:37.810599+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4397018",
+          "full_name": "Ochai Agbaji",
+          "team_abbr": "OKC",
+          "message": "Ochai Agbaji NBA rosterlarina yeni katildi (OKC)"
+        }
+      ]
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T16:37:01.076485+00:00",
-  "player_count": 521,
+  "generated_at": "2026-10-31T15:40:37.816125+00:00",
+  "player_count": 522,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -4902,6 +4902,20 @@
       "team_name": "New York Knicks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432808.png"
     },
+    "4397018": {
+      "player_id": "4397018",
+      "full_name": "Ochai Agbaji",
+      "position": "G",
+      "jersey_number": "30",
+      "height_cm": "196",
+      "weight": "215.0",
+      "age": 26,
+      "nationality": "USA",
+      "team_id": "25",
+      "team_abbr": "OKC",
+      "team_name": "Oklahoma City Thunder",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397018.png"
+    },
     "4684208": {
       "player_id": "4684208",
       "full_name": "Brooks Barnhizer",
@@ -5623,7 +5637,7 @@
       "jersey_number": "15",
       "height_cm": "196",
       "weight": "206.0",
-      "age": 29,
+      "age": 30,
       "nationality": "USA",
       "team_id": "21",
       "team_abbr": "PHX",
