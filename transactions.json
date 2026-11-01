@@ -5457,6 +5457,32 @@
           "message": "Ochai Agbaji NBA rosterlarina yeni katildi (OKC)"
         }
       ]
+    },
+    "2026-11-01": {
+      "checked_at": "2026-11-01T16:42:15.131723+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4683736",
+          "full_name": "Kobe Bufkin",
+          "team_abbr": "UTA",
+          "message": "Kobe Bufkin NBA rosterlarina yeni katildi (UTA)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4397018",
+          "full_name": "Ochai Agbaji",
+          "team_abbr": "OKC",
+          "message": "Ochai Agbaji aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4396963",
+          "full_name": "Blake Hinson",
+          "team_abbr": "UTA",
+          "message": "Blake Hinson aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
