@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:42:15.139304+00:00",
+  "generated_at": "2026-11-02T20:08:35.584245+00:00",
   "player_count": 521,
   "players": {
     "4278039": {
@@ -2487,7 +2487,7 @@
       "jersey_number": "27",
       "height_cm": "198",
       "weight": "220.0",
-      "age": 24,
+      "age": 25,
       "nationality": "USA",
       "team_id": "10",
       "team_abbr": "HOU",
@@ -6379,7 +6379,7 @@
       "jersey_number": "5",
       "height_cm": "198",
       "weight": "220.0",
-      "age": 21,
+      "age": 22,
       "nationality": "USA",
       "team_id": "24",
       "team_abbr": "SAS",
