@@ -5491,6 +5491,25 @@
     "2026-11-03": {
       "checked_at": "2026-11-03T17:39:52.245043+00:00",
       "events": []
+    },
+    "2026-11-04": {
+      "checked_at": "2026-11-04T17:53:39.108211+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4433159",
+          "full_name": "Dalen Terry",
+          "team_abbr": "OKC",
+          "message": "Dalen Terry NBA rosterlarina yeni katildi (OKC)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4592699",
+          "full_name": "Enrique Freeman",
+          "team_abbr": "MIN",
+          "message": "Enrique Freeman aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
