@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:53:39.111988+00:00",
+  "generated_at": "2026-11-05T17:56:07.548960+00:00",
   "player_count": 521,
   "players": {
     "4278039": {
@@ -247,7 +247,7 @@
       "jersey_number": "22",
       "height_cm": "198",
       "weight": "220.0",
-      "age": 25,
+      "age": 26,
       "nationality": "USA",
       "team_id": "1",
       "team_abbr": "ATL",
@@ -2529,7 +2529,7 @@
       "jersey_number": "3",
       "height_cm": "198",
       "weight": "198.0",
-      "age": 22,
+      "age": 23,
       "nationality": "USA",
       "team_id": "10",
       "team_abbr": "HOU",
@@ -4321,7 +4321,7 @@
       "jersey_number": "41",
       "height_cm": "206",
       "weight": "234.0",
-      "age": 30,
+      "age": 31,
       "nationality": "USA",
       "team_id": "16",
       "team_abbr": "MIN",
@@ -5539,7 +5539,7 @@
       "jersey_number": "0",
       "height_cm": "188",
       "weight": "204.0",
-      "age": 25,
+      "age": 26,
       "nationality": "USA",
       "team_id": "20",
       "team_abbr": "PHI",
