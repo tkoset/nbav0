@@ -5514,6 +5514,80 @@
     "2026-11-05": {
       "checked_at": "2026-11-05T17:56:07.543418+00:00",
       "events": []
+    },
+    "2026-11-06": {
+      "checked_at": "2026-11-06T17:17:25.708070+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "5176517",
+          "full_name": "Michael Ajayi",
+          "team_abbr": "CHA",
+          "message": "Michael Ajayi NBA rosterlarina yeni katildi (CHA)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4702134",
+          "full_name": "Norchad Omier",
+          "team_abbr": "CLE",
+          "message": "Norchad Omier NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4703396",
+          "full_name": "Graham Ike",
+          "team_abbr": "GSW",
+          "old_number": "",
+          "new_number": "45",
+          "message": "Graham Ike forma numarasini degistirdi: # -> #45"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4431695",
+          "full_name": "Drew Timme",
+          "team_abbr": "PHX",
+          "old_number": "",
+          "new_number": "2",
+          "message": "Drew Timme forma numarasini degistirdi: # -> #2"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4432586",
+          "full_name": "Nate Bittle",
+          "team_abbr": "TOR",
+          "old_number": "",
+          "new_number": "12",
+          "message": "Nate Bittle forma numarasini degistirdi: # -> #12"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4411057",
+          "full_name": "Kevin McCullar Jr.",
+          "team_abbr": "TOR",
+          "message": "Kevin McCullar Jr. NBA rosterlarina yeni katildi (TOR)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5142621",
+          "full_name": "Chris Cenac Jr.",
+          "team_abbr": "BOS",
+          "message": "Chris Cenac Jr. aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5177362",
+          "full_name": "Riley Minix",
+          "team_abbr": "CLE",
+          "message": "Riley Minix aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5105837",
+          "full_name": "Bruce Thornton",
+          "team_abbr": "HOU",
+          "message": "Bruce Thornton aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }

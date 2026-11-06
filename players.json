@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:56:07.548960+00:00",
+  "generated_at": "2026-11-06T17:17:25.712755+00:00",
   "player_count": 521,
   "players": {
     "4278039": {
@@ -267,20 +267,6 @@
       "team_abbr": "BOS",
       "team_name": "Boston Celtics",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433188.png"
-    },
-    "5142621": {
-      "player_id": "5142621",
-      "full_name": "Chris Cenac Jr.",
-      "position": "F",
-      "jersey_number": "12",
-      "height_cm": "211",
-      "weight": "240.0",
-      "age": 19,
-      "nationality": "USA",
-      "team_id": "2",
-      "team_abbr": "BOS",
-      "team_name": "Boston Celtics",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5142621.png"
     },
     "3195": {
       "player_id": "3195",
@@ -743,6 +729,20 @@
       "team_abbr": "BKN",
       "team_name": "Brooklyn Nets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5107173.png"
+    },
+    "5176517": {
+      "player_id": "5176517",
+      "full_name": "Michael Ajayi",
+      "position": "F",
+      "jersey_number": "10",
+      "height_cm": "201",
+      "weight": "228.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "30",
+      "team_abbr": "CHA",
+      "team_name": "Charlotte Hornets",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5176517.png"
     },
     "3135045": {
       "player_id": "3135045",
@@ -1304,20 +1304,6 @@
       "team_name": "Cleveland Cavaliers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4066757.png"
     },
-    "5177362": {
-      "player_id": "5177362",
-      "full_name": "Riley Minix",
-      "position": "F",
-      "jersey_number": "12",
-      "height_cm": "201",
-      "weight": "230.0",
-      "age": 26,
-      "nationality": "USA",
-      "team_id": "5",
-      "team_abbr": "CLE",
-      "team_name": "Cleveland Cavaliers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5177362.png"
-    },
     "3908809": {
       "player_id": "3908809",
       "full_name": "Donovan Mitchell",
@@ -1345,6 +1331,20 @@
       "team_abbr": "CLE",
       "team_name": "Cleveland Cavaliers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4432158.png"
+    },
+    "4702134": {
+      "player_id": "4702134",
+      "full_name": "Norchad Omier",
+      "position": "C",
+      "jersey_number": "15",
+      "height_cm": "201",
+      "weight": "248.0",
+      "age": 25,
+      "nationality": "Nicaragua",
+      "team_id": "5",
+      "team_abbr": "CLE",
+      "team_name": "Cleveland Cavaliers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702134.png"
     },
     "4701233": {
       "player_id": "4701233",
@@ -2260,7 +2260,7 @@
       "player_id": "4703396",
       "full_name": "Graham Ike",
       "position": "F",
-      "jersey_number": "",
+      "jersey_number": "45",
       "height_cm": "206",
       "weight": "250.0",
       "age": 24,
@@ -2619,20 +2619,6 @@
       "team_abbr": "HOU",
       "team_name": "Houston Rockets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4684740.png"
-    },
-    "5105837": {
-      "player_id": "5105837",
-      "full_name": "Bruce Thornton",
-      "position": "G",
-      "jersey_number": "2",
-      "height_cm": "183",
-      "weight": "223.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "10",
-      "team_abbr": "HOU",
-      "team_name": "Houston Rockets",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105837.png"
     },
     "4432827": {
       "player_id": "4432827",
@@ -5830,7 +5816,7 @@
       "player_id": "4431695",
       "full_name": "Drew Timme",
       "position": "F",
-      "jersey_number": "",
+      "jersey_number": "2",
       "height_cm": "208",
       "weight": "235.0",
       "age": 26,
@@ -6628,7 +6614,7 @@
       "player_id": "4432586",
       "full_name": "Nate Bittle",
       "position": "C",
-      "jersey_number": "",
+      "jersey_number": "12",
       "height_cm": "213",
       "weight": "250.0",
       "age": 23,
@@ -6707,6 +6693,20 @@
       "team_abbr": "TOR",
       "team_name": "Toronto Raptors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702656.png"
+    },
+    "4411057": {
+      "player_id": "4411057",
+      "full_name": "Kevin McCullar Jr.",
+      "position": "G",
+      "jersey_number": "9",
+      "height_cm": "198",
+      "weight": "210.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "28",
+      "team_abbr": "TOR",
+      "team_name": "Toronto Raptors",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4411057.png"
     },
     "5093267": {
       "player_id": "5093267",
@@ -7217,7 +7217,7 @@
       "full_name": "Felix Okpara",
       "position": "F",
       "jersey_number": "34",
-      "height_cm": "208",
+      "height_cm": "211",
       "weight": "237.0",
       "age": 22,
       "nationality": "Nigeria",
