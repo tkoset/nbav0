@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:17:25.712755+00:00",
+  "generated_at": "2026-11-07T16:13:15.413598+00:00",
   "player_count": 521,
   "players": {
     "4278039": {
@@ -681,7 +681,7 @@
       "jersey_number": "20",
       "height_cm": "208",
       "weight": "265.0",
-      "age": 24,
+      "age": 25,
       "nationality": "USA",
       "team_id": "17",
       "team_abbr": "BKN",
@@ -5077,7 +5077,7 @@
       "jersey_number": "22",
       "height_cm": "190",
       "weight": "195.0",
-      "age": 22,
+      "age": 23,
       "nationality": "USA",
       "team_id": "25",
       "team_abbr": "OKC",
@@ -6883,7 +6883,7 @@
       "jersey_number": "2",
       "height_cm": "211",
       "weight": "250.0",
-      "age": 22,
+      "age": 23,
       "nationality": "USA",
       "team_id": "26",
       "team_abbr": "UTA",
