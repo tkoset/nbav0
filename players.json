@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T16:13:15.413598+00:00",
-  "player_count": 521,
+  "generated_at": "2026-11-08T16:34:41.363454+00:00",
+  "player_count": 523,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -1248,20 +1248,6 @@
       "team_name": "Cleveland Cavaliers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3934723.png"
     },
-    "4431734": {
-      "player_id": "4431734",
-      "full_name": "Tristan Enaruna",
-      "position": "F",
-      "jersey_number": "21",
-      "height_cm": "203",
-      "weight": "220.0",
-      "age": 25,
-      "nationality": "Netherlands",
-      "team_id": "5",
-      "team_abbr": "CLE",
-      "team_name": "Cleveland Cavaliers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4431734.png"
-    },
     "3992": {
       "player_id": "3992",
       "full_name": "James Harden",
@@ -1303,6 +1289,20 @@
       "team_abbr": "CLE",
       "team_name": "Cleveland Cavaliers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4066757.png"
+    },
+    "5177362": {
+      "player_id": "5177362",
+      "full_name": "Riley Minix",
+      "position": "F",
+      "jersey_number": "12",
+      "height_cm": "201",
+      "weight": "230.0",
+      "age": 26,
+      "nationality": "USA",
+      "team_id": "5",
+      "team_abbr": "CLE",
+      "team_name": "Cleveland Cavaliers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5177362.png"
     },
     "3908809": {
       "player_id": "3908809",
@@ -2620,6 +2620,20 @@
       "team_name": "Houston Rockets",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4684740.png"
     },
+    "5105837": {
+      "player_id": "5105837",
+      "full_name": "Bruce Thornton",
+      "position": "G",
+      "jersey_number": "2",
+      "height_cm": "183",
+      "weight": "229.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "10",
+      "team_abbr": "HOU",
+      "team_name": "Houston Rockets",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105837.png"
+    },
     "4432827": {
       "player_id": "4432827",
       "full_name": "Oscar Tshiebwe",
@@ -3614,6 +3628,20 @@
       "team_name": "Memphis Grizzlies",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4595400.png"
     },
+    "5105462": {
+      "player_id": "5105462",
+      "full_name": "Richie Saunders",
+      "position": "G",
+      "jersey_number": "5",
+      "height_cm": "196",
+      "weight": "205.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "29",
+      "team_abbr": "MEM",
+      "team_name": "Memphis Grizzlies",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105462.png"
+    },
     "4781746": {
       "player_id": "4781746",
       "full_name": "Javon Small",
@@ -4503,7 +4531,7 @@
       "jersey_number": "11",
       "height_cm": "198",
       "weight": "190.0",
-      "age": 23,
+      "age": 24,
       "nationality": "USA",
       "team_id": "3",
       "team_abbr": "NOP",
@@ -6897,7 +6925,7 @@
       "jersey_number": "3",
       "height_cm": "193",
       "weight": "185.0",
-      "age": 22,
+      "age": 23,
       "nationality": "USA",
       "team_id": "26",
       "team_abbr": "UTA",
