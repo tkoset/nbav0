@@ -5625,6 +5625,26 @@
           "message": "Tristan Enaruna aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-11-09": {
+      "checked_at": "2026-11-09T20:34:13.464947+00:00",
+      "events": [
+        {
+          "type": "team_change",
+          "player_id": "4702384",
+          "full_name": "Nique Clifford",
+          "from_team": "SAC",
+          "to_team": "OKC",
+          "message": "Nique Clifford: SAC -> OKC"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4433159",
+          "full_name": "Dalen Terry",
+          "team_abbr": "OKC",
+          "message": "Dalen Terry aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
