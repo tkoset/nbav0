@@ -5649,6 +5649,47 @@
     "2026-11-10": {
       "checked_at": "2026-11-10T17:37:26.409503+00:00",
       "events": []
+    },
+    "2026-11-11": {
+      "checked_at": "2026-11-11T17:48:23.707951+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "5142621",
+          "full_name": "Chris Cenac Jr.",
+          "team_abbr": "BOS",
+          "message": "Chris Cenac Jr. NBA rosterlarina yeni katildi (BOS)"
+        },
+        {
+          "type": "team_change",
+          "player_id": "5105817",
+          "full_name": "Carson Cooper",
+          "from_team": "MEM",
+          "to_team": "LAL",
+          "message": "Carson Cooper: MEM -> LAL"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4700852",
+          "full_name": "Chaz Lanier",
+          "team_abbr": "DET",
+          "message": "Chaz Lanier aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4596528",
+          "full_name": "Lawson Lovering",
+          "team_abbr": "LAL",
+          "message": "Lawson Lovering aktif roster'lardan dustu (waived/retired/G-League)"
+        },
+        {
+          "type": "left_league",
+          "player_id": "5061585",
+          "full_name": "Isaiah Evans",
+          "team_abbr": "MIN",
+          "message": "Isaiah Evans aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }

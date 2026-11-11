@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T17:37:26.414375+00:00",
-  "player_count": 522,
+  "generated_at": "2026-11-11T17:48:23.712735+00:00",
+  "player_count": 520,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -267,6 +267,20 @@
       "team_abbr": "BOS",
       "team_name": "Boston Celtics",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433188.png"
+    },
+    "5142621": {
+      "player_id": "5142621",
+      "full_name": "Chris Cenac Jr.",
+      "position": "F",
+      "jersey_number": "12",
+      "height_cm": "211",
+      "weight": "240.0",
+      "age": 19,
+      "nationality": "USA",
+      "team_id": "2",
+      "team_abbr": "BOS",
+      "team_name": "Boston Celtics",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5142621.png"
     },
     "3195": {
       "player_id": "3195",
@@ -2060,20 +2074,6 @@
       "team_name": "Detroit Pistons",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5107818.png"
     },
-    "4700852": {
-      "player_id": "4700852",
-      "full_name": "Chaz Lanier",
-      "position": "G",
-      "jersey_number": "8",
-      "height_cm": "190",
-      "weight": "206.0",
-      "age": 24,
-      "nationality": "USA",
-      "team_id": "8",
-      "team_abbr": "DET",
-      "team_name": "Detroit Pistons",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4700852.png"
-    },
     "5258459": {
       "player_id": "5258459",
       "full_name": "Ebuka Okorie",
@@ -3180,6 +3180,20 @@
       "team_name": "Los Angeles Lakers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5113969.png"
     },
+    "5105817": {
+      "player_id": "5105817",
+      "full_name": "Carson Cooper",
+      "position": "C",
+      "jersey_number": "",
+      "height_cm": "211",
+      "weight": "245.0",
+      "age": 22,
+      "nationality": "USA",
+      "team_id": "13",
+      "team_abbr": "LAL",
+      "team_name": "Los Angeles Lakers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105817.png"
+    },
     "3945274": {
       "player_id": "3945274",
       "full_name": "Luka Doncic",
@@ -3291,20 +3305,6 @@
       "team_abbr": "LAL",
       "team_name": "Los Angeles Lakers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3155535.png"
-    },
-    "4596528": {
-      "player_id": "4596528",
-      "full_name": "Lawson Lovering",
-      "position": "C",
-      "jersey_number": "",
-      "height_cm": "216",
-      "weight": "233.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "13",
-      "team_abbr": "LAL",
-      "team_name": "Los Angeles Lakers",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4596528.png"
     },
     "4278580": {
       "player_id": "4278580",
@@ -3446,20 +3446,6 @@
       "team_name": "Memphis Grizzlies",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5041935.png"
     },
-    "5105817": {
-      "player_id": "5105817",
-      "full_name": "Carson Cooper",
-      "position": "C",
-      "jersey_number": "20",
-      "height_cm": "211",
-      "weight": "245.0",
-      "age": 22,
-      "nationality": "USA",
-      "team_id": "29",
-      "team_abbr": "MEM",
-      "team_name": "Memphis Grizzlies",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5105817.png"
-    },
     "4903027": {
       "player_id": "4903027",
       "full_name": "Cedric Coward",
@@ -3593,7 +3579,7 @@
       "jersey_number": "1",
       "height_cm": "188",
       "weight": "170.0",
-      "age": 25,
+      "age": 26,
       "nationality": "USA",
       "team_id": "29",
       "team_abbr": "MEM",
@@ -4209,7 +4195,7 @@
       "jersey_number": "19",
       "height_cm": "211",
       "weight": "230.0",
-      "age": 19,
+      "age": 20,
       "nationality": "",
       "team_id": "16",
       "team_abbr": "MIN",
@@ -4271,20 +4257,6 @@
       "team_abbr": "MIN",
       "team_name": "Minnesota Timberwolves",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png"
-    },
-    "5061585": {
-      "player_id": "5061585",
-      "full_name": "Isaiah Evans",
-      "position": "F",
-      "jersey_number": "33",
-      "height_cm": "198",
-      "weight": "186.0",
-      "age": 20,
-      "nationality": "USA",
-      "team_id": "16",
-      "team_abbr": "MIN",
-      "team_name": "Minnesota Timberwolves",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5061585.png"
     },
     "3032976": {
       "player_id": "3032976",
@@ -6183,7 +6155,7 @@
       "jersey_number": "33",
       "height_cm": "201",
       "weight": "225.0",
-      "age": 23,
+      "age": 24,
       "nationality": "USA",
       "team_id": "23",
       "team_abbr": "SAC",
