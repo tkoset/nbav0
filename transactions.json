@@ -5690,6 +5690,18 @@
           "message": "Isaiah Evans aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-11-12": {
+      "checked_at": "2026-11-12T18:02:05.883478+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "2488653",
+          "full_name": "Mason Plumlee",
+          "team_abbr": "SAC",
+          "message": "Mason Plumlee NBA rosterlarina yeni katildi (SAC)"
+        }
+      ]
     }
   }
 }
