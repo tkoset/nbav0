@@ -5702,6 +5702,18 @@
           "message": "Mason Plumlee NBA rosterlarina yeni katildi (SAC)"
         }
       ]
+    },
+    "2026-11-13": {
+      "checked_at": "2026-11-13T17:36:19.425894+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "5061585",
+          "full_name": "Isaiah Evans",
+          "team_abbr": "MIN",
+          "message": "Isaiah Evans NBA rosterlarina yeni katildi (MIN)"
+        }
+      ]
     }
   }
 }

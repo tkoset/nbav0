@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T18:02:05.889131+00:00",
-  "player_count": 521,
+  "generated_at": "2026-11-13T17:36:19.432020+00:00",
+  "player_count": 522,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -4257,6 +4257,20 @@
       "team_abbr": "MIN",
       "team_name": "Minnesota Timberwolves",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4594268.png"
+    },
+    "5061585": {
+      "player_id": "5061585",
+      "full_name": "Isaiah Evans",
+      "position": "F",
+      "jersey_number": "33",
+      "height_cm": "198",
+      "weight": "186.0",
+      "age": 20,
+      "nationality": "USA",
+      "team_id": "16",
+      "team_abbr": "MIN",
+      "team_name": "Minnesota Timberwolves",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5061585.png"
     },
     "3032976": {
       "player_id": "3032976",
