@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T17:36:19.432020+00:00",
-  "player_count": 522,
+  "generated_at": "2026-11-14T16:28:52.866893+00:00",
+  "player_count": 526,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -1164,6 +1164,20 @@
       "team_name": "Chicago Bulls",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/2595516.png"
     },
+    "4593049": {
+      "player_id": "4593049",
+      "full_name": "Orlando Robinson",
+      "position": "C",
+      "jersey_number": "00",
+      "height_cm": "208",
+      "weight": "235.0",
+      "age": 26,
+      "nationality": "USA",
+      "team_id": "4",
+      "team_abbr": "CHI",
+      "team_name": "Chicago Bulls",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4593049.png"
+    },
     "4898010": {
       "player_id": "4898010",
       "full_name": "Jaylin Sellers",
@@ -1262,6 +1276,20 @@
       "team_name": "Cleveland Cavaliers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3934723.png"
     },
+    "4997530": {
+      "player_id": "4997530",
+      "full_name": "Khalifa Diop",
+      "position": "C",
+      "jersey_number": "18",
+      "height_cm": "211",
+      "weight": "231.0",
+      "age": 24,
+      "nationality": "Senegal",
+      "team_id": "5",
+      "team_abbr": "CLE",
+      "team_name": "Cleveland Cavaliers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4997530.png"
+    },
     "3992": {
       "player_id": "3992",
       "full_name": "James Harden",
@@ -1350,7 +1378,7 @@
       "player_id": "4702134",
       "full_name": "Norchad Omier",
       "position": "C",
-      "jersey_number": "15",
+      "jersey_number": "77",
       "height_cm": "201",
       "weight": "248.0",
       "age": 25,
@@ -1401,6 +1429,20 @@
       "team_abbr": "CLE",
       "team_name": "Cleveland Cavaliers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5041951.png"
+    },
+    "5106268": {
+      "player_id": "5106268",
+      "full_name": "Nae'Qwan Tomlin",
+      "position": "F",
+      "jersey_number": "35",
+      "height_cm": "203",
+      "weight": "210.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "5",
+      "team_abbr": "CLE",
+      "team_name": "Cleveland Cavaliers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5106268.png"
     },
     "4683747": {
       "player_id": "4683747",
@@ -4202,6 +4244,20 @@
       "team_name": "Minnesota Timberwolves",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5279133.png"
     },
+    "4433569": {
+      "player_id": "4433569",
+      "full_name": "Johni Broome",
+      "position": "F",
+      "jersey_number": "22",
+      "height_cm": "208",
+      "weight": "235.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "16",
+      "team_abbr": "MIN",
+      "team_name": "Minnesota Timberwolves",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4433569.png"
+    },
     "4432247": {
       "player_id": "4432247",
       "full_name": "Jaylen Clark",
@@ -4794,7 +4850,7 @@
       "player_id": "4897943",
       "full_name": "Dalton Knecht",
       "position": "F",
-      "jersey_number": "99",
+      "jersey_number": "1",
       "height_cm": "198",
       "weight": "215.0",
       "age": 25,
@@ -6866,7 +6922,7 @@
       "player_id": "4683736",
       "full_name": "Kobe Bufkin",
       "position": "G",
-      "jersey_number": "4",
+      "jersey_number": "0",
       "height_cm": "193",
       "weight": "195.0",
       "age": 23,

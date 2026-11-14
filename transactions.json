@@ -5714,6 +5714,66 @@
           "message": "Isaiah Evans NBA rosterlarina yeni katildi (MIN)"
         }
       ]
+    },
+    "2026-11-14": {
+      "checked_at": "2026-11-14T16:28:52.860825+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4593049",
+          "full_name": "Orlando Robinson",
+          "team_abbr": "CHI",
+          "message": "Orlando Robinson NBA rosterlarina yeni katildi (CHI)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4997530",
+          "full_name": "Khalifa Diop",
+          "team_abbr": "CLE",
+          "message": "Khalifa Diop NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4702134",
+          "full_name": "Norchad Omier",
+          "team_abbr": "CLE",
+          "old_number": "15",
+          "new_number": "77",
+          "message": "Norchad Omier forma numarasini degistirdi: #15 -> #77"
+        },
+        {
+          "type": "new_player",
+          "player_id": "5106268",
+          "full_name": "Nae'Qwan Tomlin",
+          "team_abbr": "CLE",
+          "message": "Nae'Qwan Tomlin NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4433569",
+          "full_name": "Johni Broome",
+          "team_abbr": "MIN",
+          "message": "Johni Broome NBA rosterlarina yeni katildi (MIN)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4897943",
+          "full_name": "Dalton Knecht",
+          "team_abbr": "NYK",
+          "old_number": "99",
+          "new_number": "1",
+          "message": "Dalton Knecht forma numarasini degistirdi: #99 -> #1"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "4683736",
+          "full_name": "Kobe Bufkin",
+          "team_abbr": "UTA",
+          "old_number": "4",
+          "new_number": "0",
+          "message": "Kobe Bufkin forma numarasini degistirdi: #4 -> #0"
+        }
+      ]
     }
   }
 }
