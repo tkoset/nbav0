@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:53:50.848341+00:00",
+  "generated_at": "2026-11-16T20:10:32.418928+00:00",
   "player_count": 526,
   "players": {
     "4278039": {
@@ -15,6 +15,20 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4278039.png"
+    },
+    "4684443": {
+      "player_id": "4684443",
+      "full_name": "Rafael Castro",
+      "position": "F",
+      "jersey_number": "",
+      "height_cm": "206",
+      "weight": "224.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "1",
+      "team_abbr": "ATL",
+      "team_name": "Atlanta Hawks",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4684443.png"
     },
     "4869342": {
       "player_id": "4869342",
@@ -99,20 +113,6 @@
       "team_abbr": "ATL",
       "team_name": "Atlanta Hawks",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5149077.png"
-    },
-    "4585618": {
-      "player_id": "4585618",
-      "full_name": "Keshon Gilbert",
-      "position": "G",
-      "jersey_number": "00",
-      "height_cm": "193",
-      "weight": "200.0",
-      "age": 23,
-      "nationality": "USA",
-      "team_id": "1",
-      "team_abbr": "ATL",
-      "team_name": "Atlanta Hawks",
-      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4585618.png"
     },
     "4712863": {
       "player_id": "4712863",
@@ -6169,7 +6169,7 @@
       "jersey_number": "5",
       "height_cm": "188",
       "weight": "186.0",
-      "age": 19,
+      "age": 20,
       "nationality": "USA",
       "team_id": "23",
       "team_abbr": "SAC",
@@ -6320,7 +6320,7 @@
       "player_id": "2488653",
       "full_name": "Mason Plumlee",
       "position": "C",
-      "jersey_number": "",
+      "jersey_number": "24",
       "height_cm": "213",
       "weight": "254.0",
       "age": 36,

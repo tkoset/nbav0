@@ -5778,6 +5778,34 @@
     "2026-11-15": {
       "checked_at": "2026-11-15T16:53:50.842573+00:00",
       "events": []
+    },
+    "2026-11-16": {
+      "checked_at": "2026-11-16T20:10:32.414892+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4684443",
+          "full_name": "Rafael Castro",
+          "team_abbr": "ATL",
+          "message": "Rafael Castro NBA rosterlarina yeni katildi (ATL)"
+        },
+        {
+          "type": "jersey_change",
+          "player_id": "2488653",
+          "full_name": "Mason Plumlee",
+          "team_abbr": "SAC",
+          "old_number": "",
+          "new_number": "24",
+          "message": "Mason Plumlee forma numarasini degistirdi: # -> #24"
+        },
+        {
+          "type": "left_league",
+          "player_id": "4585618",
+          "full_name": "Keshon Gilbert",
+          "team_abbr": "ATL",
+          "message": "Keshon Gilbert aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
