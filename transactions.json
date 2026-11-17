@@ -5806,6 +5806,18 @@
           "message": "Keshon Gilbert aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-11-17": {
+      "checked_at": "2026-11-17T19:01:17.661454+00:00",
+      "events": [
+        {
+          "type": "left_league",
+          "player_id": "4433268",
+          "full_name": "Trey Alexander",
+          "team_abbr": "UTA",
+          "message": "Trey Alexander aktif roster'lardan dustu (waived/retired/G-League)"
+        }
+      ]
     }
   }
 }
