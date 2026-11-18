@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T19:01:17.666510+00:00",
-  "player_count": 525,
+  "generated_at": "2026-11-18T18:45:20.181951+00:00",
+  "player_count": 528,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -1262,6 +1262,20 @@
       "team_name": "Cleveland Cavaliers",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4066328.png"
     },
+    "4702099": {
+      "player_id": "4702099",
+      "full_name": "Zack Austin",
+      "position": "G",
+      "jersey_number": "55",
+      "height_cm": "196",
+      "weight": "216.0",
+      "age": 25,
+      "nationality": "USA",
+      "team_id": "5",
+      "team_abbr": "CLE",
+      "team_name": "Cleveland Cavaliers",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4702099.png"
+    },
     "3934723": {
       "player_id": "3934723",
       "full_name": "Thomas Bryant",
@@ -2011,7 +2025,7 @@
       "jersey_number": "0",
       "height_cm": "208",
       "weight": "250.0",
-      "age": 22,
+      "age": 23,
       "nationality": "USA",
       "team_id": "8",
       "team_abbr": "DET",
@@ -2115,6 +2129,20 @@
       "team_abbr": "DET",
       "team_name": "Detroit Pistons",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5107818.png"
+    },
+    "4700852": {
+      "player_id": "4700852",
+      "full_name": "Chaz Lanier",
+      "position": "G",
+      "jersey_number": "8",
+      "height_cm": "190",
+      "weight": "206.0",
+      "age": 24,
+      "nationality": "USA",
+      "team_id": "8",
+      "team_abbr": "DET",
+      "team_name": "Detroit Pistons",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4700852.png"
     },
     "5258459": {
       "player_id": "5258459",
@@ -6861,6 +6889,20 @@
       "team_abbr": "TOR",
       "team_name": "Toronto Raptors",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4684272.png"
+    },
+    "4684682": {
+      "player_id": "4684682",
+      "full_name": "Jonas Aidoo",
+      "position": "C",
+      "jersey_number": "13",
+      "height_cm": "211",
+      "weight": "240.0",
+      "age": 23,
+      "nationality": "USA",
+      "team_id": "26",
+      "team_abbr": "UTA",
+      "team_name": "Utah Jazz",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4684682.png"
     },
     "4873138": {
       "player_id": "4873138",

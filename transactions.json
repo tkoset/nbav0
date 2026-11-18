@@ -5818,6 +5818,32 @@
           "message": "Trey Alexander aktif roster'lardan dustu (waived/retired/G-League)"
         }
       ]
+    },
+    "2026-11-18": {
+      "checked_at": "2026-11-18T18:45:20.175809+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4702099",
+          "full_name": "Zack Austin",
+          "team_abbr": "CLE",
+          "message": "Zack Austin NBA rosterlarina yeni katildi (CLE)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4700852",
+          "full_name": "Chaz Lanier",
+          "team_abbr": "DET",
+          "message": "Chaz Lanier NBA rosterlarina yeni katildi (DET)"
+        },
+        {
+          "type": "new_player",
+          "player_id": "4684682",
+          "full_name": "Jonas Aidoo",
+          "team_abbr": "UTA",
+          "message": "Jonas Aidoo NBA rosterlarina yeni katildi (UTA)"
+        }
+      ]
     }
   }
 }
