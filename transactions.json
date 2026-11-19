@@ -5844,6 +5844,20 @@
           "message": "Jonas Aidoo NBA rosterlarina yeni katildi (UTA)"
         }
       ]
+    },
+    "2026-11-19": {
+      "checked_at": "2026-11-19T18:56:07.544183+00:00",
+      "events": [
+        {
+          "type": "jersey_change",
+          "player_id": "4702384",
+          "full_name": "Nique Clifford",
+          "team_abbr": "OKC",
+          "old_number": "",
+          "new_number": "18",
+          "message": "Nique Clifford forma numarasini degistirdi: # -> #18"
+        }
+      ]
     }
   }
 }
