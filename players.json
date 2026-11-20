@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:56:07.549058+00:00",
+  "generated_at": "2026-11-20T18:27:13.517083+00:00",
   "player_count": 528,
   "players": {
     "4278039": {
@@ -1045,7 +1045,7 @@
       "jersey_number": "12",
       "height_cm": "206",
       "weight": "250.0",
-      "age": 28,
+      "age": 29,
       "nationality": "USA",
       "team_id": "4",
       "team_abbr": "CHI",
@@ -3005,7 +3005,7 @@
       "jersey_number": "9",
       "height_cm": "201",
       "weight": "200.0",
-      "age": 22,
+      "age": 23,
       "nationality": "USA",
       "team_id": "12",
       "team_abbr": "LAC",
