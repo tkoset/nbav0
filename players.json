@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:27:13.517083+00:00",
+  "generated_at": "2026-11-21T17:15:44.586598+00:00",
   "player_count": 528,
   "players": {
     "4278039": {
@@ -569,7 +569,7 @@
       "jersey_number": "9",
       "height_cm": "203",
       "weight": "246.0",
-      "age": 22,
+      "age": 23,
       "nationality": "USA",
       "team_id": "17",
       "team_abbr": "BKN",
@@ -4461,7 +4461,7 @@
       "jersey_number": "9",
       "height_cm": "203",
       "weight": "190.0",
-      "age": 21,
+      "age": 22,
       "nationality": "USA",
       "team_id": "16",
       "team_abbr": "MIN",
@@ -5679,7 +5679,7 @@
       "jersey_number": "45",
       "height_cm": "206",
       "weight": "223.0",
-      "age": 29,
+      "age": 30,
       "nationality": "USA",
       "team_id": "20",
       "team_abbr": "PHI",
