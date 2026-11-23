@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T17:42:56.807448+00:00",
-  "player_count": 528,
+  "generated_at": "2026-11-23T21:58:13.067094+00:00",
+  "player_count": 529,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -6413,6 +6413,20 @@
       "team_abbr": "SAC",
       "team_name": "Sacramento Kings",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3907387.png"
+    },
+    "3137259": {
+      "player_id": "3137259",
+      "full_name": "Gabe Vincent",
+      "position": "G",
+      "jersey_number": "",
+      "height_cm": "188",
+      "weight": "200.0",
+      "age": 30,
+      "nationality": "USA",
+      "team_id": "23",
+      "team_abbr": "SAC",
+      "team_name": "Sacramento Kings",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/3137259.png"
     },
     "6578": {
       "player_id": "6578",

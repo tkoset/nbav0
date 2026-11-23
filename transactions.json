@@ -5870,6 +5870,18 @@
     "2026-11-22": {
       "checked_at": "2026-11-22T17:42:56.803283+00:00",
       "events": []
+    },
+    "2026-11-23": {
+      "checked_at": "2026-11-23T21:58:13.062979+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "3137259",
+          "full_name": "Gabe Vincent",
+          "team_abbr": "SAC",
+          "message": "Gabe Vincent NBA rosterlarina yeni katildi (SAC)"
+        }
+      ]
     }
   }
 }
