@@ -5890,6 +5890,18 @@
     "2026-11-25": {
       "checked_at": "2026-11-25T19:51:26.496561+00:00",
       "events": []
+    },
+    "2026-11-26": {
+      "checked_at": "2026-11-26T19:28:45.069427+00:00",
+      "events": [
+        {
+          "type": "new_player",
+          "player_id": "4397140",
+          "full_name": "Kevin Porter Jr.",
+          "team_abbr": "ORL",
+          "message": "Kevin Porter Jr. NBA rosterlarina yeni katildi (ORL)"
+        }
+      ]
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T19:51:26.500367+00:00",
-  "player_count": 529,
+  "generated_at": "2026-11-26T19:28:45.075278+00:00",
+  "player_count": 530,
   "players": {
     "4278039": {
       "player_id": "4278039",
@@ -1129,7 +1129,7 @@
       "jersey_number": "11",
       "height_cm": "208",
       "weight": "220.0",
-      "age": 22,
+      "age": 23,
       "nationality": "Canada",
       "team_id": "4",
       "team_abbr": "CHI",
@@ -5405,6 +5405,20 @@
       "team_abbr": "ORL",
       "team_name": "Orlando Magic",
       "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/5214637.png"
+    },
+    "4397140": {
+      "player_id": "4397140",
+      "full_name": "Kevin Porter Jr.",
+      "position": "G",
+      "jersey_number": "7",
+      "height_cm": "196",
+      "weight": "203.0",
+      "age": 26,
+      "nationality": "USA",
+      "team_id": "19",
+      "team_abbr": "ORL",
+      "team_name": "Orlando Magic",
+      "photo_url": "https://a.espncdn.com/i/headshots/nba/players/full/4397140.png"
     },
     "5239561": {
       "player_id": "5239561",
